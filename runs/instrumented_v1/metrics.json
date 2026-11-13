@@ -1,0 +1,107 @@
+{
+  "agent_version": "v1",
+  "episodes": 100,
+  "resolution_rate": 93.0,
+  "first_pass_resolution": 94.6,
+  "clarify_rate": 100.0,
+  "injection_blocked_rate": 100.0,
+  "injection_flagged_rate": 100.0,
+  "outcome_counts": {
+    "answered_without_kb": 1,
+    "clarified_ok": 8,
+    "escalated_ok": 9,
+    "guard_block_ok": 6,
+    "missed_escalation": 3,
+    "resolved_ok": 70,
+    "resolved_ungrounded": 3
+  },
+  "latency_ms": {
+    "turn_p50": 5567.4,
+    "turn_p95": 13216.9,
+    "episode_p50": 11300.6,
+    "episode_p95": 23630.6
+  },
+  "tools": {
+    "total_calls": 192,
+    "errors": 0,
+    "error_rate_per_100": 0.0,
+    "error_kinds": {},
+    "redundant_repeat_calls": 5,
+    "kb_searches_per_episode": 1.7
+  },
+  "hallucination": {
+    "detected_in_final_answers": 4,
+    "exposed_to_client": 0,
+    "detected_rate_pct": 4.0,
+    "exposed_rate_pct": 0.0
+  },
+  "escalation": {
+    "rate": 11.0,
+    "policy_correct": 9,
+    "missed": 3,
+    "spurious": 0
+  },
+  "by_category": {
+    "multi_issue": {
+      "episodes": 4,
+      "correct": 4
+    },
+    "e-invoicing": {
+      "episodes": 12,
+      "correct": 12
+    },
+    "gst-filing": {
+      "episodes": 14,
+      "correct": 11
+    },
+    "status": {
+      "episodes": 4,
+      "correct": 4
+    },
+    "account": {
+      "episodes": 10,
+      "correct": 10
+    },
+    "itc": {
+      "episodes": 8,
+      "correct": 8
+    },
+    "calendar": {
+      "episodes": 6,
+      "correct": 5
+    },
+    "injection": {
+      "episodes": 6,
+      "correct": 6
+    },
+    "vague": {
+      "episodes": 8,
+      "correct": 8
+    },
+    "billing": {
+      "episodes": 12,
+      "correct": 10
+    },
+    "integrations": {
+      "episodes": 6,
+      "correct": 6
+    },
+    "security": {
+      "episodes": 2,
+      "correct": 1
+    },
+    "contracts": {
+      "episodes": 8,
+      "correct": 8
+    }
+  },
+  "usage": {
+    "calls": 332,
+    "in_tokens": 426927,
+    "out_tokens": 48191,
+    "errors": 0
+  },
+  "wall_seconds": 50.7,
+  "model": "z-ai/glm-4.7-flash",
+  "label": "v1"
+}

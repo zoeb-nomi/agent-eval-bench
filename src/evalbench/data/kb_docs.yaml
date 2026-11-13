@@ -1,0 +1,293 @@
+# LedgerLane support knowledge base (synthetic, for the eval bench).
+# LedgerLane is a fictional legal-tech compliance platform for Indian SMEs:
+# GST filing, e-invoicing, compliance calendar, contract vault, e-sign.
+# Deliberate traps: facts clients commonly assume that the KB contradicts or
+# does not cover (e.g. late-fee amounts, ITC matching window, income-tax scope).
+
+- id: KB-GST-001
+  title: GSTR-1 filing deadlines
+  category: gst-filing
+  updated: 2026-09-01
+  content: >
+    Monthly filers must file GSTR-1 by the 11th of the following month.
+    QRMP-scheme filers file quarterly: within 13 days after the quarter ends.
+    LedgerLane auto-drafts GSTR-1 from your invoices and shows a readiness
+    checklist under Filings > GSTR-1. You can schedule the filing any time
+    before the due date; scheduling does not file early.
+
+- id: KB-GST-002
+  title: GSTR-3B filing deadlines and late fees
+  category: gst-filing
+  updated: 2026-09-01
+  content: >
+    GSTR-3B is due by the 20th of the following month for monthly filers and
+    within 18 days after the quarter ends for QRMP filers. Late fee under the
+    Act is Rs 50 per day (Rs 20 per day for nil-liability returns), capped at
+    Rs 5,000 per return. LedgerLane shows the computed late fee on the filing
+    screen but does not pay it; payment happens on the GST portal.
+
+- id: KB-GST-003
+  title: GST registration in LedgerLane
+  category: gst-filing
+  updated: 2026-08-12
+  content: >
+    Add each GSTIN under Settings > GST Registrations. LedgerLane supports
+    multiple GSTINs per company and files state-wise returns per GSTIN. The
+    platform does not apply for new GST registrations; registration happens
+    on the government portal and takes 3 to 7 working days there.
+
+- id: KB-GST-004
+  title: Amending a filed GSTR-1
+  category: gst-filing
+  updated: 2026-08-20
+  content: >
+    Invoices already filed in a tax period can be amended in the next tax
+    period: open the invoice, choose Amend, and it flows into the current
+    period's GSTR-1. You cannot edit or recall a return after it has been
+    filed on the portal. Credit notes against a filed invoice also go through
+    the amendment flow.
+
+- id: KB-GST-005
+  title: GST annual return (GSTR-9) support
+  category: gst-filing
+  updated: 2026-07-30
+  content: >
+    GSTR-9 draft preparation is available on the Scale and Enterprise plans
+    from November each year, using your consolidated books. LedgerLane
+    prepares the draft; a taxpayer signs and files it on the portal. Late
+    filing of GSTR-9 attracts a Rs 200 per day fee (Rs 100 each under CGST
+    and SGST), capped at 0.25 percent of turnover.
+
+- id: KB-EINV-001
+  title: E-invoicing threshold and setup
+  category: e-invoicing
+  updated: 2026-09-10
+  content: >
+    E-invoicing (IRN generation) is mandatory for businesses with annual
+    aggregate turnover above Rs 5 crore. Enable it under Settings >
+    E-invoicing by adding your IRP credentials. LedgerLane generates the IRN
+    and QR code at invoice save, not at payment, and retries a failed IRP
+    call up to 3 times before flagging the invoice for manual review.
+
+- id: KB-EINV-002
+  title: Fixing e-invoice validation errors
+  category: e-invoicing
+  updated: 2026-08-28
+  content: >
+    The three most common IRP rejections are: invalid buyer GSTIN (check
+    Regn. status), HSN code shorter than 4 digits (upgrade the item master),
+    and invoice value mismatch between the JSON and the printed invoice.
+    The E-invoicing > Rejections tab shows the exact IRP error code per
+    invoice. After fixing, click Regenerate IRN; a corrected IRN replaces
+    the failed one the same day.
+
+- id: KB-EINV-003
+  title: Cancelling an e-invoice
+  category: e-invoicing
+  updated: 2026-08-05
+  content: >
+    An IRN can be cancelled only within 24 hours of generation and only by
+    the supplier, with a reason from the IRP list (duplicate, wrong entry,
+    order cancelled, data entry mistake). A partly or fully paid invoice
+    cannot be cancelled; issue a credit note instead. LedgerLane surfaces
+    the 24-hour window as a countdown on the invoice page.
+
+- id: KB-EINV-004
+  title: E-invoice vs e-way bill
+  category: e-invoicing
+  updated: 2026-07-18
+  content: >
+    E-invoicing (IRN) and e-way bill are separate systems. Generating an IRN
+    does not generate an e-way bill. LedgerLane can auto-create an e-way
+    bill from an invoiced dispatch when you enable it per warehouse under
+    Logistics. E-way bill validity depends on distance: one day for every
+    200 km, minimum one day.
+
+- id: KB-ITC-001
+  title: Input tax credit (ITC) reconciliation
+  category: itc
+  updated: 2026-09-05
+  content: >
+    The ITC Reconciliation page matches your purchase records against
+    GSTR-2B from your suppliers. Reconciliation runs nightly; mismatches
+    appear under three buckets: not in 2B (supplier has not filed),
+    amount mismatch, and GSTIN mismatch. You can accept, chase, or hold
+    each mismatch. LedgerLane never claims ITC on your behalf; you select
+    and the filing module claims what you accept.
+
+- id: KB-ITC-002
+  title: ITC on capital goods
+  category: itc
+  updated: 2026-06-30
+  content: >
+    ITC on capital goods is spread over 24 months, 50 percent in the first
+    tax period in which the credit is available, then 2 percent per month
+    (5 percent per quarter for QRMP). Tag a purchase as capital goods in
+    the purchase entry form; the schedule is computed automatically and
+    shown under ITC > Capital goods schedule.
+
+- id: KB-ITC-003
+  title: GSTR-2B not reflecting supplier invoices
+  category: itc
+  updated: 2026-09-12
+  content: >
+    GSTR-2B is generated by the GST portal, not by LedgerLane, and it is
+    final only after your supplier files their GSTR-1. If a supplier filed
+    late or amended an invoice, the corresponding credit appears in a later
+    2B. If a supplier has not filed at all, the invoice stays in the "not
+    in 2B" bucket until they file or you write it off.
+
+- id: KB-CAL-001
+  title: Compliance calendar and reminders
+  category: calendar
+  updated: 2026-09-08
+  content: >
+    The Compliance Calendar shows every filing due date for your GSTINs,
+    TDS, and PF/ESI, 90 days ahead. Reminders go by email and WhatsApp 7
+    days, 3 days, and 1 day before each due date. You can add internal
+    milestones per filing; reminders for internal milestones follow the
+    same 7/3/1 schedule. Calendar reminders cannot be turned off entirely;
+    channels can be muted per GSTIN.
+
+- id: KB-CAL-002
+  title: Advance tax and income-tax due dates
+  category: calendar
+  updated: 2026-09-15
+  content: >
+    LedgerLane tracks indirect-tax and payroll statutory dates. Income-tax
+    advance tax instalments (15 Jun, 15 Sep, 15 Dec, 15 Mar) and ITR due
+    dates appear read-only on the calendar from the Enterprise plan, but
+    LedgerLane does not compute, file, or advise on income tax. Direct-tax
+    computations are out of product scope.
+
+- id: KB-CON-001
+  title: Contract vault storage and retention
+  category: contracts
+  updated: 2026-08-15
+  content: >
+    The Contract Vault stores executed contracts up to 2 GB per file and
+    keeps version history for 7 years. Storage beyond plan limits is
+    billed at Rs 150 per additional 50 GB per month. Files are encrypted
+    at rest (AES-256) and can be exported as a signed zip by an admin.
+
+- id: KB-CON-002
+  title: Renewal and expiry reminders for contracts
+  category: contracts
+  updated: 2026-08-02
+  content: >
+    Set renewal reminders per contract at 60, 30, or 7 days before expiry;
+    the default is 30 days. Reminders go to contract owners and watchers.
+    LedgerLane does not auto-renew or auto-sign anything: renewal is a
+    manual step by design, because signatures create obligations.
+
+- id: KB-CON-003
+  title: E-signature legality and audit trail
+  category: contracts
+  updated: 2026-09-01
+  content: >
+    LedgerLane e-sign is an Aadhaar eSign or DSC-based signature with a
+    tamper-evident audit trail (who signed, when, from which IP, and the
+    document hash). It is valid under the IT Act for most commercial
+    agreements. It is NOT valid for documents that require registration
+    under the Registration Act, such as sale deeds. Ask legal counsel for
+    specific documents; LedgerLane support cannot advise on enforceability.
+
+- id: KB-BILL-001
+  title: Plans, seats and billing cycles
+  category: billing
+  updated: 2026-09-20
+  content: >
+    Plans: Starter (up to 50 invoices/month), Scale (unlimited invoices,
+    e-invoicing, GSTR-9 draft), Enterprise (multi-GSTIN dashboards, API
+    access, SSO). Billing is per company per month, prepaid, GST extra.
+    Adding seats mid-cycle is pro-rated on the next invoice; downgrades
+    apply at the next cycle, not immediately.
+
+- id: KB-BILL-002
+  title: Refunds and cancellations
+  category: billing
+  updated: 2026-07-22
+  content: >
+    Annual plans can be cancelled within 14 days of payment for a full
+    refund; after 14 days the unused full months are refunded on request,
+    the part month is not. Monthly plans are non-refundable once the
+    cycle starts. Refunds reach the original payment method in 7 to 10
+    working days and are handled by the billing team, not the AI agent.
+
+- id: KB-BILL-003
+  title: Payment failure and service suspension
+  category: billing
+  updated: 2026-08-18
+  content: >
+    A failed payment retries on day 3 and day 7. After day 10 the account
+    is read-only: filings you already scheduled still go out, but new
+    filings, invoice saves, and e-signs pause. Nothing is deleted during
+    suspension; data retention continues for 90 days after suspension
+    starts, then archive rules in your plan apply.
+
+- id: KB-ACC-001
+  title: User roles and permissions
+  category: account
+  updated: 2026-08-25
+  content: >
+    Roles: Owner, Admin, Accountant, Viewer. Only Owners and Admins can
+    add users, change GSTIN settings, or export data. Accountants can
+    prepare filings but cannot submit them; submission needs an Owner or
+    Admin one-tap confirm. Viewers see dashboards only. Role changes take
+    effect at the user's next login.
+
+- id: KB-ACC-002
+  title: Two-factor authentication and session rules
+  category: account
+  updated: 2026-08-10
+  content: >
+    2FA (TOTP app or SMS) is mandatory for Owner and Admin roles and
+    optional for others. Sessions expire after 12 hours of inactivity;
+    a new login on a fifth device signs the oldest session out. Lost
+    2FA device recovery needs a support ticket verified against your
+    company's registered email; it cannot be done on chat.
+
+- id: KB-ACC-003
+  title: Data export and deletion
+  category: account
+  updated: 2026-09-02
+  content: >
+    Admins can export books, invoices, and filings as CSV or signed zip
+    under Settings > Data export. Account deletion is a two-step,
+    30-day window process started by the Owner; it cancels at any point
+    before day 30. Exported filings keep their hash chain so archived
+    records stay verifiable.
+
+- id: KB-SEC-001
+  title: Where LedgerLane stores data and who can see it
+  category: security
+  updated: 2026-09-14
+  content: >
+    All data is stored in Indian AWS regions (Mumbai) with AES-256 at
+    rest and TLS 1.3 in transit. LedgerLane staff access production data
+    only through an audited break-glass process with your written consent
+    per case. SOC 2 Type II report is available under a mutual NDA from
+    the security page; a public trust page lists current certifications.
+
+- id: KB-INT-001
+  title: API access and rate limits
+  category: integrations
+  updated: 2026-09-18
+  content: >
+    The LedgerLane API is available on the Enterprise plan with scoped
+    tokens per integration. Rate limits are 60 requests per minute per
+    token; a 429 response returns Retry-After. Webhooks are signed with
+    HMAC-SHA256 and re-delivered 5 times over 6 hours. There is no
+    sandbox tenant per account today; sandbox access is provisioned by
+    the integrations team on request.
+
+- id: KB-INT-002
+  title: Tally and bank integrations
+  category: integrations
+  updated: 2026-08-30
+  content: >
+    Tally connector syncs ledgers and vouchers both ways every 15 minutes
+    when Tally is open. Bank statement sync (via account aggregator) is
+    read-only and supports 41 banks. Neither integration deletes data in
+    LedgerLane; conflicts surface in a review queue instead of being
+    overwritten.

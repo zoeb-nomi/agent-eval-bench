@@ -1,0 +1,351 @@
+personas:
+- id: P01
+  segment: SMB owner
+  plan: Starter
+  tone: formal
+  urgency: high
+  gstins: 1
+  state: MH
+- id: P02
+  segment: SMB owner
+  plan: Scale
+  tone: polite
+  urgency: normal
+  gstins: 2
+  state: KA
+- id: P03
+  segment: SMB owner
+  plan: Starter
+  tone: frustrated
+  urgency: low
+  gstins: 1
+  state: TN
+- id: P04
+  segment: in-house accountant
+  plan: Scale
+  tone: casual
+  urgency: high
+  gstins: 2
+  state: GJ
+- id: P05
+  segment: in-house accountant
+  plan: Scale
+  tone: terse
+  urgency: normal
+  gstins: 2
+  state: DL
+- id: P06
+  segment: in-house accountant
+  plan: Starter
+  tone: formal
+  urgency: low
+  gstins: 1
+  state: UP
+- id: P07
+  segment: CFO
+  plan: Enterprise
+  tone: polite
+  urgency: high
+  gstins: 3
+  state: WB
+- id: P08
+  segment: CFO
+  plan: Scale
+  tone: frustrated
+  urgency: normal
+  gstins: 2
+  state: RJ
+- id: P09
+  segment: CFO
+  plan: Enterprise
+  tone: casual
+  urgency: low
+  gstins: 4
+  state: TS
+- id: P10
+  segment: tax consultant
+  plan: Scale
+  tone: terse
+  urgency: high
+  gstins: 3
+  state: KL
+- id: P11
+  segment: tax consultant
+  plan: Enterprise
+  tone: formal
+  urgency: normal
+  gstins: 6
+  state: MH
+- id: P12
+  segment: tax consultant
+  plan: Starter
+  tone: polite
+  urgency: low
+  gstins: 1
+  state: KA
+- id: P13
+  segment: ops manager
+  plan: Scale
+  tone: frustrated
+  urgency: high
+  gstins: 1
+  state: TN
+- id: P14
+  segment: ops manager
+  plan: Enterprise
+  tone: casual
+  urgency: normal
+  gstins: 3
+  state: GJ
+- id: P15
+  segment: ops manager
+  plan: Scale
+  tone: terse
+  urgency: low
+  gstins: 1
+  state: DL
+- id: P16
+  segment: founder
+  plan: Starter
+  tone: formal
+  urgency: high
+  gstins: 1
+  state: UP
+- id: P17
+  segment: founder
+  plan: Scale
+  tone: polite
+  urgency: normal
+  gstins: 1
+  state: WB
+- id: P18
+  segment: founder
+  plan: Starter
+  tone: frustrated
+  urgency: low
+  gstins: 1
+  state: RJ
+- id: P19
+  segment: admin exec
+  plan: Scale
+  tone: casual
+  urgency: high
+  gstins: 2
+  state: TS
+- id: P20
+  segment: admin exec
+  plan: Enterprise
+  tone: terse
+  urgency: normal
+  gstins: 4
+  state: KL
+- id: P21
+  segment: admin exec
+  plan: Starter
+  tone: formal
+  urgency: low
+  gstins: 1
+  state: MH
+- id: P22
+  segment: bookkeeper
+  plan: Starter
+  tone: polite
+  urgency: high
+  gstins: 1
+  state: KA
+- id: P23
+  segment: bookkeeper
+  plan: Scale
+  tone: frustrated
+  urgency: normal
+  gstins: 2
+  state: TN
+- id: P24
+  segment: finance head
+  plan: Enterprise
+  tone: casual
+  urgency: low
+  gstins: 3
+  state: GJ
+- id: P25
+  segment: finance head
+  plan: Scale
+  tone: terse
+  urgency: high
+  gstins: 2
+  state: DL
+- id: P26
+  segment: compliance officer
+  plan: Enterprise
+  tone: formal
+  urgency: normal
+  gstins: 4
+  state: UP
+- id: P27
+  segment: compliance officer
+  plan: Scale
+  tone: polite
+  urgency: low
+  gstins: 1
+  state: WB
+- id: P28
+  segment: SMB owner
+  plan: Enterprise
+  tone: frustrated
+  urgency: high
+  gstins: 6
+  state: RJ
+- id: P29
+  segment: CFO
+  plan: Starter
+  tone: casual
+  urgency: normal
+  gstins: 1
+  state: TS
+- id: P30
+  segment: ops manager
+  plan: Starter
+  tone: terse
+  urgency: low
+  gstins: 1
+  state: KL
+- id: P31
+  segment: tax consultant
+  plan: Scale
+  tone: formal
+  urgency: high
+  gstins: 3
+  state: MH
+- id: P32
+  segment: in-house accountant
+  plan: Enterprise
+  tone: polite
+  urgency: normal
+  gstins: 4
+  state: KA
+- id: P33
+  segment: founder
+  plan: Enterprise
+  tone: frustrated
+  urgency: low
+  gstins: 6
+  state: TN
+- id: P34
+  segment: SMB owner
+  plan: Starter
+  tone: casual
+  urgency: high
+  gstins: 1
+  state: GJ
+- id: P35
+  segment: SMB owner
+  plan: Scale
+  tone: terse
+  urgency: normal
+  gstins: 1
+  state: DL
+- id: P36
+  segment: SMB owner
+  plan: Starter
+  tone: formal
+  urgency: low
+  gstins: 1
+  state: UP
+- id: P37
+  segment: in-house accountant
+  plan: Scale
+  tone: polite
+  urgency: high
+  gstins: 1
+  state: WB
+- id: P38
+  segment: in-house accountant
+  plan: Scale
+  tone: frustrated
+  urgency: normal
+  gstins: 3
+  state: RJ
+- id: P39
+  segment: in-house accountant
+  plan: Starter
+  tone: casual
+  urgency: low
+  gstins: 1
+  state: TS
+- id: P40
+  segment: CFO
+  plan: Enterprise
+  tone: terse
+  urgency: high
+  gstins: 3
+  state: KL
+- id: P41
+  segment: CFO
+  plan: Scale
+  tone: formal
+  urgency: normal
+  gstins: 3
+  state: MH
+- id: P42
+  segment: CFO
+  plan: Enterprise
+  tone: polite
+  urgency: low
+  gstins: 3
+  state: KA
+- id: P43
+  segment: tax consultant
+  plan: Scale
+  tone: frustrated
+  urgency: high
+  gstins: 1
+  state: TN
+- id: P44
+  segment: tax consultant
+  plan: Enterprise
+  tone: casual
+  urgency: normal
+  gstins: 4
+  state: GJ
+- id: P45
+  segment: tax consultant
+  plan: Starter
+  tone: terse
+  urgency: low
+  gstins: 1
+  state: DL
+- id: P46
+  segment: ops manager
+  plan: Scale
+  tone: formal
+  urgency: high
+  gstins: 3
+  state: UP
+- id: P47
+  segment: ops manager
+  plan: Enterprise
+  tone: polite
+  urgency: normal
+  gstins: 6
+  state: WB
+- id: P48
+  segment: ops manager
+  plan: Scale
+  tone: frustrated
+  urgency: low
+  gstins: 2
+  state: RJ
+- id: P49
+  segment: founder
+  plan: Starter
+  tone: casual
+  urgency: high
+  gstins: 1
+  state: TS
+- id: P50
+  segment: founder
+  plan: Scale
+  tone: terse
+  urgency: normal
+  gstins: 1
+  state: KL

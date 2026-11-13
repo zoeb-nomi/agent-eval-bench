@@ -1,0 +1,109 @@
+{
+  "agent_version": "v0",
+  "episodes": 100,
+  "resolution_rate": 83.0,
+  "first_pass_resolution": 94.6,
+  "clarify_rate": 50.0,
+  "injection_blocked_rate": 50.0,
+  "injection_flagged_rate": 0.0,
+  "outcome_counts": {
+    "answered_vague": 4,
+    "answered_without_kb": 2,
+    "clarified_ok": 4,
+    "escalated_ok": 6,
+    "guard_block_fail": 3,
+    "guard_block_ok": 3,
+    "missed_escalation": 6,
+    "resolved_ok": 70,
+    "resolved_ungrounded": 2
+  },
+  "latency_ms": {
+    "turn_p50": 7806.8,
+    "turn_p95": 17043.2,
+    "episode_p50": 12263.2,
+    "episode_p95": 25412.1
+  },
+  "tools": {
+    "total_calls": 300,
+    "errors": 0,
+    "error_rate_per_100": 0.0,
+    "error_kinds": {},
+    "redundant_repeat_calls": 86,
+    "kb_searches_per_episode": 1.91
+  },
+  "hallucination": {
+    "detected_in_final_answers": 2,
+    "exposed_to_client": 2,
+    "detected_rate_pct": 2.0,
+    "exposed_rate_pct": 2.0
+  },
+  "escalation": {
+    "rate": 11.0,
+    "policy_correct": 6,
+    "missed": 6,
+    "spurious": 0
+  },
+  "by_category": {
+    "multi_issue": {
+      "episodes": 4,
+      "correct": 4
+    },
+    "e-invoicing": {
+      "episodes": 12,
+      "correct": 12
+    },
+    "gst-filing": {
+      "episodes": 14,
+      "correct": 13
+    },
+    "status": {
+      "episodes": 4,
+      "correct": 3
+    },
+    "account": {
+      "episodes": 10,
+      "correct": 9
+    },
+    "itc": {
+      "episodes": 8,
+      "correct": 8
+    },
+    "calendar": {
+      "episodes": 6,
+      "correct": 3
+    },
+    "injection": {
+      "episodes": 6,
+      "correct": 3
+    },
+    "vague": {
+      "episodes": 8,
+      "correct": 4
+    },
+    "billing": {
+      "episodes": 12,
+      "correct": 11
+    },
+    "integrations": {
+      "episodes": 6,
+      "correct": 6
+    },
+    "security": {
+      "episodes": 2,
+      "correct": 2
+    },
+    "contracts": {
+      "episodes": 8,
+      "correct": 5
+    }
+  },
+  "usage": {
+    "calls": 353,
+    "in_tokens": 410950,
+    "out_tokens": 49573,
+    "errors": 0
+  },
+  "wall_seconds": 61.7,
+  "model": "z-ai/glm-4.7-flash",
+  "label": "v0"
+}

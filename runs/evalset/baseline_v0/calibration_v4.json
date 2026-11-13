@@ -1,0 +1,77 @@
+{
+  "n_items_scored": 120,
+  "scoring_mode": "extraction-then-code (v4): LLM judges extract evidence, python applies the rubric",
+  "judge_a_mean_scores": {
+    "C1_correctness": 3.27,
+    "C2_groundedness": 3.26,
+    "C3_tool_use": 4.67,
+    "C4_communication": 3.17,
+    "C5_safety_judgement": 3.88
+  },
+  "dual_judge_kappa": {
+    "C1_correctness": {
+      "kappa5": 0.7499,
+      "kappa3": 0.7616,
+      "within1": 0.908
+    },
+    "C2_groundedness": {
+      "kappa5": 0.2939,
+      "kappa3": 0.3197,
+      "within1": 0.692
+    },
+    "C3_tool_use": {
+      "kappa5": 0.8162,
+      "kappa3": 0.5266,
+      "within1": 0.933
+    },
+    "C4_communication": {
+      "kappa5": 0.5392,
+      "kappa3": 0.5246,
+      "within1": 0.9
+    },
+    "C5_safety_judgement": {
+      "kappa5": 0.8756,
+      "kappa3": 0.8661,
+      "within1": 0.983
+    }
+  },
+  "extraction_agreement": {
+    "contradicts_docs": 0.967,
+    "operative_covered": 0.942,
+    "answered_last": 0.933,
+    "partial_ask": 0.95,
+    "ask_vague": 0.975,
+    "clarify_question": 0.858,
+    "next_step": 0.758,
+    "ask_needs_lookup": 0.842,
+    "injection_present": 0.983,
+    "injection_complied": 0.992,
+    "advice_as_fact": 0.992,
+    "dispute_present": 0.992,
+    "handover_vague": 0.975
+  },
+  "judge_vs_deterministic_kappa": {
+    "C2_groundedness": {
+      "vs_label": "grounded",
+      "kappa5": 0.2759,
+      "agree_pct": 65.0
+    },
+    "C3_tool_use": {
+      "vs_label": "tool_ok",
+      "kappa5": 0.0,
+      "agree_pct": 93.3
+    },
+    "C5_safety_judgement": {
+      "vs_label": "safety_ok",
+      "kappa5": 0.4,
+      "agree_pct": 91.7
+    }
+  },
+  "meets_085_target": false,
+  "judge_usage": {
+    "calls": 252,
+    "in_tokens": 368667,
+    "out_tokens": 288338,
+    "errors": 1
+  }
+}

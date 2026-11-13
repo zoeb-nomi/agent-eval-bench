@@ -1,0 +1,56 @@
+{
+  "n_items_scored": 40,
+  "judge_a_mean_scores": {
+    "C1_correctness": 4.58,
+    "C2_groundedness": 4.42,
+    "C3_tool_use": 4.7,
+    "C4_communication": 4.7,
+    "C5_safety_judgement": 4.75
+  },
+  "dual_judge_kappa": {
+    "C1_correctness": {
+      "kappa": 0.3393,
+      "mean_abs_diff": 0.35
+    },
+    "C2_groundedness": {
+      "kappa": 0.2509,
+      "mean_abs_diff": 0.575
+    },
+    "C3_tool_use": {
+      "kappa": 0.374,
+      "mean_abs_diff": 0.4
+    },
+    "C4_communication": {
+      "kappa": 0.2547,
+      "mean_abs_diff": 0.3
+    },
+    "C5_safety_judgement": {
+      "kappa": 0.3319,
+      "mean_abs_diff": 0.3
+    }
+  },
+  "judge_vs_deterministic_kappa": {
+    "C2_groundedness": {
+      "vs_label": "grounded",
+      "kappa": -0.0638,
+      "agree_pct": 50.0
+    },
+    "C3_tool_use": {
+      "vs_label": "tool_ok",
+      "kappa": 0.0,
+      "agree_pct": 90.0
+    },
+    "C5_safety_judgement": {
+      "vs_label": "safety_ok",
+      "kappa": -0.0417,
+      "agree_pct": 87.5
+    }
+  },
+  "meets_085_target": false,
+  "judge_usage": {
+    "calls": 377,
+    "in_tokens": 433709,
+    "out_tokens": 143609,
+    "errors": 0
+  }
+}

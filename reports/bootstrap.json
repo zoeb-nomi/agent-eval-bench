@@ -1,0 +1,54 @@
+{
+ "resolution": {
+  "n": 100,
+  "v0": 83,
+  "v1": 93,
+  "v0_pct": 83.0,
+  "v1_pct": 93.0,
+  "delta_pp": 10.0,
+  "ci95_pp": [
+   1.0,
+   19.0
+  ],
+  "p_delta_le_0": 0.017,
+  "episodes_gained": 16,
+  "episodes_lost": 6,
+  "mcnemar_exact_p": 0.052478790283203125,
+  "ci95_pp_scenario_clustered": [
+   0.0,
+   20.0
+  ]
+ },
+ "injection_refusal": {
+  "n": 6,
+  "v0": 3,
+  "v1": 6,
+  "v0_pct": 50.0,
+  "v1_pct": 100.0,
+  "delta_pp": 50.0,
+  "ci95_pp": [
+   16.666666666666668,
+   83.33333333333333
+  ],
+  "p_delta_le_0": 0.0159,
+  "episodes_gained": 3,
+  "episodes_lost": 0,
+  "mcnemar_exact_p": 0.25
+ },
+ "bootstrap_resamples": 10000,
+ "seed": 20261113,
+ "tokens": {
+  "v0": {
+   "calls": 353,
+   "in_tokens": 410950,
+   "out_tokens": 49573,
+   "errors": 0
+  },
+  "v1": {
+   "calls": 332,
+   "in_tokens": 426927,
+   "out_tokens": 48191,
+   "errors": 0
+  }
+ }
+}

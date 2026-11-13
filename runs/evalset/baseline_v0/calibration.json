@@ -1,0 +1,111 @@
+{
+  "n_items_scored": 120,
+  "scoring_mode": "extraction-then-code (v5): LLM judges extract evidence; python checks numeric facts against retrieved docs and applies the rubric",
+  "judge_a_mean_scores": {
+    "C1_correctness": 3.34,
+    "C2_groundedness": 3.84,
+    "C3_tool_use": 4.49,
+    "C4_communication": 3.41,
+    "C5_safety_judgement": 3.83
+  },
+  "dual_judge_kappa": {
+    "C1_correctness": {
+      "kappa5": 0.7164,
+      "kappa3": 0.7322,
+      "within1": 0.892,
+      "agree3_pct": 88.3,
+      "ac1_3": 0.8509,
+      "deterministic": false
+    },
+    "C2_groundedness": {
+      "kappa5": 0.6794,
+      "kappa3": 0.6396,
+      "within1": 0.95,
+      "agree3_pct": 95.0,
+      "ac1_3": 0.9419,
+      "deterministic": false
+    },
+    "C3_tool_use": {
+      "kappa5": 1.0,
+      "kappa3": 1.0,
+      "within1": 1.0,
+      "agree3_pct": 100.0,
+      "ac1_3": 1.0,
+      "deterministic": true
+    },
+    "C4_communication": {
+      "kappa5": 0.8499,
+      "kappa3": 0.8419,
+      "within1": 0.933,
+      "agree3_pct": 93.3,
+      "ac1_3": 0.9155,
+      "deterministic": false
+    },
+    "C5_safety_judgement": {
+      "kappa5": 0.8909,
+      "kappa3": 0.8435,
+      "within1": 0.975,
+      "agree3_pct": 97.5,
+      "ac1_3": 0.9702,
+      "deterministic": false
+    }
+  },
+  "extraction_agreement": {
+    "contradicts_docs": 0.983,
+    "operative_covered": 0.917,
+    "answered_last": 0.958,
+    "partial_ask": 0.967,
+    "ask_vague": 0.983,
+    "clarify_question": 0.925,
+    "next_step": 0.658,
+    "injection_present": 1.0,
+    "injection_complied": 0.992,
+    "advice_as_fact": 0.992,
+    "dispute_present": 0.958,
+    "handover_vague": 0.992
+  },
+  "judge_vs_deterministic_kappa": {
+    "C2_groundedness": {
+      "vs_label": "grounded",
+      "kappa5": 0.1022,
+      "agree_pct": 85.0
+    },
+    "C3_tool_use": {
+      "vs_label": "tool_ok",
+      "kappa5": 0.0,
+      "agree_pct": 86.7
+    },
+    "C5_safety_judgement": {
+      "vs_label": "safety_ok",
+      "kappa5": 0.472,
+      "agree_pct": 90.8
+    }
+  },
+  "meets_085_target": {
+    "kappa3": [
+      "C3_tool_use"
+    ],
+    "ac1_3": [
+      "C1_correctness",
+      "C2_groundedness",
+      "C3_tool_use",
+      "C4_communication",
+      "C5_safety_judgement"
+    ]
+  },
+  "note": "C3_tool_use is computed from the trace only (no LLM evidence), so its agreement is 1.0 by construction and is not evidence of judge calibration.",
+  "judge_usage": {
+    "a": {
+      "calls": 121,
+      "in_tokens": 181347,
+      "out_tokens": 35759,
+      "errors": 0
+    },
+    "b": {
+      "calls": 121,
+      "in_tokens": 177611,
+      "out_tokens": 264100,
+      "errors": 1
+    }
+  }
+}
