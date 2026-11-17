@@ -1,0 +1,190 @@
+id,model,language,question,model_answer,judge_verdict,human_verdict(correct/partial/incorrect),human_note
+CON-AR-004,mistralai/mistral-large-4-0,ar,بعد كم يومًا من التسليم أو الاستلام من المتجر يمكن للعميل طلب إرجاع أو استبدال من متجر الإلكترونيات هذا؟,خلال سبعة (7) أيام من تاريخ التسليم أو الاستلام من المتجر.,correct,,
+CON-AR-017,qwen/qwen4-max,ar,عند الإرجاع أونلاين، كم تستغرق إعادة المبلغ إلى البطاقة أو الحساب المصرفي أو باي بال أو تابي بعد التحقق من المرتجعات؟,يتم رد المبلغ إلى بطاقتك أو حسابك المصرفي أو حساب PayPal أو Tabby خلال 4 إلى 15 يومًا بعد التحقق من المرتجعات.,correct,,
+CON-AR-020,deepseek/deepseek-v4.1-flash-1017,ar,ما خيارات الاسترداد المتاحة للعميل الذي دفع نقدًا عند الإرجاع إلى المتجر؟,إذا دفع العميل نقدًا عند الإرجاع إلى المتجر، يمكنه طلب: استرداد نقدي، أو Credit Note يمكن استخدامه في المتجر أو عبر الإنترنت، أو استرداد إلى My Credit في حسابه.,correct,,
+CON-AR-006,anthropic/claude-haiku-5.5,ar,كيف تُدفع المبالغ المستردة للطلبات عبر الإنترنت، وخلال كم يوم عمل بعد الموافقة على الإرجاع؟,"بالنسبة للطلبات عبر الإنترنت، تُعاد المبالغ المستردة **إلى طريقة الدفع الأصلية فقط**. أما الطلبات التي دُفعت بالبطاقات الهدايا أو بأميال الاتحاد، فتُسترد كقسائم هدايا من جومبو.
+
+وتُعالج المبالغ المستردة خلال **سبعة (7) أيام عمل** من تاريخ الموافقة على الإرجاع.",correct,,
+CON-AR-005,anthropic/claude-haiku-5.5,ar,ما رسوم إعادة التخزين المطبقة على المنتجات المفتوحة غير المعيبة التي تُرجع خلال المدة المسموحة؟,الرسوم هي 15% من قيمة المنتج، وتُطبَّق على جميع المنتجات المفتوحة غير المعيبة التي تُرجع خلال المدة المسموحة.,correct,,
+CON-AR-003,openai/gpt-6.1-terra,ar,هل يتبع إلغاء الطلب عبر الإنترنت القاعدة نفسها المتبعة في إرجاع المنتج؟,لا، تختلف القاعدتان: يُسمح بإرجاع المنتجات غير المفتوحة خلال 14 يومًا، بينما يعتمد إلغاء الطلب على حالته.,correct,,
+GOV-AR-011,moonshotai/kimi-k3.1-pro,ar,ما هي مواضيع الشؤون الاجتماعية التي تغطيها بوابة الحكومة الإماراتية؟,"يغطي قسم **«الشؤون الاجتماعية»** في البوابة الرسمية للحكومة الإماراتية (u.ae) الموضوعات الرئيسية الآتية:
+
+- الرعاية والضمان الاجتماعي.
+- الزواج والأسرة.
+- شؤون المرأة.
+- شؤون الأطفال.
+- كبار المواطنين.
+- أصحاب الهمم.
+- التنمية المجتمعية.
+
+ويعرض ضمن هذه الموضوعات معلومات عن حقوق هذه الفئات، وخدمات الدعم والرعاية والمبادرات الحكومية ذات الصلة.",partial,,
+GOV-AR-014,anthropic/claude-haiku-5.5,ar,هل يمكن للشركات حجز بطاقات الهوية الإماراتية للموظفين بشكل قانوني؟,"**الجواب المختصر:** لا، لا يجوز قانونياً للشركة أن تحتجز بطاقة الهوية الإماراتية لموظفيها. بطاقة الهوية وثيقة شخصية تبقى بحوزة صاحبها، والشركة يمكنها الاحتفاظ بنسخة منها لأغراض التوثيق وإجراءات العمل فقط.
+
+**ملاحظات:**
+- يمنع قانون العمل الاتحادي (المرسوم بقانون اتحادي رقم 33 لسنة 2021) على صاحب العمل الاحتفاظ بجواز سفر الموظف أو وثائقه الشخصية الأخرى، ويُعتبر ذلك مخالفة يُعاقب عليها.
+- إذا تعرّض موظف لاحتجاز وثائقه، يمكنه تقديم شكوى إلى وزارة الموارد البشرية والتوطين عبر منصاتها الرسمية.
+
+**تنبيه:** لست متأكداً من أرقام المواد القانونية الدقيقة ولا من تفاصيل العقوبات الحالية، فقد تتغير التشريعات. للتأكد، راجع الموقع الرسمي لوزارة الموارد البشرية والتوطين أو الهيئة الاتحادية للهوية والجنسية والجمارك والمنافذ، أو استشر محامياً مختصاً.",partial,,
+CON-AR-014,anthropic/claude-haiku-5.5,ar,كيف يُسترد ثمن مشتريات دُفعت باستخدام بطاقة هدايا؟,وفقًا للصفحة، إذا كانت المشتريات من apple.com مدفوعة ببطاقة Apple Gift Card، فسيُرد ثمنها إليك على شكل بطاقة Apple Gift Card جديدة ترسل إليك عبر البريد الإلكتروني.,correct,,
+GOV-AR-019,deepseek/deepseek-v4.1-flash-1017,ar,هل يغطي نظام التعليم الإماراتي التعليم والتدريب المهني والتقني؟,نعم، يغطي نظام التعليم الإماراتي التعليم والتدريب المهني والتقني، ويشمل مسارات في المرحلة الثانوية وما بعد الثانوية، مثل مدارس التكنولوجيا التطبيقية ومؤسسات التدريب المهني، مع إشراف وزارة التربية والتعليم وجهات محلية معنية.,correct,,
+CON-AR-010,anthropic/claude-haiku-5.5,ar,ماذا يحدث لخصم القسيمة عند إرجاع منتج تم شراؤه برمز قسيمة؟,وفقًا للبند 10 من سياسة الإرجاع، **الخصم المستخدم من رمز القسيمة غير قابل للاسترداد، ويُخصم من إجمالي مبلغ الاسترداد.** كما تُقبل المنتجات المشتراة بعرض ترويجي للإرجاع بالسعر المخفض الذي دفعته فقط.,correct,,
+CON-AR-020,anthropic/claude-haiku-5.5,ar,ما خيارات الاسترداد المتاحة للعميل الذي دفع نقدًا عند الإرجاع إلى المتجر؟,"بحسب الصفحة، إذا دفعتَ نقدًا وأرجعتَ المنتج إلى المتجر، يمكنك اختيار أحد الخيارات التالية:
+- استرداد نقدي.
+- إشعار دائن (Credit Note) يمكن إنفاقه في المتجر أو عبر الإنترنت.
+- استرداد إلى رصيد ""My Credit"" في حسابك.",correct,,
+GOV-AR-009,anthropic/claude-haiku-5.5,ar,ما هي المواضيع الفرعية التي تغطيها صفحة الرعاية الصحية والتأمين الصحي على بوابة الحكومة الإماراتية؟,"لا أستطيع الوصول إلى بوابة الحكومة الإماراتية (u.ae) مباشرة، ولا أملك قائمة موثوقة بالمواضيع الفرعية الدقيقة لصفحة الرعاية الصحية والتأمين الصحي فيها، لذلك لن أخمّن.
+
+للحصول على القائمة الصحيحة، يمكنك:
+- فتح صفحة الرعاية الصحية على بوابة u.ae واستعراض القائمة الجانبية أو قسم ""المواضيع الفرعية"" في الصفحة نفسها.
+- البحث في البوابة عن ""التأمين الصحي"" للوصول إلى الصفحات ذات الصلة.
+
+وللتوضيح العام فقط، يرتبط التأمين الصحي في الإمارات بجهات تنظيمية مختلفة حسب الإمارة، مثل دائرة الصحة في أبوظبي وهيئة الصحة في دبي ووزارة الصحة ووقاية المجتمع للإمارات الأخرى، لذا قد تجد معلومات التأمين موزعة بين البوابة الاتحادية وموقع الجهة المعنية في إمارتك.",incorrect,,
+GOV-AR-010,moonshotai/kimi-k3.1-pro,ar,ما هي المواضيع التعليمية الرئيسية التي تغطيها بوابة الحكومة الإماراتية؟,"تغطي البوابة الرسمية للحكومة الإماراتية (u.ae)، ضمن قسم التعليم، موضوعات رئيسية من أبرزها:
+
+- نظام التعليم في دولة الإمارات.
+- التعليم المدرسي.
+- التعليم العالي.
+- المنح الدراسية.
+- التعليم والتدريب المهني.
+- تعليم أصحاب الهمم.
+- التعلّم الإلكتروني.
+- الخدمات التعليمية ذات الصلة.",partial,,
+GOV-AR-018,qwen/qwen4-max,ar,ما هي الوثائق المطلوبة للتقديم على تأشيرة زيارة الباحثين عن عمل ومن أين؟,"## تأشيرة استكشاف فرص العمل (تأشيرة زيارة للباحثين عن عمل)
+
+### الوثائق المطلوبة عادةً
+- **صورة جواز سفر** ساري المفعول لمدة لا تقل عن 6 أشهر.
+- **صورة شخصية** حديثة بخلفية بيضاء.
+- **شهادة جامعية (بكالوريوس أو ما يعادلها)** مصدّقة/mوثّقة حسب الأصول.
+- **إثبات الملاءة المالية** (كشف حساب بنكي أو ما يثبت القدرة على تحمّل تكاليف الإقامة).
+- **تأمين صحي** ساري داخل الدولة.
+- **تذكرة سفر (عودة/مغادرة)** وإثبات مكان الإقامة (حجز فندق أو عنوان سكن).
+- **ما يثبت استيفاء شرط الأهلية**: إما التصنيف في المستوى المهني الأول أو الثاني أو الثالث وفق تصنيف وزارة الموارد البشرية والتوطين، أو أن يكون المتقدم حديث التخرج (خلال سنتين) من إحدى أفضل 500 جامعة عالمياً.
+- سداد الرسوم المقررة.
+
+### من أين التقديم
+- **الهيئة الاتحادية للهوية والجنسية والجمارك وأمن المنافذ (ICP)**: الموقع `icp.gov.ae` أو تطبيق `UAEICP` — لإمارات أبوظبي والشارقة وعجمان وأم القيوين ورأس الخيمة والفجيرة.
+- **دبي**: الإدارة العامة للإقامة وشؤون الأجانب بدبي `gdrfad.gov.ae` أو تطبيق `Dubai Now` أو مراكز **أمر (Amer)**.
+- ويمكن أيضاً عبر مراكز الطباعة/الخدمات المعتمدة.
+
+### ملاحظة مهمة
+هذه التأشيرة أُدخلت ضمن نظام التأشيرات المتقدم النافذ من أكتوبر 2022، وتُمنح لمدد (60 / 90 / 120 يوماً) دون الحاجة إلى كفيل.
+
+**لست متأكداً من التفاصيل المحدّثة** للرسوم والشروط الدقيقة (مثل مدة التخرج المقبولة أو إمكانية التمديد)، وقد تتغير الإجراءات. يُرجى التحقق من الموقع الرسمي لـ ICP أو GDRFA دبي أو الاتصال بمراكز الخدمة قبل التقديم.",correct,,
+CON-AR-006,mistralai/mistral-large-4-0,ar,كيف تُدفع المبالغ المستردة للطلبات عبر الإنترنت، وخلال كم يوم عمل بعد الموافقة على الإرجاع؟,تُدفع المبالغ المستردة للطلبات عبر الإنترنت إلى **وسيلة الدفع الأصلية فقط** (وإذا تم الشراء ببطاقة هدايا أو Etihad Miles فتُسترد كـ**قسيمة هدايا من Jumbo**)، وتُعالج خلال **سبعة (7) أيام عمل** بعد الموافقة على الإرجاع.,correct,,
+GOV-AR-005,deepseek/deepseek-v4.1-flash-1017,ar,كيف يتم إلغاء بطاقة الهوية الإماراتية؟,"إلغاء بطاقة الهوية الإماراتية لا يتم إجراءً منفصلاً؛ للمقيمين يجب أولاً إلغاء الإقامة من قبل الكفيل/صاحب العمل عبر الهيئة الاتحادية للهوية والجنسية والجمارك وأمن المنافذ (ICP) — عبر تطبيق UAEICP أو موقعها أو مركز طباعة معتمد. بعد إلغاء الإقامة تُلغى بطاقة الهوية تلقائياً، ولا يلزم عادةً تسليمها.  
+أما إذا كان المقصود إلغاء البطاقة بسبب الفقدان/السرقة، فالإجراء هو الإبلاغ عن الفقدان/السرقة وإصدار بدل، وليس إلغاء البطاقة. للحالات الخاصة، يُرجى التواصل مع ICP.",partial,,
+CON-AR-002,anthropic/claude-haiku-5.5,ar,هل تعامل سياسة الإرجاع أجهزة التلفزيون والأجهزة المنزلية بشكل مختلف بعد التسليم؟,نعم، تشير الصفحة إلى أن أجهزة التلفزيون والأجهزة المنزلية لها قيود محددة بعد التسليم. لكنها لا توضح تفاصيل هذه القيود. لمعرفتها، يمكنك مراجعة سياسة الإرجاع الكاملة على: https://www.samsung.com/ae/shop-faq/returns-and-cancellations/,correct,,
+GOV-AR-016,openai/gpt-6.1-terra,ar,ما هي فئات الأشخاص المؤهلين للحصول على التأشيرة الذهبية لمدة 10 سنوات؟,"تشمل الفئات المؤهلة للتأشيرة الذهبية الإماراتية لمدة 10 سنوات، وفق شروط كل فئة:
+
+- المستثمرين في الاستثمارات العامة والعقارات.
+- رواد الأعمال.
+- أصحاب المواهب التخصصية، مثل العلماء والأطباء والمهندسين والمخترعين والمبدعين.
+- الطلبة المتفوقين والخريجين المتميزين.
+- رواد العمل الإنساني.
+- أبطال خط الدفاع الأول.
+
+وتختلف معايير الأهلية والمستندات المطلوبة بحسب الفئة.",partial,,
+GOV-AR-005,anthropic/claude-haiku-5.5,ar,كيف يتم إلغاء بطاقة الهوية الإماراتية؟,"لست متأكداً من التفاصيل الإجرائية الحالية، لذا أنصحك بالتحقق من الجهة الرسمية. بحسب ما أعرفه:
+
+- **لا توجد خدمة عامة واضحة باسم ""إلغاء الهوية""** يقدمها المواطن أو المقيم لإلغاء بطاقته بشكل مستقل في الغالب.
+- **عند مغادرة الدولة نهائياً (للمقيمين)**، يتم عادةً إلغاء تأشيرة الإقامة عبر الكفيل أو صاحب العمل أو من خلال الجهات المختصة، وبعدها تُلغى بطاقة الهوية المرتبطة بالإقامة.
+- **عند فقدان البطاقة أو تلفها**، يتم الإبلاغ وطلب بطاقة بديلة، وليس إلغاؤها.
+- **عند وفاة حامل البطاقة**، يتولى الإبلاغ عادةً أحد أفراد الأسرة أو الجهة المختصة.
+
+للتأكد من الإجراء المحدد وأي رسوم أو مستندات مطلوبة، راجع الهيئة الاتحادية للهوية والجنسية والجمارك وأمن المنافذ (ICP) عبر موقعها الرسمي أو تطبيقها، أو مراكز سعادة المتعاملين التابعة لها.",partial,,
+CON-AR-012,deepseek/deepseek-v4.1-flash-1017,ar,هل يمكن إرجاع البرمجيات، وبأي شرط؟,نعم، تُقبل إعادة البرمجيات خلال 14 يومًا تقويميًا من التسليم، بشرط ألا تكون البرمجيات قد فُتحت.,correct,,
+CON-AR-012,mistralai/mistral-large-4-0,ar,هل يمكن إرجاع البرمجيات، وبأي شرط؟,نعم، يمكن إرجاع البرمجيات خلال 14 يوماً تقويمياً من التسليم، ويشترط أن تكون غير مفتوحة (أي لم يتم فتح غلافها).,correct,,
+CON-AR-004,deepseek/deepseek-v4.1-flash-1017,ar,بعد كم يومًا من التسليم أو الاستلام من المتجر يمكن للعميل طلب إرجاع أو استبدال من متجر الإلكترونيات هذا؟,خلال سبعة (7) أيام من تاريخ التسليم أو الاستلام من المتجر.,correct,,
+GOV-AR-009,deepseek/deepseek-v4.1-flash-1017,ar,ما هي المواضيع الفرعية التي تغطيها صفحة الرعاية الصحية والتأمين الصحي على بوابة الحكومة الإماراتية؟,"تشمل صفحة «الرعاية الصحية والتأمين الصحي» على بوابة الحكومة الإماراتية (u.ae) المواضيع الفرعية التالية:
+
+- الرعاية الصحية في دولة الإمارات
+- التأمين الصحي
+- خدمات الطوارئ
+- الرعاية الصحية للمواطنين
+- الرعاية الصحية للمقيمين
+- الرعاية الصحية للزوار
+- السياحة العلاجية",incorrect,,
+GOV-AR-002,openai/gpt-6.1-terra,ar,ما هي بطاقة الهوية الإماراتية وهل هي إلزامية؟,"بطاقة الهوية الإماراتية هي وثيقة رسمية لإثبات الهوية، تصدرها الهيئة الاتحادية للهوية والجنسية والجمارك وأمن المنافذ، وتحمل رقماً تعريفياً فريداً وبيانات صاحبها.
+
+نعم، هي **إلزامية للمواطنين والمقيمين في دولة الإمارات**، بمن فيهم الأطفال، ويجب إصدارها وتجديدها وفق الإجراءات المعتمدة.",partial,,
+CON-AR-007,openai/gpt-6.1-terra,ar,ما الرسوم غير القابلة للاسترداد بعد الإقرار بها؟,الرسوم غير القابلة للاسترداد بعد الإقرار بها هي: رسوم التوصيل، والخدمة، والتركيب، وإعادة التخزين إن وُجدت.,correct,,
+GOV-AR-015,moonshotai/kimi-k3.1-pro,ar,ما هي مزايا التأشيرة الذهبية مقارنة بتأشيرة الإقامة العادية؟,"أبرز مزايا **الإقامة الذهبية** في الإمارات مقارنة بالإقامة العادية:
+
+- **مدة أطول:** 5 أو 10 سنوات بحسب الفئة، وقابلة للتجديد ما دامت الشروط مستوفاة، مقابل مدد أقصر غالباً للإقامة العادية.
+- **كفالة ذاتية:** لا تتطلب كفيلاً أو جهة عمل، ولا ترتبط عادةً باستمرار الوظيفة.
+- **مرونة أكبر في السفر:** يمكن البقاء خارج الدولة لأكثر من ستة أشهر دون إبطال الإقامة؛ أما الإقامة العادية فقد تفقد صلاحيتها بعد غياب يتجاوز 180 يوماً، مع وجود استثناءات.
+- **مزايا أسرية أوسع:** تسهيلات في كفالة أفراد الأسرة، مع إمكانية بقائهم في الدولة حتى نهاية تصاريحهم إذا توفي حامل الإقامة الذهبية.
+
+ولا تمنح الإقامة الذهبية الجنسية، ولا تُغني عن تصريح العمل عند الالتحاق بوظيفة. وتختلف الشروط والتفاصيل بحسب فئة الإقامة الذهبية.",correct,,
+CON-AR-006,moonshotai/kimi-k3.1-pro,ar,كيف تُدفع المبالغ المستردة للطلبات عبر الإنترنت، وخلال كم يوم عمل بعد الموافقة على الإرجاع؟,تُعاد المبالغ للطلبات عبر الإنترنت إلى **وسيلة الدفع الأصلية فقط**، أما المشتريات ببطاقات الهدايا أو أميال الاتحاد فتُسترد كقسائم هدايا من جامبو. وتُعالج المبالغ المستردة خلال **سبعة (7) أيام عمل** بعد الموافقة على الإرجاع.,correct,,
+CON-AR-018,mistralai/mistral-large-4-0,ar,ماذا يتلقى العميل المسجل الذي دفع نقدًا عند الإرجاع أونلاين، وماذا يتلقى العميل الزائر الذي دفع نقدًا؟,العميل المسجل الذي دفع نقدًا يتلقى استردادًا إلى **My Credit** في حسابه، بينما العميل الزائر الذي دفع نقدًا يتلقى **قسيمة إرجاع (Return Voucher)**.,correct,,
+CON-AR-016,qwen/qwen4-max,ar,بكم طريقة يمكن إرجاع الطلب، وما هي؟,"يمكنك إرجاع منتجاتك بـ **3 طرق**:
+
+1. **طلب الإرجاع عبر الإنترنت**: من ""سجل الطلبات"" في ""حسابي""، تختار المنتجات وتقدّم طلب الإرجاع (عملاء Click & Collect غير المسجّلين يتواصلون مع مركز الاتصال).
+2. **الإرجاع إلى المتجر**: تغلّف المنتجات بغلاف الشحن الأصلي وتحضرها مع الفاتورة إلى أي متجر سنتربوينت في الإمارات، أو إلى متجر العلامة نفسها (سبلاش، بيبي شوب، لايف ستايل، شو مارت)، أما منتجات Iconic فتُرجَع إلى متجر Iconic فقط.
+3. **الاتصال لطلب الاستلام**: تتصل على 800-MYCP (800-6927) لتحديد وقت ومكان الاستلام.",correct,,
+GOV-EN-003,qwen/qwen4-max,en,What is the late fee for renewing an expired Emirates ID and after how long does it apply?,"**Late renewal fine for Emirates ID:** AED 20 per day of delay, capped at a maximum of AED 1,000.
+
+**When it applies:** After a 30-day grace period from the card's expiry date — i.e., the daily fine starts accruing on day 31 after expiry.
+
+This is the standard rule published by the Federal Authority for Identity, Citizenship, Customs and Port Security (ICP). Note that fees and grace periods can change, and separate rules may apply in specific cases (e.g., residency visa cancellation or long absences from the UAE), so it's worth confirming on the ICP website (icp.gov.ae) or via the UAEICP app for your particular situation.",correct,,
+GOV-EN-015,openai/gpt-6.1-terra,en,What are the benefits of the Golden Visa compared to a regular residence visa?,"Compared with a regular UAE residence visa, the Golden Visa offers eligible people:
+
+- **Longer-term residence:** A renewable visa valid for 5 or 10 years.
+- **No local sponsor requirement:** Holders can sponsor their own residence rather than relying on an employer or other sponsor.
+- **More flexibility abroad:** They can stay outside the UAE for more than six months without their residence visa being automatically invalidated.
+- **Broader family sponsorship:** They can sponsor their spouse and children regardless of the children’s ages, as well as an unlimited number of domestic helpers.
+- **Protection for family members:** If the main visa holder dies, sponsored family members can generally remain in the UAE until their residence permits expire.
+
+Eligibility and renewal depend on meeting the applicable Golden Visa criteria.",correct,,
+CON-EN-008,anthropic/claude-haiku-5.5,en,Can headphones or earphones be returned?,"No. The policy lists ""Headphones/earphones"" among the non-returnable categories.",correct,,
+GOV-EN-020,qwen/qwen4-max,en,Where can UAE residents find information about getting health insurance on the government portal?,"**On the official UAE Government portal, u.ae** — health insurance information sits under the **""Information and services""** area, in the **health / ""Health and fitness""** section, on a page covering health insurance (with sub‑pages on mandatory schemes and emirate‑specific rules).
+
+Typical direct path: `u.ae/en/information-and-services/health-and-fitness/health-insurance`
+
+What you'll find there:
+- Mandatory health insurance requirements by emirate (Abu Dhabi, Dubai, and the rollout in the Northern Emirates)
+- Employer obligations to cover employees (and, in some emirates, dependants)
+- Government programmes such as **Thiqa** (Abu Dhabi, for UAE nationals), **Enaya** (Dubai, for UAE nationals), and basic/essential plans for lower‑income workers
+
+For applications and actual policy details, the portal links to the relevant regulator/provider:
+- **Dubai:** Dubai Health Authority (DHA)
+- **Abu Dhabi:** Department of Health – Abu Dhabi (DoH), with Daman as the main insurer
+- **Other emirates:** Ministry of Health and Prevention (MOHAP)
+
+*Caveat:* u.ae is periodically restructured, so the exact menu labels may differ from the above — searching ""health insurance"" in the portal's search box is the most reliable route. I can't verify the live page layout right now.",correct,,
+CON-EN-016,deepseek/deepseek-v4.1-flash-1017,en,"In how many ways can an order be returned, and what are they?","An order can be returned in 3 ways:
+1. Request a return online
+2. Return to Store
+3. Call for a pick-up",correct,,
+GOV-EN-019,mistralai/mistral-large-4-0,en,Does the UAE education system cover technical and vocational education?,"Yes. The UAE education system includes technical and vocational education and training (TVET) at both secondary and post-secondary levels.
+
+Key components include:
+*   **Secondary level:** Some public and private schools offer vocational tracks alongside academic streams.
+*   **Post-secondary:** Institutions such as the Higher Colleges of Technology (HCT), polytechnics, and specialized institutes (e.g., Abu Dhabi Vocational Education and Training Institute) offer diplomas and applied bachelor's degrees in technical fields.
+*   **Workforce training:** Government initiatives like Emirates Skills and various sector-specific training centers provide vocational training for nationals and residents.
+
+The Ministry of Education and the National Qualifications Authority (NQA) oversee and accredit these programs, which are a strategic priority for the UAE's economic diversification.",correct,,
+GOV-EN-010,moonshotai/kimi-k3.1-pro,en,What major education topics does the UAE government portal cover?,"The UAE Government portal’s **Education and training** section covers major topics including:
+
+- The UAE education system, policies and strategies  
+- School education, including public and private schools  
+- Higher education, universities, accreditation and qualifications  
+- Vocational and technical education and training  
+- Scholarships  
+- E-learning and digital education  
+- Education and support for people of determination  
+- Training and development  
+
+It also links to related government education services and official resources on [u.ae](https://u.ae/en/information-and-services/education-and-training).",partial,,
+GOV-EN-019,qwen/qwen4-max,en,Does the UAE education system cover technical and vocational education?,"**Yes.** Technical and vocational education and training (TVET) is a recognised part of the UAE education system, alongside general and higher education. Key elements include:
+
+- **Ministry of Education / Emirates Schools Establishment:** applied/technical secondary streams and the **Applied Technology High Schools (ATHS)** network, which combine academic schooling with technical specialisations and lead to further study or employment.
+- **Abu Dhabi:** ACTVET (Abu Dhabi Centre for Technical and Vocational Education and Training), which oversees institutions such as the Institute of Applied Technology, ADVETI (Abu Dhabi Vocational Education and Training Institute) and vocational institutes offering diplomas and certificates in fields like engineering technology, IT, business and health.
+- **Higher Colleges of Technology (HCT):** the federal applied higher-education institution offering diploma and bachelor's programmes with an applied/technical focus.
+- **Dubai and other emirates:** providers such as the National Institute for Vocational Education (NIVE) and various licensed private vocational/training centres, regulated in Dubai by the KHDA.
+- **National frameworks:** vocational qualifications are aligned with the national qualifications framework (QF Emirates), and the UAE promotes vocational skills through initiatives such as the Emirates Skills competitions and WorldSkills participation.
+
+Note: institutional names, oversight bodies and programme structures have changed over recent years, so for current details (admission requirements, available specialisations, accreditation) check the Ministry of Education, ACTVET or the relevant emirate's education authority directly.",correct,,
+CON-EN-002,moonshotai/kimi-k3.1-pro,en,Does the return policy treat TVs and home appliances differently after delivery?,"Yes. TVs and home appliances have specific restrictions after delivery, but the page does not describe what those restrictions are.",correct,,
+CON-EN-010,anthropic/claude-haiku-5.5,en,What happens to a coupon discount when an item bought with a coupon code is returned?,"According to Section 10, discounts redeemed from coupon codes are non-refundable and are deducted from the total refund amount. Items bought under a promotional offer can only be returned at the purchased (discounted) price.",correct,,

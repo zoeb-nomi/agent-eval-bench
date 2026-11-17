@@ -1,0 +1,16 @@
+{
+ "answer_cost_usd": 1.32668445432,
+ "judge_cost_usd": 0.85912,
+ "judge2_cost_usd": 0.058916759,
+ "models": [
+  "anthropic/claude-haiku-5.5",
+  "openai/gpt-6.1-terra",
+  "deepseek/deepseek-v4.1-flash-1017",
+  "qwen/qwen4-max",
+  "mistralai/mistral-large-4-0",
+  "moonshotai/kimi-k3.1-pro"
+ ],
+ "judge": "anthropic/claude-sonnet-5.5",
+ "judge2": "deepseek/deepseek-v4.1-flash-1017",
+ "date": "2026-11-17"
+}

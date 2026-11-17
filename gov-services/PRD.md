@@ -22,5 +22,5 @@ Reported per language: average scores, denominator count, and judge-vs-human agr
 - **Source-limited**: Questions come only from public UAE government service pages (u.ae). Coverage is limited to what those pages describe.
 - **Factual, not conversational**: Unlike the main bench's multi-turn episodes, these are single-turn Q&A pairs. They test knowledge retrieval, not dialogue management.
 - **Static snapshot**: Each question carries the date the source page was read. Government services change; the dataset dates are not updated.
-- **Synthetic judge baseline**: The committed judge results use synthetic scoring (heuristic from answer structure). A real OpenRouter API call would improve fidelity but costs ~$1 per full run.
-- **Arabic coverage**: The Arabic set mirrors the English set. A native Arabic reader should review the Arabic labels before the agreement numbers are treated as authoritative.
+- **Live judge, no human baseline yet**: Answers are judged by a live model (`anthropic/claude-sonnet-5.5`) and cross-checked by a second live model. Agreement with a human is not measured until a person fills `results/human_label_sheet.csv`. The earlier synthetic-judge figure has been removed.
+- **Arabic coverage**: The Arabic set mirrors the English set. A native Arabic reader should review the Arabic labels (questions, reference answers, judgements) before any number are treated as authoritative.
