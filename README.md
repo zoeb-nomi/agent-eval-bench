@@ -40,6 +40,11 @@ Product thinking behind it (users, metrics, trade-offs, roadmap): [`docs/PRD.md`
 ## What is here
 
 ```
+gov-services/   Bilingual (EN/AR) UAE government-services Q&A eval set
+  PRD.md        one-page product thinking specific to this set
+  questions/    en.jsonl (20 items), ar.jsonl (19 items), labelled_subset.jsonl
+  results/      judge_results.json (synthetic judge, 91% overall agreement)
+  scripts/      run_judge.py (LLM judge runner with agreement computation)
 src/evalbench/
   agent.py        LangGraph support agent, two configs:
                   v0 = baseline (observe-only guards, minimal prompt)
@@ -222,6 +227,13 @@ category dominates (v1 C2: 117/120 identical scores, kappa 0.39). Full numbers:
   questions still slip past it (3 in v1).
 - The client simulator is a seeded state machine, not an LLM. The KB is 26
   curated docs, not a production corpus.
+- **gov-services set**: bilingual questions sourced from public UAE government
+  pages on 2026-11-17. Coverage is limited to what the portal describes; answers
+  are factual and may become outdated as services change. The committed judge
+  results use synthetic scoring (not an LLM API call); a real OpenRouter run
+  would improve fidelity. Arabic labels need native-reader review before the
+  agreement numbers are treated as authoritative. Questions are single-turn Q&A,
+  not multi-turn dialogues.
 
 ## License
 
