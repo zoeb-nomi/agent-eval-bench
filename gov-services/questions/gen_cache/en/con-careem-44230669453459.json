@@ -1,0 +1,1 @@
+{"items": [{"question": "How long may it take for the released balance of a pre-authorisation hold to show in the customer's account?", "gold": "1 to 3 weeks, depending on the bank's policy.", "answer_type": "number", "exact_values": ["1", "3"], "fact": "Released hold balance takes 1 to 3 weeks to appear"}], "cost": 0.0001586, "error": null}

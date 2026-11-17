@@ -1,0 +1,1 @@
+{"items": [{"question": "Does this retailer run offers and promotions regularly?", "gold": "Yes, it regularly runs offers and promotions on its website.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Retailer regularly runs offers and promotions on its website."}], "cost": 0.0002006, "error": null}

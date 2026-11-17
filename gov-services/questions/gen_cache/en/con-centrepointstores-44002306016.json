@@ -1,0 +1,1 @@
+{"items": [{"question": "If I remove the app from my phone, will my account be deleted automatically?", "gold": "No, your account does not automatically get deleted when you remove the app.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Removing the app does not automatically delete the account."}], "cost": 0.0001792, "error": null}

@@ -1,0 +1,1 @@
+{"items": [{"question": "What percentage discount does this retailer's corporate offer give on full-price items?", "gold": "25%", "answer_type": "number", "exact_values": ["25"], "fact": "Corporate offer gives 25% off full-price items."}], "cost": 0.0002154, "error": null}

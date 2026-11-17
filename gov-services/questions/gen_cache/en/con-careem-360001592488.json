@@ -1,0 +1,1 @@
+{"items": [{"question": "Does uninstalling this retailer's app remove all notifications from the Notification Inbox?", "gold": "Yes, uninstalling the app removes all notifications from the Notification Inbox.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Uninstalling the app removes all inbox notifications"}], "cost": 0.0003331, "error": null}

@@ -1,0 +1,1 @@
+{"item": {"question": "خلال كم دقيقة عادةً ما تقبل المطاعم الطلب بعد تأكيده؟", "gold": "في غضون دقيقتين", "answer_type": "number", "exact_values": ["2"]}, "cost": 0.0002777, "error": null}

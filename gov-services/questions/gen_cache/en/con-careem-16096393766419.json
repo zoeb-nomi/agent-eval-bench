@@ -1,0 +1,1 @@
+{"items": [{"question": "What payment options can customers use when buying a package from this retailer?", "gold": "Card, Apple Pay, or credits available in the Pay wallet.", "answer_type": "list", "exact_values": ["card", "Apple Pay", "Pay wallet"], "fact": "Package purchases accept card, Apple Pay, or Pay wallet credits"}], "cost": 0.0001808, "error": null}

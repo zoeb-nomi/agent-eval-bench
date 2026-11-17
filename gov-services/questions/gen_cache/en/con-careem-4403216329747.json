@@ -1,0 +1,1 @@
+{"items": [{"question": "Does this retailer display restaurants that are outside the delivery radius of the customer's location?", "gold": "No, only restaurants within the delivery radius will be displayed.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Only restaurants within delivery radius are displayed to customers."}], "cost": 0.0002213, "error": null}

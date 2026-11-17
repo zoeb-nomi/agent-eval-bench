@@ -1,0 +1,1 @@
+{"items": [{"question": "When placing an order, how many digits of a credit or debit card number does this retailer store and display?", "gold": "Only the last four digits.", "answer_type": "number", "exact_values": ["4"], "fact": "Only last four card digits stored and displayed."}], "cost": 0.0002248, "error": null}

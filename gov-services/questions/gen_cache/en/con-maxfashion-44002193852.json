@@ -1,0 +1,1 @@
+{"items": [{"question": "Are charity donations refundable if the order is cancelled?", "gold": "No, charity donations are non-refundable, even if the order is cancelled.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Charity donations are non-refundable, including when orders are cancelled."}], "cost": 0.0001903, "error": null}

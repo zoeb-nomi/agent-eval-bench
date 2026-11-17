@@ -1,0 +1,1 @@
+{"items": [{"question": "Does each store of this retailer have a dedicated area for collections?", "gold": "Yes, each store has a dedicated area for collections.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Each store has a dedicated collections area"}], "cost": 0.000191, "error": null}

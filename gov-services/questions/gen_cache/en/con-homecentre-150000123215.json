@@ -1,0 +1,1 @@
+{"items": [{"question": "Can the card-issuing bank or payment partner reject an order placed using instalments?", "gold": "Yes, the card-issuing bank or payment partner has discretion to approve or reject it.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Card-issuing bank or payment partner can reject instalment orders"}], "cost": 0.0002048, "error": null}

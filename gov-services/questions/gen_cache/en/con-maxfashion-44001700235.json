@@ -1,0 +1,1 @@
+{"items": [{"question": "How many days will this retailer hold an uncollected order at its own store before initiating returns?", "gold": "14 days", "answer_type": "number", "exact_values": ["14"], "fact": "Uncollected orders held 14 days at retailer's stores before returns."}], "cost": 0.0002431, "error": null}

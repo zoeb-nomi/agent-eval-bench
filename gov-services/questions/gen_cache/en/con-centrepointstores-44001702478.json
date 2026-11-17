@@ -1,0 +1,1 @@
+{"items": [{"question": "Within how many days of making a purchase must a customer link their loyalty accounts at this retailer to still earn points?", "gold": "Within 5 days of making the purchase.", "answer_type": "number", "exact_values": ["5"], "fact": "Loyalty accounts must be linked within 5 days of purchase."}], "cost": 0.0002206, "error": null}

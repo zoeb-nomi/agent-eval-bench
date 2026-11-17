@@ -1,0 +1,1 @@
+{"items": [{"question": "Can you delete your account while you still have pending Shukrans or credits?", "gold": "No. You must use up your Shukrans or credits before you submit a request to delete your account.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Account deletion blocked while Shukrans or credits remain pending"}], "cost": 0.000169, "error": null}

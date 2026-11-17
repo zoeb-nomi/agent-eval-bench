@@ -1,0 +1,1 @@
+{"items": [{"question": "By what time must an order be placed in order to receive same-day delivery in Dubai?", "gold": "Orders placed before 12:00 PM qualify for same-day delivery to select Dubai locations.", "answer_type": "number", "exact_values": ["12"], "fact": "Same-day Dubai delivery requires ordering before 12:00 PM."}], "cost": 0.0001264, "error": null}

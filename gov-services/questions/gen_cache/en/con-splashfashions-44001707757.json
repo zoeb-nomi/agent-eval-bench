@@ -1,0 +1,1 @@
+{"items": [{"question": "Can a customer place an online return request for only part of an order with this retailer?", "gold": "No, online return requests are only possible when returning the entire order.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Online return requests only allowed for returning the entire order"}], "cost": 0.0002034, "error": null}

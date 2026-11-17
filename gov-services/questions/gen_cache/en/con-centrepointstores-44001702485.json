@@ -1,0 +1,1 @@
+{"items": [{"question": "Must a customer be logged in to check the loyalty points in their account on this retailer's site?", "gold": "Yes, you have to be logged in to check your points.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Logging in is required to check loyalty points"}], "cost": 0.0002201, "error": null}

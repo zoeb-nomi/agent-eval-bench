@@ -1,0 +1,1 @@
+{"items": [{"question": "How does a customer choose the store for Click & Collect pickup on an order?", "gold": "During checkout, the customer selects from stores that offer Click & Collect for the order.", "answer_type": "text", "exact_values": [], "fact": "Click & Collect store chosen during checkout from eligible stores"}], "cost": 0.00059, "error": null}

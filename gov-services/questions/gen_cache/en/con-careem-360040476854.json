@@ -1,0 +1,1 @@
+{"items": [{"question": "What is the minimum age to ride one of this retailer's e-bikes?", "gold": "You must be 15 years or older to ride a Careem E-Bike.", "answer_type": "number", "exact_values": ["15"], "fact": "Minimum age to ride e-bike is 15"}], "cost": 0.0001213, "error": null}

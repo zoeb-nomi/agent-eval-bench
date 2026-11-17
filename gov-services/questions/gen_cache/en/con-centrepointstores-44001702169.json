@@ -1,0 +1,1 @@
+{"items": [{"question": "Can a customer who picked up a Click & Collect order get an additional discount on in-store purchases that day?", "gold": "Yes, by showing the Click & Collect order number.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Click & Collect pickup day grants extra in-store discount with order number"}], "cost": 0.0001843, "error": null}

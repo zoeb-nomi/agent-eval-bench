@@ -1,0 +1,1 @@
+{"item": {"question": "لمدة كم شهرًا تكون قسيمة الرصيد صالحة من تاريخ إصدارها؟", "gold": "12 شهرًا", "answer_type": "number", "exact_values": ["12"]}, "cost": 0.0001858, "error": null}

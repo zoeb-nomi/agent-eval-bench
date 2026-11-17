@@ -1,0 +1,1 @@
+{"items": [{"question": "Can a customer manually choose which promo code this retailer's app applies at checkout?", "gold": "No. The app automatically applies the highest value promo at checkout.", "answer_type": "yesno", "exact_values": ["no"], "fact": "App auto-applies highest value promo; customers cannot choose manually"}], "cost": 0.0002649, "error": null}

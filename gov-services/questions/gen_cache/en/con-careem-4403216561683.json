@@ -1,0 +1,1 @@
+{"items": [{"question": "Where can a customer find the minimum order value for a restaurant?", "gold": "At the top of the menu for any restaurant.", "answer_type": "text", "exact_values": [], "fact": "Minimum order value is shown atop restaurant menus."}], "cost": 0.0002548, "error": null}

@@ -1,0 +1,82 @@
+{
+ "gov": {
+  "generated": 658,
+  "arabic_missing_fact": 69,
+  "dropped_duplicate_en_question": 6,
+  "dropped_duplicate_ar_question": 1,
+  "dropped_near_duplicate_fact": 5,
+  "dropped_total": 6,
+  "kept_before_selection": 652,
+  "examples": [
+   {
+    "dropped": "What amount did the UAE federal budget allocate to the healthcare sector in 2020?",
+    "kept": "What amount did the UAE federal budget allocate to the healthcare sector in 2022?",
+    "similarity": 0.79
+   },
+   {
+    "dropped": "In the UAE federal government's 2025 expenditure budget, what total amount was allocated to the Ministry of Education?",
+    "kept": "In the UAE federal government's 2025 expenditure budget, what total amount was allocated to the Ministry of Finance?",
+    "similarity": 0.81
+   },
+   {
+    "dropped": "What was the UAE federal environment budget allocated for 2021, in AED?",
+    "kept": "What was the UAE federal environment budget allocated for 2025, in AED?",
+    "similarity": 0.73
+   },
+   {
+    "dropped": "What is the maximum repayment period for a personal loan in the UAE, according to the Central Bank?",
+    "kept": "What is the maximum repayment period for a car loan in the UAE, according to the Central Bank?",
+    "similarity": 0.8
+   },
+   {
+    "dropped": "In what year was the UAE Food Bank charitable organisation launched?",
+    "kept": "In what year was the UAE Food Bank established?",
+    "similarity": 0.69
+   }
+  ],
+  "selected": 500,
+  "exact_items": 314,
+  "generation_cost_usd": 0.4965,
+  "pages_used": 279
+ },
+ "consumer": {
+  "generated": 826,
+  "arabic_missing_fact": 61,
+  "dropped_duplicate_en_question": 140,
+  "dropped_duplicate_ar_question": 74,
+  "dropped_near_duplicate_fact": 184,
+  "dropped_total": 216,
+  "kept_before_selection": 610,
+  "examples": [
+   {
+    "dropped": "How many digits is the verification code required when updating your mobile number?",
+    "kept": "How many digits is the verification code required when updating your mobile number on the app?",
+    "similarity": 0.78
+   },
+   {
+    "dropped": "Within how many days must a negative balance from a declined credit card payment be settled to avoid a blocked account with this retailer?",
+    "kept": "Within how many days must a negative balance from a declined credit card payment be settled?",
+    "similarity": 0.7
+   },
+   {
+    "dropped": "Can a promo code be applied after an order has already been placed?",
+    "kept": "Can the REWARD11 promo code be applied after an order has already been placed?",
+    "similarity": 0.76
+   },
+   {
+    "dropped": "For how many months is the new Credit Voucher valid after it is issued?",
+    "kept": "For how many months is a new Credit Voucher valid from its issue date?",
+    "similarity": 0.75
+   },
+   {
+    "dropped": "How long is a Credit Voucher valid for from its date of issue?",
+    "kept": "For how many months is a new Credit Voucher valid from its issue date?",
+    "similarity": 0.83
+   }
+  ],
+  "selected": 500,
+  "exact_items": 346,
+  "generation_cost_usd": 0.447,
+  "pages_used": 483
+ }
+}

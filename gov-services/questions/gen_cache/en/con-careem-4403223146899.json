@@ -1,0 +1,1 @@
+{"items": [{"question": "If the restaurant itself delivers the order, can this retailer track it in the app?", "gold": "No, Careem will not be able to track the order.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Restaurant-delivered orders cannot be tracked by Careem"}], "cost": 0.0002414, "error": null}

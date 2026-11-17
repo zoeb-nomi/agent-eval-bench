@@ -1,0 +1,1 @@
+{"items": [{"question": "Can a customer pay by cash when the order is delivered?", "gold": "Yes, by choosing the Cash on Delivery option when placing the order.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Cash on Delivery is available; choose it when ordering."}], "cost": 0.0002183, "error": null}

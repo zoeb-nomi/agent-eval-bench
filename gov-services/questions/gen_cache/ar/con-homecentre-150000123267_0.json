@@ -1,0 +1,1 @@
+{"item": {"question": "ما الحد الأدنى من النقاط التي يجب إنفاقها في كل مرة في هذا المتجر؟", "gold": "20 نقطة", "answer_type": "number", "exact_values": ["20"]}, "cost": 0.0003721, "error": null}

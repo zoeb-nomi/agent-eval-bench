@@ -1,26 +1,26 @@
-# PRD: gov-services evaluation set
+# PRD: gov-services Arabic gap benchmark (scaled)
 
-A bilingual (English/Arabic) question set covering UAE government services, for evaluating an AI agent's ability to answer public-sector questions accurately.
+One page. Status: built and run 17 Nov 2026; Arabic labels not yet read by an Arabic reader.
 
-## 1. Users and use cases
+## 1. Question this answers
+Do general-purpose models answer the same practical question as well in Arabic as in English? Two tracks, 500 pairs each: UAE government services (closed book) and consumer support (answer from an official help page).
 
-1. **AI PM (product manager)** shows a prospective employer (ai71) proof of domain-specific evaluation capability: bilingual, public-sector, source-attributed.
-2. **Eval owner** runs an LLM judge against these questions to measure correctness, groundedness, and completeness.
-3. **Arabic-speaking reviewer** labels the Arabic subset to establish a human-judge agreement baseline in Arabic.
+## 2. Users
+1. AI PM campaign: citable evidence for UAE AI teams (ai71, Brain Co., Emirates, consumer companies).
+2. Eval owner: reruns the build and the run from the page list.
+3. Arabic reader (to be named): labels the Arabic subset and signs off before any number is quoted.
 
-## 2. Metric
+## 3. Method
+- Pairs are built from public pages that exist officially in both languages. The English question is written from the English page; the Arabic question is written from the Arabic page about the same fact (not a translation). Each item has both source URLs, the date read and a short gold answer.
+- Items whose answer is a number, fee, duration, document list or yes/no are `exact` and scored by code; the rest are scored by a cheap judge (deepseek-v4.1-flash). Sonnet re-judges a random 300 answers to measure agreement with the cheap judge.
+- Seven models through OpenRouter, every item in both languages, temperature 0. Accuracy is strict, with a 95% Wilson interval and the denominator; the gap is English minus Arabic on the same pairs.
+- Duplicate and near-duplicate check on both languages before selection. Rebuild: `scripts/build_sets.py`; run: `scripts/run_scale.py`; report: `scripts/report_scale.py`. Cached and resumable.
 
-Three axes scored 1–5, same as the main bench:
-- **Correctness**: Is the answer factually correct per the source page?
-- **Groundedness**: Is every claim supported by the cited URL?
-- **Completeness**: Does the answer cover all relevant aspects?
+## 4. Decisions and trade-offs
+- Money: pilot projected 51.89 USD for ten models; Zoeb approved up to 10 USD with three models dropped and cheaper judging. Final cost is in `results/arabic_gap.md`.
+- Eight models were asked for; seven were run under that ceiling. Arabic-first models (Jais, Falcon Arabic, ALLaM, Fanar) are not on OpenRouter; a separate task plans a free local run.
+- Size: about plus or minus 4 points per cell at n=500; the exact share makes scoring cheap and objective.
+- Limits: model-written Arabic questions and gold answers; static snapshot of pages; one run per model; no claim about any company's product (help pages are source text only).
 
-Reported per language: average scores, denominator count, and judge-vs-human agreement (exact match percentage) on a labelled subset.
-
-## 3. Trade-offs
-
-- **Source-limited**: Questions come only from public UAE government service pages (u.ae). Coverage is limited to what those pages describe.
-- **Factual, not conversational**: Unlike the main bench's multi-turn episodes, these are single-turn Q&A pairs. They test knowledge retrieval, not dialogue management.
-- **Static snapshot**: Each question carries the date the source page was read. Government services change; the dataset dates are not updated.
-- **Live judge, no human baseline yet**: Answers are judged by a live model (`anthropic/claude-sonnet-5.5`) and cross-checked by a second live model. Agreement with a human is not measured until a person fills `results/human_label_sheet.csv`. The earlier synthetic-judge figure has been removed.
-- **Arabic coverage**: The Arabic set mirrors the English set. A native Arabic reader should review the Arabic labels (questions, reference answers, judgements) before any number are treated as authoritative.
+## 5. Open
+Name an Arabic reader; fill `results/human_label_sheet.csv`; rerun the report to get agreement with human labels. Until then, no number is quotable.

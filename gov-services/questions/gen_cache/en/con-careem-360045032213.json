@@ -1,0 +1,1 @@
+{"items": [{"question": "How long can a mobile recharge take to show on the service provider's end, according to this retailer?", "gold": "Mobile recharges can take up to 24-48 hours to reflect on the service provider's end.", "answer_type": "number", "exact_values": ["24", "48"], "fact": "Mobile recharges take up to 24-48 hours to reflect."}], "cost": 0.0002563, "error": null}

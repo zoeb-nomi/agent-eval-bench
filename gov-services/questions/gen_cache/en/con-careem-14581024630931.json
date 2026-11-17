@@ -1,0 +1,1 @@
+{"items": [{"question": "According to this retailer's account deletion policy, how many days can the deletion process take?", "gold": "Account deletion can take up to 90 days.", "answer_type": "number", "exact_values": ["90"], "fact": "Account deletion can take up to 90 days"}], "cost": 0.0001938, "error": null}

@@ -1,0 +1,1 @@
+{"items": [{"question": "Where will customers see the name of the store they chose for their order?", "gold": "In the email confirmation.", "answer_type": "text", "exact_values": [], "fact": "Chosen store name appears in order email confirmation."}], "cost": 0.0001343, "error": null}

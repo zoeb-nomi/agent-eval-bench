@@ -1,0 +1,1 @@
+{"item": {"question": "ما تكلفة التوصيل إذا كانت قيمة الطلب أقل من 99 درهم؟", "gold": "10 درهم", "answer_type": "number", "exact_values": ["10"]}, "cost": 0.0002083, "error": null}

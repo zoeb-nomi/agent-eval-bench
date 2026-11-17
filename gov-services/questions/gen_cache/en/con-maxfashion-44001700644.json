@@ -1,0 +1,1 @@
+{"items": [{"question": "If I shop on several of this retailer's online brands, do I need a separate username and password for each one?", "gold": "No, the same username, password and account work for all of the brands.", "answer_type": "yesno", "exact_values": ["no"], "fact": "One username, password and account works across all online brands"}], "cost": 0.0002121, "error": null}

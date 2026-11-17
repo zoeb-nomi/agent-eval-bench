@@ -1,0 +1,1 @@
+{"items": [{"question": "Does a package renew automatically when its units are used up?", "gold": "No, the package will not auto renew; you must purchase a new package once the units are consumed.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Packages do not auto-renew; a new purchase is needed"}], "cost": 0.0001715, "error": null}

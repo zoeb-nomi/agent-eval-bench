@@ -1,0 +1,1 @@
+{"items": [{"question": "What is the maximum basket value in AED for the pay-later option with the buy-now-pay-later provider at this retailer?", "gold": "AED 1,000", "answer_type": "number", "exact_values": ["1000"], "fact": "Pay-later basket limit is AED 1,000 with the provider"}], "cost": 0.0002212, "error": null}

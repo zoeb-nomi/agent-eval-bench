@@ -1,0 +1,1 @@
+{"items": [{"question": "When a customer schedules a return by phone, must they wrap the returned products before handing them to the courier partner?", "gold": "Yes.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Returned products must be wrapped before handing to courier when scheduling by phone"}], "cost": 0.0002064, "error": null}

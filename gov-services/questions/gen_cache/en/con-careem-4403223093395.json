@@ -1,0 +1,1 @@
+{"items": [{"question": "Can the payment method of an order be changed once the order has been placed?", "gold": "No, changing the payment method is not possible once the order is placed.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Payment method cannot be changed after order placement."}], "cost": 0.0002217, "error": null}

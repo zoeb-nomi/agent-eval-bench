@@ -1,0 +1,1 @@
+{"items": [{"question": "How many hours a day is this retailer's help phone line available?", "gold": "24 hours a day, 7 days a week.", "answer_type": "number", "exact_values": ["24"], "fact": "Help line operates 24 hours daily, seven days weekly."}], "cost": 0.0002033, "error": null}

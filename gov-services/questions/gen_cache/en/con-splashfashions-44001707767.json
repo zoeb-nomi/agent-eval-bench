@@ -1,0 +1,1 @@
+{"items": [{"question": "How long is a new Credit Voucher valid for after it is issued?", "gold": "12 months from the date of issue.", "answer_type": "number", "exact_values": ["12"], "fact": "New credit voucher valid for 12 months from issue"}], "cost": 0.0001691, "error": null}

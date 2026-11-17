@@ -1,0 +1,1 @@
+{"items": [{"question": "How many days after deletion is initiated will an email-signed-in account be automatically deleted?", "gold": "Your account will be automatically deleted in 7 days.", "answer_type": "number", "exact_values": ["7"], "fact": "Email-signed accounts are automatically deleted after 7 days"}], "cost": 0.0001231, "error": null}

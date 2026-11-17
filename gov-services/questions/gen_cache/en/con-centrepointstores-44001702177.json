@@ -1,0 +1,1 @@
+{"items": [{"question": "What two ways can a customer use to cancel an order with this retailer?", "gold": "Via 'My Account' on the website, or by calling 800-MYCP (800-6927).", "answer_type": "list", "exact_values": ["My Account", "800-MYCP"], "fact": "Orders can be cancelled via My Account or phone call"}], "cost": 0.0002367, "error": null}

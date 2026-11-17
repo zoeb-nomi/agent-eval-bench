@@ -1,0 +1,1 @@
+{"items": [{"question": "If you have reached your daily card limit while topping up your wallet, how many hours should you wait before trying again?", "gold": "Try again after 24 hours.", "answer_type": "number", "exact_values": ["24"], "fact": "Daily card limit reached: retry top-up after 24 hours"}], "cost": 0.0002027, "error": null}

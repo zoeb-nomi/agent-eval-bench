@@ -1,0 +1,1 @@
+{"items": [{"question": "Under this retailer's card promotion, how many orders can a single user make with the discount per card?", "gold": "2 orders", "answer_type": "number", "exact_values": ["2"], "fact": "Discount can be used for 2 orders per user per card."}], "cost": 0.0002257, "error": null}

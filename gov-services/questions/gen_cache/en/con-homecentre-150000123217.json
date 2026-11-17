@@ -1,0 +1,1 @@
+{"items": [{"question": "Does this retailer accept credit cards issued by Emirates Islamic?", "gold": "Yes, Emirates Islamic is listed among the supported banks.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Emirates Islamic credit cards are among the supported banks."}], "cost": 0.0002643, "error": null}

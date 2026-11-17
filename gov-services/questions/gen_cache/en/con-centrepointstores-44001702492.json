@@ -1,0 +1,1 @@
+{"items": [{"question": "What happens to a customer's account if they enter the verification code wrong too many times while linking their loyalty and online store accounts?", "gold": "The account is locked for security reasons.", "answer_type": "text", "exact_values": [], "fact": "Too many wrong verification codes lock the linking account"}], "cost": 0.0002378, "error": null}

@@ -1,0 +1,1 @@
+{"items": [{"question": "Can a customer change the email address on an existing account with this retailer?", "gold": "No, you must create a new account to use a different email address.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Existing account email address cannot be changed; new account needed"}], "cost": 0.0002319, "error": null}

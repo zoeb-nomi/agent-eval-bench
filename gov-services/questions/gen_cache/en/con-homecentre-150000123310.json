@@ -1,0 +1,1 @@
+{"items": [{"question": "Do this retailer's shipping charges change depending on which brand site you shop from?", "gold": "Yes, shipping charges change depending on the brand site.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Shipping charges vary by brand site."}], "cost": 0.0001649, "error": null}

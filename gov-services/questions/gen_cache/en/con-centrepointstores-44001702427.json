@@ -1,0 +1,1 @@
+{"items": [{"question": "Can store opening hours differ between this retailer's locations?", "gold": "Yes, store timings may differ by location.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Store timings may differ by location; use Store Locator."}], "cost": 0.0001955, "error": null}

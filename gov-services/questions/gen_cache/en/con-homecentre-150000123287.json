@@ -1,0 +1,1 @@
+{"items": [{"question": "In the account's Payment section, can you set a default card?", "gold": "Yes, you can set a default card.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Payment section allows setting a default card: yes"}], "cost": 0.0002711, "error": null}

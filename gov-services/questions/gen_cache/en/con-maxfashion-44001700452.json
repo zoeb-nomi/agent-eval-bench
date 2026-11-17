@@ -1,0 +1,1 @@
+{"items": [{"question": "Does this retailer's loyalty programme charge members a fee to sign up?", "gold": "No, membership is free for life.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Loyalty programme membership is free for life, no fee"}], "cost": 0.0002225, "error": null}

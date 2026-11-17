@@ -1,0 +1,1 @@
+{"items": [{"question": "For the pay-later option, how many days after order delivery is the payment due, if that comes before 30 days after purchase?", "gold": "14 days after order delivery", "answer_type": "number", "exact_values": ["14"], "fact": "Pay-later payment due 14 days after delivery, or 30 days after purchase"}], "cost": 0.0002392, "error": null}

@@ -1,0 +1,1 @@
+{"items": [{"question": "What is the minimum order value for installment orders with ENBD, according to the table?", "gold": "750", "answer_type": "number", "exact_values": ["750"], "fact": "ENBD minimum order value for installments is 750."}], "cost": 0.0002401, "error": null}

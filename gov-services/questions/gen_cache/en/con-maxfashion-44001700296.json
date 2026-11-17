@@ -1,0 +1,1 @@
+{"items": [{"question": "If a customer returns a product they bought with a Credit Voucher, can they get a cash refund?", "gold": "No, a product bought with a Credit Voucher is not eligible for a cash refund on return.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Credit Voucher purchases are ineligible for cash refunds."}], "cost": 0.0002698, "error": null}

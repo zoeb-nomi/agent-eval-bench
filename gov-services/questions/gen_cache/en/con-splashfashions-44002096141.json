@@ -1,0 +1,1 @@
+{"items": [{"question": "How many digits is the verification code sent to your mobile number when paying with this payment option?", "gold": "4 digits", "answer_type": "number", "exact_values": ["4"], "fact": "Verification code sent to mobile is 4 digits long"}], "cost": 0.0001804, "error": null}

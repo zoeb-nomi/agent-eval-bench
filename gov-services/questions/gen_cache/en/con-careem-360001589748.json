@@ -1,0 +1,1 @@
+{"items": [{"question": "What star rating must you give your captain for the in-app tip option to appear?", "gold": "4 or 5 stars", "answer_type": "number", "exact_values": ["4", "5"], "fact": "In-app tip option requires a 4 or 5 star rating"}], "cost": 0.0002639, "error": null}

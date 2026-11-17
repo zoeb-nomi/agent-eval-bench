@@ -1,0 +1,1 @@
+{"items": [{"question": "Must customers use the same mobile number for both this retailer's government-linked program and the app it links to?", "gold": "Yes, the same mobile number must be used on both.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Same mobile number required for program and linked app"}], "cost": 0.0002701, "error": null}

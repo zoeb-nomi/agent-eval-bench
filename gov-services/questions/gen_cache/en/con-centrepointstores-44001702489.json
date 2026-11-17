@@ -1,0 +1,1 @@
+{"items": [{"question": "Can a guest user's Return Voucher be used for purchases across all of this retailer's brands?", "gold": "No, the Return Voucher is valid only for Centrepoint brand purchases online or in-store.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Return Voucher valid only for Centrepoint brand purchases"}], "cost": 0.0002565, "error": null}

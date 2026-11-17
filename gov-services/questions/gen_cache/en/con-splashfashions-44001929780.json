@@ -1,0 +1,1 @@
+{"items": [{"question": "Can customers currently pay cash on delivery for their orders?", "gold": "No, cash on delivery is temporarily unavailable; orders can be placed by credit or debit card.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Cash on delivery temporarily unavailable; card payment still accepted"}], "cost": 0.0002132, "error": null}

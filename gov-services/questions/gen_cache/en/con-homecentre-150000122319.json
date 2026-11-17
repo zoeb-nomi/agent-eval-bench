@@ -1,0 +1,1 @@
+{"items": [{"question": "If a customer returns only part of an order paid by Cash on Delivery, are the Cash on Delivery charges refunded?", "gold": "No, Cash on Delivery charges are not refunded for a partial return.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Partial returns do not refund Cash on Delivery charges"}], "cost": 0.0001592, "error": null}

@@ -1,0 +1,1 @@
+{"items": [{"question": "Can customers in the UAE drop off their return at any physical store of this retailer?", "gold": "Yes, returns can be dropped off at any store across the UAE.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Returns can be dropped off at any UAE store."}], "cost": 0.000233, "error": null}

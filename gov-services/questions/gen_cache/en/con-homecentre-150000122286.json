@@ -1,0 +1,1 @@
+{"items": [{"question": "Does this retailer give an additional discount on in-store purchases on the day a Click & Collect order is picked up?", "gold": "Yes.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Extra in-store discount on Click & Collect pickup day"}], "cost": 0.0002133, "error": null}

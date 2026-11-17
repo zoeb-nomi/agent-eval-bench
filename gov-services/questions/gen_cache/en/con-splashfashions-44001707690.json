@@ -1,0 +1,1 @@
+{"items": [{"question": "Which forms of ID are accepted when showing identification to the delivery partner on arrival?", "gold": "Either your passport or Emirates ID.", "answer_type": "list", "exact_values": ["passport", "Emirates ID"], "fact": "Delivery partner accepts passport or Emirates ID as identification"}], "cost": 0.0001081, "error": null}

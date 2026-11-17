@@ -1,0 +1,1 @@
+{"items": [{"question": "When a customer hands over a return in store, is an acknowledgement receipt given to them?", "gold": "Yes, an authorized staff member hands the customer an acknowledgement receipt.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Store staff give an acknowledgement receipt when return handed over."}], "cost": 0.0004028, "error": null}

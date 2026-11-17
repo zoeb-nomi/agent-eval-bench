@@ -1,0 +1,1 @@
+{"items": [{"question": "Can an order paid by Cash on Delivery be collected through Click & Collect?", "gold": "No, Cash on Delivery orders are excluded from Click & Collect.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Cash on Delivery orders are excluded from Click & Collect"}], "cost": 0.0002061, "error": null}

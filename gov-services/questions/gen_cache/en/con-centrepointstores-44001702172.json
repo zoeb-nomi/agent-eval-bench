@@ -1,0 +1,1 @@
+{"items": [{"question": "Does this retailer charge a fee for Click & Collect orders?", "gold": "No, Click & Collect is free from your chosen store.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Click & Collect is free from the chosen store."}], "cost": 0.0001917, "error": null}

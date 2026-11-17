@@ -1,0 +1,1 @@
+{"items": [{"question": "What is the maximum length of a ride, according to this retailer's e-bike share FAQ?", "gold": "Rides are limited to 45 minutes.", "answer_type": "number", "exact_values": ["45"], "fact": "E-bike rides are limited to 45 minutes each"}], "cost": 0.0001865, "error": null}

@@ -1,0 +1,1 @@
+{"items": [{"question": "How many additional business days may a bank or card issuer take to process a refund?", "gold": "4-15 business days", "answer_type": "number", "exact_values": ["4", "15"], "fact": "Bank or card issuer may take 4-15 extra business days"}], "cost": 0.0001114, "error": null}

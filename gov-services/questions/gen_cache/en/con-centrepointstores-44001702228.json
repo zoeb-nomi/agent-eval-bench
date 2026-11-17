@@ -1,0 +1,1 @@
+{"items": [{"question": "If I return my order, partially or fully, will I still receive a refund?", "gold": "Yes, you will receive a refund for your return.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Refund is received for a return, even when voucher is cancelled."}], "cost": 0.0002089, "error": null}

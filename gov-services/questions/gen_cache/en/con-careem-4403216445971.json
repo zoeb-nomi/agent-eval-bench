@@ -1,0 +1,1 @@
+{"items": [{"question": "Within how many minutes do restaurants typically accept an order after it is placed?", "gold": "Restaurants typically accept orders within 2 minutes of being placed.", "answer_type": "number", "exact_values": ["2"], "fact": "Restaurants typically accept orders within 2 minutes of placement"}], "cost": 0.000113, "error": null}

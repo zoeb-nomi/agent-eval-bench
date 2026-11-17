@@ -1,0 +1,1 @@
+{"items": [{"question": "Are this retailer's online prices always identical to its in-store prices?", "gold": "No. Online prices are usually the same as in-store prices, but exclusive promotions may cause differences.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Online prices usually match in-store, but promotions can differ."}], "cost": 0.0002116, "error": null}

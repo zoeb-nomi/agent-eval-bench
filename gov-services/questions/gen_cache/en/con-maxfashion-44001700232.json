@@ -1,0 +1,1 @@
+{"items": [{"question": "What does this retailer send customers who chose a pickup point other than a Max store?", "gold": "An SMS with a verification code, as well as their store details.", "answer_type": "text", "exact_values": [], "fact": "Non-Max pickup orders get SMS with verification code."}], "cost": 0.000219, "error": null}

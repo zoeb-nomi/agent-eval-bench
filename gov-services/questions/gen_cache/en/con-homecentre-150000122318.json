@@ -1,0 +1,1 @@
+{"items": [{"question": "How long is the new Credit Voucher issued to a guest or non-activated user valid for?", "gold": "12 months from the date of issue.", "answer_type": "number", "exact_values": ["12"], "fact": "New Credit Voucher valid for 12 months from issue"}], "cost": 0.0001568, "error": null}

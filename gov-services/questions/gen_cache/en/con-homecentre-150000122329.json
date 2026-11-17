@@ -1,0 +1,1 @@
+{"items": [{"question": "What are this retailer's customer support hours?", "gold": "Between 9:00 AM and 10:00 PM, Sunday to Thursday.", "answer_type": "text", "exact_values": [], "fact": "Customer support hours are 9 AM to 10 PM, Sunday-Thursday"}], "cost": 0.0001075, "error": null}

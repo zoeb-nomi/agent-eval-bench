@@ -1,0 +1,1 @@
+{"items": [{"question": "Are all products eligible for free shipping once the minimum purchase amount for free shipping has been met?", "gold": "Yes.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "All products qualify for free shipping after minimum purchase threshold is met."}], "cost": 0.0002216, "error": null}

@@ -1,0 +1,1 @@
+{"items": [{"question": "Can an order that has already been dispatched be cancelled through the cancellation process?", "gold": "No, only orders in the Processing stage can be cancelled.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Only Processing-stage orders can be cancelled; dispatched orders cannot."}], "cost": 0.0002546, "error": null}

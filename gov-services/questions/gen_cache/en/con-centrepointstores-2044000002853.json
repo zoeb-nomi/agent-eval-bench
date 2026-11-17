@@ -1,0 +1,1 @@
+{"items": [{"question": "Does the warranty apply to products bought online from this retailer's website?", "gold": "Yes, the warranty applies to products purchased online from the retailer's websites.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Warranty covers products purchased online from the retailer's websites"}], "cost": 0.0001998, "error": null}

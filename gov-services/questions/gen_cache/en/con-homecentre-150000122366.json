@@ -1,0 +1,1 @@
+{"items": [{"question": "After a non-furniture delivery is missed, how many more delivery attempts does this retailer's partner make before the order is returned?", "gold": "Two more attempts.", "answer_type": "number", "exact_values": ["2"], "fact": "Non-furniture orders get two more delivery attempts after a missed delivery."}], "cost": 0.0002179, "error": null}

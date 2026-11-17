@@ -1,0 +1,1 @@
+{"items": [{"question": "Can the delivery location be changed after an order has been placed?", "gold": "No, the location cannot be changed once the order is placed.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Delivery location cannot be changed after the order is placed."}], "cost": 0.000201, "error": null}

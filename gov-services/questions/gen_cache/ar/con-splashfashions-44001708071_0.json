@@ -1,0 +1,1 @@
+{"item": {"question": "ما مدة صلاحية النقاط في برنامج هذا المتجر قبل أن تنتهي؟", "gold": "24 شهرًا", "answer_type": "number", "exact_values": ["24"]}, "cost": 0.0003159, "error": null}

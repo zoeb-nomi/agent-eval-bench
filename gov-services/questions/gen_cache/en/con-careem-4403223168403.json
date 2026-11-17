@@ -1,0 +1,1 @@
+{"items": [{"question": "Within how many hours after delivery should a food order complaint be shared with this retailer?", "gold": "Within the first four hours after delivery.", "answer_type": "number", "exact_values": ["4"], "fact": "Food complaints must be shared within four hours after delivery."}], "cost": 0.0001694, "error": null}

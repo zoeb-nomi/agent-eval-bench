@@ -1,0 +1,1 @@
+{"items": [{"question": "What delivery charge applies to a household order with a total value below AED 250?", "gold": "AED 18 delivery charge.", "answer_type": "number", "exact_values": ["18"], "fact": "Household orders under AED 250 incur AED 18 delivery charge"}], "cost": 0.0001272, "error": null}

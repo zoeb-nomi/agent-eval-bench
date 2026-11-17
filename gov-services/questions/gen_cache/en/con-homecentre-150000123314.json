@@ -1,0 +1,1 @@
+{"items": [{"question": "Can a discount code be used on Best Price products?", "gold": "No.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Discount codes exclude Best Price products."}], "cost": 0.0001697, "error": null}

@@ -1,0 +1,1 @@
+{"items": [{"question": "Within how many hours of delivery can a customer raise a concern about a received product or their Captain?", "gold": "Within 24 hours of delivery.", "answer_type": "number", "exact_values": ["24"], "fact": "Concerns about received products must be raised within 24 hours of delivery."}], "cost": 0.0001098, "error": null}

@@ -1,0 +1,1 @@
+{"items": [{"question": "Can a customer store their details once in their account and use Buy Now on any of their devices?", "gold": "Yes.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Details saved once in account enable Buy Now on any device"}], "cost": 0.0001859, "error": null}

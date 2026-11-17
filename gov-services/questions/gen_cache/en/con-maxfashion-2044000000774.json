@@ -1,0 +1,1 @@
+{"items": [{"question": "Are all products eligible for ShukranExpress express shipping?", "gold": "No, only some selected products are available for express shipping.", "answer_type": "yesno", "exact_values": ["no"], "fact": "ShukranExpress covers only selected products, not all products"}], "cost": 0.0001794, "error": null}

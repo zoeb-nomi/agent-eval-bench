@@ -1,0 +1,1 @@
+{"items": [{"question": "Can a customer choose any charity they like to receive a donation when paying?", "gold": "No, donations can only be made to the retailer's charity partner.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Donations can only go to the retailer's charity partner"}], "cost": 0.0002688, "error": null}

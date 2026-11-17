@@ -1,0 +1,1 @@
+{"items": [{"question": "Can online purchases from this retailer's website be returned to its shoe-brand stores?", "gold": "No.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Online purchases can't be returned to shoe-brand stores"}], "cost": 0.0003522, "error": null}

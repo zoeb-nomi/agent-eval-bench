@@ -1,0 +1,1 @@
+{"items": [{"question": "Can a customer currently have an unwanted item collected from their address for a return?", "gold": "No, return collections are currently not being processed.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Return collections are currently suspended; items can be returned in store."}], "cost": 0.0001458, "error": null}

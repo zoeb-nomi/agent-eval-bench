@@ -1,0 +1,1 @@
+{"items": [{"question": "Can a product with a 'sourced from & shipped by' tag be returned to a store?", "gold": "No, products with a 'sourced from & shipped by' tag are not eligible for returns to store.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Products tagged 'sourced from & shipped by' are not eligible for store returns."}], "cost": 0.000199, "error": null}

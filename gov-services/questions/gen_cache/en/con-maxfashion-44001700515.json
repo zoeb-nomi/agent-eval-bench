@@ -1,0 +1,1 @@
+{"items": [{"question": "If an order placed using Shukrans is cancelled, can the customer keep the Shukrans they earned on that order?", "gold": "No, the Shukrans earned on the order are taken back.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Earned Shukrans are taken back when a Shukrans order is cancelled."}], "cost": 0.0002603, "error": null}

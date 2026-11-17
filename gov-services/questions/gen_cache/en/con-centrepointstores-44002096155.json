@@ -1,0 +1,1 @@
+{"items": [{"question": "Can a customer pay for an existing order by logging into their account and selecting that order?", "gold": "Yes, by logging in with the mobile number used during purchase and choosing the order.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Customers can pay for an order by logging in and selecting it."}], "cost": 0.0002874, "error": null}

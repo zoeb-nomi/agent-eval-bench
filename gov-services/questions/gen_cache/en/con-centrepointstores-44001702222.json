@@ -1,0 +1,1 @@
+{"items": [{"question": "Can a customer return items that were originally bought as part of a promotion?", "gold": "Yes, but the customer loses the discount.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Promotional items can be returned, but the discount is forfeited."}], "cost": 0.0001714, "error": null}

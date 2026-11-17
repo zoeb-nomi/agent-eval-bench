@@ -1,0 +1,1 @@
+{"items": [{"question": "Can customers search directly for the specific product they want on this retailer's app?", "gold": "Yes, customers can search directly for what they want.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Customers can search directly for products in the app"}], "cost": 0.0002261, "error": null}

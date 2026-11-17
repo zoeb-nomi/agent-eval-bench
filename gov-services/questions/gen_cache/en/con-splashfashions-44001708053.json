@@ -1,0 +1,1 @@
+{"items": [{"question": "If you return an item bought with Cash on Delivery, do you keep your Shukrans?", "gold": "Yes, you keep your Shukrans and receive a Return Voucher for the refund value.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Cash on Delivery returns keep Shukrans and give a voucher"}], "cost": 0.0002466, "error": null}

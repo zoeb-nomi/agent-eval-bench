@@ -1,0 +1,1 @@
+{"items": [{"question": "If an order was paid for in cash, what type of refund will the customer receive?", "gold": "A cash refund.", "answer_type": "text", "exact_values": [], "fact": "Cash payments are refunded as cash refunds"}], "cost": 0.0002311, "error": null}

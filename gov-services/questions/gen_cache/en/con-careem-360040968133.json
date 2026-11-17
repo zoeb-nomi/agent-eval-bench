@@ -1,0 +1,1 @@
+{"items": [{"question": "Is it okay to remove the e-bike from the dock before the buzzer and green light appear?", "gold": "No, pulling it before the buzzer and green light may damage the dock and e-bike.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Pulling e-bike before buzzer may damage dock and bike."}], "cost": 0.0002749, "error": null}

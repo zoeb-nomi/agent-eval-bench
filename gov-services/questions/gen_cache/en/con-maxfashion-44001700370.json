@@ -1,0 +1,1 @@
+{"items": [{"question": "When a customer calls to request a return, how is the pickup time set?", "gold": "This retailer arranges a convenient time and day for its delivery partner to pick up the items.", "answer_type": "text", "exact_values": [], "fact": "Return pickup scheduled at a convenient time and day"}], "cost": 0.0001755, "error": null}

@@ -1,0 +1,1 @@
+{"items": [{"question": "Which phone number should you call for an ambulance after an e-bike accident, according to this retailer's help page?", "gold": "998", "answer_type": "number", "exact_values": ["998"], "fact": "Ambulance number after accident is 998."}], "cost": 0.0001828, "error": null}

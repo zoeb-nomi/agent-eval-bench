@@ -1,0 +1,1 @@
+{"items": [{"question": "Can a customer change the pick-up store for their order?", "gold": "No, the pick-up store cannot be changed; the order must be picked up at the originally selected store.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Pick-up store cannot be changed after selecting it"}], "cost": 0.0001749, "error": null}

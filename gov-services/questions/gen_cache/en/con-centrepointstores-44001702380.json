@@ -1,0 +1,1 @@
+{"items": [{"question": "If a Thank You screen does not appear after placing an order, has the order been processed?", "gold": "No, the order has not been processed.", "answer_type": "yesno", "exact_values": ["no"], "fact": "No Thank You screen means the order was not processed"}], "cost": 0.0002222, "error": null}

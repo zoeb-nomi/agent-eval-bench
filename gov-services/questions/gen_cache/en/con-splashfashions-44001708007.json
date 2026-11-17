@@ -1,0 +1,1 @@
+{"items": [{"question": "What minimum spend on eligible products within a one-year period automatically enrolls a customer in this retailer's membership program?", "gold": "AED 1500", "answer_type": "number", "exact_values": ["1500"], "fact": "Automatic membership enrollment requires AED 1500 spend within one year."}], "cost": 0.0002025, "error": null}

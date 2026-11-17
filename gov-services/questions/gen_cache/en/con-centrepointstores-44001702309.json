@@ -1,0 +1,1 @@
+{"items": [{"question": "Can a customer return items to any of this retailer's stores across the UAE, rather than only one specific store?", "gold": "Yes, at any of this retailer's stores across the UAE.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Returns can be dropped off at any store across the UAE."}], "cost": 0.0003638, "error": null}

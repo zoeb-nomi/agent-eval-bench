@@ -1,0 +1,1 @@
+{"item": {"question": "هل يقدم هذا المتجر خدمة الشراء بالجملة؟", "gold": "نعم، نقدم خدمة الشراء بالجملة.", "answer_type": "yesno", "exact_values": ["yes"]}, "cost": 0.000193, "error": null}

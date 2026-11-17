@@ -1,0 +1,1 @@
+{"items": [{"question": "Can a customer cancel an order without being charged after the restaurant has accepted it?", "gold": "No, the customer will be charged the order amount.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Cancelling after restaurant acceptance incurs the full order charge"}], "cost": 0.0002005, "error": null}

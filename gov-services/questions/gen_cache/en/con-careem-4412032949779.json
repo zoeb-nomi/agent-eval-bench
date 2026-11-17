@@ -1,0 +1,1 @@
+{"items": [{"question": "In which emirates can customers use this retailer's e-bike service?", "gold": "Dubai and Abu Dhabi.", "answer_type": "list", "exact_values": ["Dubai", "Abu Dhabi"], "fact": "E-bike service is available in Dubai and Abu Dhabi."}], "cost": 0.0002237, "error": null}

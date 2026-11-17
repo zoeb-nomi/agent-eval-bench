@@ -1,0 +1,1 @@
+{"items": [{"question": "For an installment purchase, is the full amount charged to the card on the day of the transaction?", "gold": "Yes, the full amount is charged on your card on the day of the transaction.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Full amount charged to card on transaction day, not installments"}], "cost": 0.0002611, "error": null}

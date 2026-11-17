@@ -1,0 +1,1 @@
+{"items": [{"question": "Can a customer pay for an order in installments with this retailer?", "gold": "Yes, with select cards, if the order and card are eligible.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Installment payment is available with select cards when eligible."}], "cost": 0.0002059, "error": null}

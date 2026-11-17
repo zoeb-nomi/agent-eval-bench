@@ -1,0 +1,1 @@
+{"items": [{"question": "Can customers start a return online through this retailer's website?", "gold": "Yes.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Returns can be raised online via the My Account Order History page."}], "cost": 0.0001671, "error": null}

@@ -1,0 +1,1 @@
+{"items": [{"question": "What percentage of the cost is deducted right away when a customer chooses the pay-in-installments option?", "gold": "25% of the cost is deducted right away.", "answer_type": "number", "exact_values": ["25"], "fact": "Installment option deducts 25% of cost immediately, then monthly."}], "cost": 0.0002872, "error": null}

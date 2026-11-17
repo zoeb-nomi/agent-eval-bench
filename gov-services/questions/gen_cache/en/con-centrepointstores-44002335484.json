@@ -1,0 +1,1 @@
+{"items": [{"question": "Is express priority home delivery available for every product this retailer sells?", "gold": "No, only some selected products are available for express shipping.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Express priority home delivery covers only selected products, not all"}], "cost": 0.0002174, "error": null}

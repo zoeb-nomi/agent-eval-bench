@@ -1,0 +1,1 @@
+{"items": [{"question": "Does the amount shown at checkout at this retailer include VAT?", "gold": "Yes, the amount shown at checkout includes VAT, so you don't pay anything additional.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Checkout amount includes VAT; no additional payment needed."}], "cost": 0.0001721, "error": null}

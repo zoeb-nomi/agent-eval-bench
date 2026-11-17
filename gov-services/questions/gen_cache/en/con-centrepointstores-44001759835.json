@@ -1,0 +1,1 @@
+{"items": [{"question": "Within how many days does the bank convert the full charge into instalments after a credit card order is placed?", "gold": "Within 3-7 days.", "answer_type": "number", "exact_values": ["3", "7"], "fact": "Bank converts credit card charge into instalments within 3-7 days"}], "cost": 0.0002168, "error": null}

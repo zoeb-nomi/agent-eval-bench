@@ -1,0 +1,1 @@
+{"items": [{"question": "Is same-day delivery guaranteed for orders placed late in the day?", "gold": "No, late-day orders may not be eligible for same-day delivery.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Late-day orders may not qualify for same-day delivery."}], "cost": 0.0001927, "error": null}

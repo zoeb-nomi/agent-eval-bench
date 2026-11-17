@@ -1,0 +1,1 @@
+{"items": [{"question": "Can I shop on this retailer's site without signing in to an account?", "gold": "Yes, you can shop as a guest by skipping the sign-in process.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Guest shopping allowed by skipping sign-in process"}], "cost": 0.000179, "error": null}

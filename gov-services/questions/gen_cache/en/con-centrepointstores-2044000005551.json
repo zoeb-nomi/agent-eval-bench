@@ -1,0 +1,1 @@
+{"items": [{"question": "Can the voucher amount be refunded if a booking is cancelled?", "gold": "No, the voucher amount is non-refundable in case of cancellation or refund.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Voucher amount is non-refundable on cancellation or refund."}], "cost": 0.0002705, "error": null}

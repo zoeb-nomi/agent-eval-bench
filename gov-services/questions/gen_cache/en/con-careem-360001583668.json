@@ -1,0 +1,1 @@
+{"items": [{"question": "How many distinct car categories does this service offer, according to the page?", "gold": "Three distinct categories.", "answer_type": "number", "exact_values": ["3"], "fact": "The service offers three distinct car categories, varying in price, size, comfort"}], "cost": 0.000224, "error": null}

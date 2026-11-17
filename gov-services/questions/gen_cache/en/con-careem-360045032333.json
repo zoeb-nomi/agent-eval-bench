@@ -1,0 +1,1 @@
+{"items": [{"question": "Can a customer edit saved card details at this retailer?", "gold": "No, card details cannot be edited; the card must be removed and added again with the correct details.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Saved card details cannot be edited, only removed and re-added"}], "cost": 0.0001038, "error": null}

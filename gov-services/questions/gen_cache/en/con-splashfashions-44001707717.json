@@ -1,0 +1,1 @@
+{"items": [{"question": "How many days will this retailer hold a return order in store before initiating the return and refund?", "gold": "14 days", "answer_type": "number", "exact_values": ["14"], "fact": "Store holds returned order for 14 days before refund processing"}], "cost": 0.0001519, "error": null}

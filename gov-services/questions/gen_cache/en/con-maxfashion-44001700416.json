@@ -1,0 +1,1 @@
+{"items": [{"question": "Does this retailer say delivery to Das Island may take a few extra days?", "gold": "Yes, Das Island is listed among areas where delivery may take a few extra days.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Das Island is listed as an area with extra delivery days."}], "cost": 0.0002272, "error": null}

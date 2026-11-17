@@ -1,0 +1,1 @@
+{"items": [{"question": "Can the My Credit balance be transferred to a bank account at this retailer?", "gold": "No, the My Credit balance cannot be transferred to a bank account or paid out in cash.", "answer_type": "yesno", "exact_values": ["no"], "fact": "My Credit balance cannot be transferred to bank account or cashed out"}], "cost": 0.0001838, "error": null}

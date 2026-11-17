@@ -1,0 +1,1 @@
+{"item": {"question": "ما قيمة الرسوم الإضافية لخدمة التوصيل في نفس اليوم في هذا المتجر؟", "gold": "18 درهم", "answer_type": "number", "exact_values": ["18"]}, "cost": 0.0001806, "error": null}

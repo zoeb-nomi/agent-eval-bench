@@ -1,0 +1,1 @@
+{"items": [{"question": "Is the full amount charged to your card on the day of the transaction?", "gold": "Yes, the full amount is charged on your card on the day of the transaction.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Full amount is charged to card on transaction day"}], "cost": 0.0002699, "error": null}

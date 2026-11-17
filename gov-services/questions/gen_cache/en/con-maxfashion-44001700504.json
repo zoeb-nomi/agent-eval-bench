@@ -1,0 +1,1 @@
+{"items": [{"question": "Do you earn loyalty points when you shop with a return voucher from this retailer?", "gold": "No, you will not earn any loyalty points when you shop with the Return Voucher.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Return voucher purchases earn no loyalty points at all."}], "cost": 0.0002871, "error": null}

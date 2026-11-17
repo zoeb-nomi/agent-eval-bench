@@ -1,0 +1,1 @@
+{"items": [{"question": "Where does this retailer send the receipt for a completed order?", "gold": "To the customer's registered email address.", "answer_type": "text", "exact_values": [], "fact": "Receipts are emailed to the registered email address for completed orders"}], "cost": 9.44e-05, "error": null}

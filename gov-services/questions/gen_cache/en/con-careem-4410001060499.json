@@ -1,0 +1,1 @@
+{"items": [{"question": "Can a customer pay for a ride with physical currency under this retailer's payment options?", "gold": "Yes, customers can pay with physical currency.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Physical currency cash payment is accepted for rides."}], "cost": 0.0002857, "error": null}

@@ -1,0 +1,1 @@
+{"items": [{"question": "Within how many days from the billing date will this retailer deliver goods?", "gold": "Within 5 days from the billing date.", "answer_type": "number", "exact_values": ["5"], "fact": "Delivery period is within 5 days from billing date"}], "cost": 9.56e-05, "error": null}

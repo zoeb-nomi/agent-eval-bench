@@ -1,0 +1,1 @@
+{"items": [{"question": "How many promo codes can be used on a single order?", "gold": "Only one promo code can be used per order.", "answer_type": "number", "exact_values": ["1"], "fact": "Only one promo code can be used per order"}], "cost": 0.0001731, "error": null}

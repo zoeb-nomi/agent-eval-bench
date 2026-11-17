@@ -1,0 +1,1 @@
+{"items": [{"question": "If a customer's basket contains products from more than one of this retailer's Centrepoint brands, where can the order be picked up?", "gold": "Only from a Centrepoint store.", "answer_type": "text", "exact_values": [], "fact": "Multi-brand basket pickup is limited to Centrepoint stores only"}], "cost": 0.0002723, "error": null}

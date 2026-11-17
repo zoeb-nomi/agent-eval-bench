@@ -1,0 +1,1 @@
+{"items": [{"question": "If a customer wants to cancel an order held for collection, can they do so by contacting customer support?", "gold": "Yes", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Orders can be cancelled by contacting customer support team"}], "cost": 0.0002093, "error": null}

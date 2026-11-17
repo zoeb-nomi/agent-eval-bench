@@ -1,0 +1,1 @@
+{"items": [{"question": "Until what date can customers place orders that will still be processed and delivered as usual?", "gold": "Orders placed before March 13th.", "answer_type": "text", "exact_values": [], "fact": "Orders placed before March 13th are processed and delivered as usual."}], "cost": 0.0002232, "error": null}

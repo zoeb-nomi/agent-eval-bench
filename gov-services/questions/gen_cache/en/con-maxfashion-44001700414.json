@@ -1,0 +1,1 @@
+{"items": [{"question": "Within how many working days after the third failed delivery attempt should a customer call this retailer to reschedule?", "gold": "Within two working days of the third attempt.", "answer_type": "number", "exact_values": ["2"], "fact": "Customers must call within two working days after third failed delivery attempt."}], "cost": 0.0001885, "error": null}

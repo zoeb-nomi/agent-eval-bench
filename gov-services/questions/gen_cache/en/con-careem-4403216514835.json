@@ -1,0 +1,1 @@
+{"items": [{"question": "Can this retailer's food order payment method be changed from cash to card after the order is placed?", "gold": "Yes, the payment method can be updated from cash to a card once the order is placed.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Cash payment can be switched to card after ordering"}], "cost": 0.0002802, "error": null}

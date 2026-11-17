@@ -1,0 +1,1 @@
+{"items": [{"question": "How many hours before the renewal date must an auto-renewal be cancelled to avoid being charged?", "gold": "At least 24 hours before the renewal date.", "answer_type": "number", "exact_values": ["24"], "fact": "Auto-renewal cancellation required at least 24 hours before renewal"}], "cost": 0.0001911, "error": null}

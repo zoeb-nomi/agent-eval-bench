@@ -1,0 +1,1 @@
+{"items": [{"question": "How long is the new Credit Voucher valid for when issued to a guest user or a registered user without an activated Shukran Pay wallet?", "gold": "12 months from the date of issue.", "answer_type": "number", "exact_values": ["12"], "fact": "Credit Voucher validity is 12 months from issue date."}], "cost": 0.0001188, "error": null}

@@ -1,0 +1,1 @@
+{"items": [{"question": "Within how many days of making a purchase must a customer link their online store account and loyalty account to still earn loyalty points?", "gold": "Within 5 days of making the purchase.", "answer_type": "number", "exact_values": ["5"], "fact": "Loyalty points still earned if accounts linked within 5 days"}], "cost": 0.000202, "error": null}

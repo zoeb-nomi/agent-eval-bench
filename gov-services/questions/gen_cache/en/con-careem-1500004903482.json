@@ -1,0 +1,1 @@
+{"items": [{"question": "Does this retailer's wallet top-up by cash have a limit on how much extra you can add over the ride cost?", "gold": "Yes, there is a limit on the amount you can add over the ride cost.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Cash wallet top-up has a limit above ride cost"}], "cost": 0.0002449, "error": null}

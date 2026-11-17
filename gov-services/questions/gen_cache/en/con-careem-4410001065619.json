@@ -1,0 +1,1 @@
+{"items": [{"question": "How are trip receipts delivered to customers?", "gold": "Receipts are sent via email after the ride.", "answer_type": "text", "exact_values": [], "fact": "Trip receipts are emailed after each ride completes."}], "cost": 0.0001576, "error": null}

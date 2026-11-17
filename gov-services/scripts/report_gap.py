@@ -2,7 +2,7 @@
 """Reads results/raw + results/judgements, writes results/arabic_gap.md and results/human_label_sheet.csv."""
 import json, pathlib, csv, collections, random
 ROOT = pathlib.Path(__file__).resolve().parent.parent; R = ROOT / "results"
-meta = json.loads((R / "run_meta.json").read_text())
+meta = json.loads((R / "run_meta.json").read_text()); meta = meta.get("earlier_run", meta)  # the scaled run moved the small run here
 def jl(j): return [json.loads(l) for l in (R / "judgements" / (j.replace("/", "__") + ".jsonl")).read_text().splitlines()]
 J1, J2 = jl(meta["judge"]), jl(meta["judge2"])
 def score(v): return {"correct": 1.0, "partial": 0.5}.get(v, 0.0)

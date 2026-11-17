@@ -1,0 +1,1 @@
+{"items": [{"question": "Within how many days of the delivery date must items be returned?", "gold": "Within 14 days of the delivery date.", "answer_type": "number", "exact_values": ["14"], "fact": "Return window is 14 days from delivery date"}], "cost": 9.47e-05, "error": null}

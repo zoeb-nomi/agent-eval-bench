@@ -1,0 +1,1 @@
+{"items": [{"question": "From what time can a customer pick up their order from this retailer's store?", "gold": "After 3:00 PM.", "answer_type": "text", "exact_values": [], "fact": "Orders can be picked up any time after 3:00 PM"}], "cost": 0.0001789, "error": null}

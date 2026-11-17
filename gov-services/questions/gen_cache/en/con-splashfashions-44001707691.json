@@ -1,0 +1,1 @@
+{"items": [{"question": "What identification must a person show the delivery partner to receive an order on your behalf?", "gold": "A valid ID of their own, either a Passport or an Emirates ID.", "answer_type": "list", "exact_values": ["Passport", "Emirates ID"], "fact": "Substitute recipient must show valid passport or Emirates ID"}], "cost": 0.0001888, "error": null}

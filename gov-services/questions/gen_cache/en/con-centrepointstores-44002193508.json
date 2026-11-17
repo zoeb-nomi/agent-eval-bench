@@ -1,0 +1,1 @@
+{"items": [{"question": "Do you have to buy at least one product from this retailer to make a charity donation?", "gold": "Yes, you must purchase at least one product on the website or app to make the donation.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "A charity donation requires purchasing at least one product first"}], "cost": 0.0001843, "error": null}

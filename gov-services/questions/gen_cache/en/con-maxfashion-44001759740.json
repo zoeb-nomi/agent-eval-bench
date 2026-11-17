@@ -1,0 +1,1 @@
+{"items": [{"question": "If a customer cancels or returns an order bought on installments, how is the refund initiated?", "gold": "The retailer initiates the refund as per its Return Policy.", "answer_type": "text", "exact_values": [], "fact": "Installment order refunds follow the Return Policy after cancellation or return."}], "cost": 0.0002065, "error": null}

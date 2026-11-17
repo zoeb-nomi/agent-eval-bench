@@ -1,0 +1,1 @@
+{"items": [{"question": "Can a customer pay for an order in installments with any card?", "gold": "No, only select cards from participating banks, and only if the order and card are eligible.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Installments are available only with select bank cards and eligible orders."}], "cost": 0.0002034, "error": null}

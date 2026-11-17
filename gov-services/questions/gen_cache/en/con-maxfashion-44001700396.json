@@ -1,0 +1,1 @@
+{"items": [{"question": "Can a customer set up an account on this retailer's site using their Facebook profile?", "gold": "Yes, by clicking 'Sign In with Facebook' and accepting the permissions dialog.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Account can be created using Facebook profile details instead of sign-up page."}], "cost": 0.0002758, "error": null}

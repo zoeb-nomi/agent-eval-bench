@@ -1,0 +1,1 @@
+{"items": [{"question": "What is the maximum number of stops you can add to a ride in this retailer's app?", "gold": "Up to 5 stops.", "answer_type": "number", "exact_values": ["5"], "fact": "App allows adding up to five stops per ride"}], "cost": 0.0001936, "error": null}

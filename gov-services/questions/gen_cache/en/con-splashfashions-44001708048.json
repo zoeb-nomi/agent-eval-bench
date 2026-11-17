@@ -1,0 +1,1 @@
+{"items": [{"question": "Once a customer links their loyalty program account to their online account, can they earn loyalty points on all their online purchases?", "gold": "Yes.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Linking loyalty account enables earning points on all online purchases"}], "cost": 0.0003025, "error": null}

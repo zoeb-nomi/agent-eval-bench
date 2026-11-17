@@ -1,0 +1,1 @@
+{"items": [{"question": "Can this service pick customers up at airports in Dubai or Ras Al-Khaimah?", "gold": "No, pickups are excluded at the airports.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Taxi pickup excludes airports in Dubai and Ras Al-Khaimah."}], "cost": 0.0002304, "error": null}

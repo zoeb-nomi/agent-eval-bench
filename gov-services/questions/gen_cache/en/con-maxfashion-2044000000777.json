@@ -1,0 +1,1 @@
+{"items": [{"question": "Is this retailer's express delivery program available in all areas?", "gold": "No, it is launched only in limited areas for now.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Express delivery program launched only in limited areas currently"}], "cost": 0.0002564, "error": null}

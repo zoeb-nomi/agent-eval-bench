@@ -1,0 +1,1 @@
+{"items": [{"question": "What two things should a customer check if a wallet voucher is not working?", "gold": "The voucher's expiry date and the terms and conditions printed on the voucher.", "answer_type": "list", "exact_values": ["expiry", "terms"], "fact": "Voucher troubleshooting checks: expiry date and terms and conditions."}], "cost": 0.0002275, "error": null}

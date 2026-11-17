@@ -1,0 +1,1 @@
+{"items": [{"question": "Why are some delivery dates shown on this retailer's site only as tentative?", "gold": "Some products are delivered directly from supplier partners or may require installation.", "answer_type": "text", "exact_values": [], "fact": "Tentative delivery dates apply to supplier-shipped or installation-requiring products."}], "cost": 0.0001879, "error": null}

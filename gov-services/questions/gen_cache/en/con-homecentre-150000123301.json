@@ -1,0 +1,1 @@
+{"items": [{"question": "Which delivery options can customers choose when placing an online order with this retailer?", "gold": "Home Delivery or Click & Collect.", "answer_type": "list", "exact_values": ["Home Delivery", "Click & Collect"], "fact": "Online orders offer only Home Delivery and Click & Collect options."}], "cost": 0.0002167, "error": null}

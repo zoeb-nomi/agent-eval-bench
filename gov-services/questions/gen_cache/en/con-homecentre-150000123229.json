@@ -1,0 +1,1 @@
+{"items": [{"question": "With this retailer's Tabby pay-in-installments option, what percentage of the cost is deducted right away?", "gold": "25% of the cost is deducted right away.", "answer_type": "number", "exact_values": ["25"], "fact": "Tabby installment option deducts 25% of cost immediately."}], "cost": 0.0001902, "error": null}

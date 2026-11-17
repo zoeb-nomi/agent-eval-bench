@@ -1,0 +1,1 @@
+{"items": [{"question": "Is the charity donation at checkout mandatory?", "gold": "No, the charity donation is completely voluntary and optional.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Charity donation at checkout is voluntary and optional, not mandatory."}], "cost": 0.0002073, "error": null}

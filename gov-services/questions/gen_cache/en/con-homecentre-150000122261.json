@@ -1,0 +1,1 @@
+{"items": [{"question": "Can a customer change the delivery address of an order online with this retailer?", "gold": "No, the address cannot be changed online.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Delivery address cannot be changed online; must request when called."}], "cost": 0.000171, "error": null}

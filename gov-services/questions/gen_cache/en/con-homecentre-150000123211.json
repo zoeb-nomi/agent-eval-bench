@@ -1,0 +1,1 @@
+{"items": [{"question": "What is the minimum balance of Shukrans needed to use them at checkout?", "gold": "A minimum balance of 200 Shukrans.", "answer_type": "number", "exact_values": ["200"], "fact": "Shukrans minimum balance required for use is 200"}], "cost": 0.0001075, "error": null}

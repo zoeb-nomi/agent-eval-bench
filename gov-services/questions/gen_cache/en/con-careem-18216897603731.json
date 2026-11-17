@@ -1,0 +1,1 @@
+{"items": [{"question": "In the app, where can a customer find a past order to reorder it?", "gold": "Under Activities, tap Reorder.", "answer_type": "text", "exact_values": [], "fact": "Past orders are reordered from the Activities section via Reorder"}], "cost": 0.0002042, "error": null}

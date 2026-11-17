@@ -1,0 +1,1 @@
+{"items": [{"question": "Where will the name of the customer's chosen pickup point appear?", "gold": "In the email confirmation.", "answer_type": "text", "exact_values": [], "fact": "Chosen pickup point name shown in email confirmation."}], "cost": 0.0001807, "error": null}

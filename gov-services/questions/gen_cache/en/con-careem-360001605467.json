@@ -1,0 +1,1 @@
+{"items": [{"question": "Can the pickup location still be changed on the app after a captain has been assigned?", "gold": "No, once a Captain is assigned you cannot change the pickup location on the app.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Pickup location cannot be changed on the app after captain assignment."}], "cost": 0.0002586, "error": null}

@@ -1,0 +1,1 @@
+{"item": {"question": "هل يمكنني التسوق في هذا المتجر كضيف دون إنشاء حساب؟", "gold": "نعم، يمكنك التسوق كضيف.", "answer_type": "yesno", "exact_values": ["yes"]}, "cost": 0.0002292, "error": null}

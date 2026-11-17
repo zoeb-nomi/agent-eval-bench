@@ -1,0 +1,1 @@
+{"items": [{"question": "After receiving a returned item, how many business days does this retailer take to perform a quality check and issue the refund?", "gold": "2 business days", "answer_type": "number", "exact_values": ["2"], "fact": "Quality check and refund issuance takes 2 business days"}], "cost": 0.0001866, "error": null}

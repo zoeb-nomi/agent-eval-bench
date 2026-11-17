@@ -1,0 +1,1 @@
+{"items": [{"question": "After March 13th, can shoppers add products not sold by this retailer to their basket on its website?", "gold": "No, only this retailer's products can be added to the basket after March 13th.", "answer_type": "yesno", "exact_values": ["no"], "fact": "After March 13th, only this retailer's own products can be basketed."}], "cost": 0.0003077, "error": null}

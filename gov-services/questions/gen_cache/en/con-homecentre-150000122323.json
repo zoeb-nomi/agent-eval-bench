@@ -1,0 +1,1 @@
+{"items": [{"question": "After this retailer checks your returned products, what refund options can you choose from?", "gold": "A Credit Voucher, or a refund to your wallet.", "answer_type": "list", "exact_values": ["Credit Voucher", "wallet"], "fact": "After product check, choose Credit Voucher or wallet refund"}], "cost": 0.0003113, "error": null}

@@ -1,0 +1,1 @@
+{"items": [{"question": "Can customers download this retailer's app on Windows devices?", "gold": "No, the app is not available on Blackberry or Windows devices.", "answer_type": "yesno", "exact_values": ["no"], "fact": "App unavailable on Blackberry and Windows devices; use web booking instead."}], "cost": 0.0002565, "error": null}

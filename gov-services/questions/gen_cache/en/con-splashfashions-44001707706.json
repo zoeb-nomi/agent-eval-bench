@@ -1,0 +1,1 @@
+{"items": [{"question": "Can you change the store where you pick up your order?", "gold": "No, you must pick up your order at the store you originally selected.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Pick-up store cannot be changed; must use original store"}], "cost": 0.0001454, "error": null}

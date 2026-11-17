@@ -1,0 +1,1 @@
+{"items": [{"question": "Under this retailer's 'Buy 2, get 1' offer, how many products do you get for the price of 2?", "gold": "3 products", "answer_type": "number", "exact_values": ["3"], "fact": "Buy 2, get 1 offer gives three products for two's price."}], "cost": 0.0002151, "error": null}

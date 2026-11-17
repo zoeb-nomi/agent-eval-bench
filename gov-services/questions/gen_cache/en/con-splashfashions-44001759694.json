@@ -1,0 +1,1 @@
+{"items": [{"question": "Does this retailer support credit cards from Standard Chartered Bank?", "gold": "Yes.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Standard Chartered Bank credit cards are listed as supported."}], "cost": 0.0002563, "error": null}

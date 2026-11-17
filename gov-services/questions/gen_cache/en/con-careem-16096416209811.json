@@ -1,0 +1,1 @@
+{"items": [{"question": "What does the package price depend on, according to this retailer?", "gold": "The distance between your school and home location.", "answer_type": "text", "exact_values": [], "fact": "Package pricing varies with school-to-home distance."}], "cost": 0.0001861, "error": null}

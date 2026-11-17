@@ -1,0 +1,1 @@
+{"items": [{"question": "How many digits of your card number does this retailer store?", "gold": "Only the last 4 digits of the card number are stored.", "answer_type": "number", "exact_values": ["4"], "fact": "Retailer stores only last 4 card digits plus expiry date"}], "cost": 0.0001658, "error": null}

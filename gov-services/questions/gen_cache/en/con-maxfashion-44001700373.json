@@ -1,0 +1,1 @@
+{"items": [{"question": "How long are this retailer's Return Vouchers and Credit Notes valid for?", "gold": "6 months from the date of issue.", "answer_type": "number", "exact_values": ["6"], "fact": "Return Vouchers and Credit Notes valid 6 months from issue"}], "cost": 0.0001725, "error": null}

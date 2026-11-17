@@ -1,0 +1,1 @@
+{"items": [{"question": "Can customers currently arrange return collections from their home for this retailer?", "gold": "No, return collections are currently unavailable due to operational restraints.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Return collections are currently unavailable; items can be returned in store"}], "cost": 0.0001033, "error": null}

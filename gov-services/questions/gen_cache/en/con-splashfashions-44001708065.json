@@ -1,0 +1,1 @@
+{"items": [{"question": "If a guest user cancels an order paid with loyalty points, how is the reimbursement delivered?", "gold": "It is emailed to the guest as a Return Voucher.", "answer_type": "text", "exact_values": [], "fact": "Guest cancellation reimbursement is emailed as a Return Voucher."}], "cost": 0.0003128, "error": null}

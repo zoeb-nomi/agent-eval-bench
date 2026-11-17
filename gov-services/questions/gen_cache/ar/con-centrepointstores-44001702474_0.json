@@ -1,0 +1,1 @@
+{"item": {"question": "هل يجب إنشاء حساب على موقع هذا المتجر قبل ربط برنامج الولاء؟", "gold": "نعم، يجب إنشاء حساب أولاً.", "answer_type": "yesno", "exact_values": ["yes"]}, "cost": 0.000236, "error": null}

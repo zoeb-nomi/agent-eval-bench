@@ -1,0 +1,1 @@
+{"items": [{"question": "Can a customer choose the pickup point for their order during checkout?", "gold": "Yes, the pickup point is selected during checkout.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Customers select a pickup point during checkout for collection"}], "cost": 0.0002136, "error": null}

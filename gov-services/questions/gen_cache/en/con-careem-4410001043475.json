@@ -1,0 +1,1 @@
+{"items": [{"question": "For NOW bookings with this retailer, within how many minutes of booking can a ride be cancelled for free?", "gold": "Within 5 minutes of booking.", "answer_type": "number", "exact_values": ["5"], "fact": "NOW ride cancellation free within 5 minutes of booking"}], "cost": 0.0002029, "error": null}

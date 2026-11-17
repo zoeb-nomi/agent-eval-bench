@@ -1,0 +1,1 @@
+{"items": [{"question": "How long is a Credit Voucher issued for a refund valid after its date of issue?", "gold": "12 months from the date of issue.", "answer_type": "number", "exact_values": ["12"], "fact": "Credit Vouchers valid for 12 months from issue date"}], "cost": 0.0001312, "error": null}

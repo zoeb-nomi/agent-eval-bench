@@ -1,0 +1,1 @@
+{"items": [{"question": "If an order includes partner-sourced products, does it keep the same order number as the rest of the order?", "gold": "Yes, it's the same order number.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Partner-sourced items in an order share the same order number."}], "cost": 0.0002258, "error": null}

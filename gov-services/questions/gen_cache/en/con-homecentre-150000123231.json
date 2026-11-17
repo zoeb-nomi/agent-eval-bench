@@ -1,0 +1,1 @@
+{"items": [{"question": "What is the minimum basket value required for the pay-later option to be visible at checkout?", "gold": "AED 50", "answer_type": "number", "exact_values": ["50"], "fact": "Pay-later option minimum basket value is AED 50."}], "cost": 0.0001872, "error": null}

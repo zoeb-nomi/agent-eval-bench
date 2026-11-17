@@ -1,0 +1,1 @@
+{"items": [{"question": "What is the maximum number of items that can be ordered in a single group order?", "gold": "Up to 25 items can be ordered per group.", "answer_type": "number", "exact_values": ["25"], "fact": "Group orders allow up to 25 items per group"}], "cost": 0.0001262, "error": null}

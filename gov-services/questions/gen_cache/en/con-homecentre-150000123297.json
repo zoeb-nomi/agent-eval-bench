@@ -1,0 +1,1 @@
+{"items": [{"question": "If a customer returns products to a store, can they receive a cash refund to their card or bank account?", "gold": "No, the refund is given only as an Online Credit Note.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Store returns refunded only as Online Credit Note."}], "cost": 0.0002631, "error": null}

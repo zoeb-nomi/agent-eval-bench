@@ -1,0 +1,1 @@
+{"items": [{"question": "In which emirates is this retailer's delivery available?", "gold": "Dubai and Abu Dhabi", "answer_type": "list", "exact_values": ["Dubai", "Abu Dhabi"], "fact": "Delivery is available in Dubai and Abu Dhabi."}], "cost": 0.000252, "error": null}

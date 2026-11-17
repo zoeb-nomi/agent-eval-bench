@@ -1,0 +1,1 @@
+{"items": [{"question": "Can a customer pay for an existing order later by logging into their account?", "gold": "Yes.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Existing orders can be paid via account login."}], "cost": 0.0002939, "error": null}

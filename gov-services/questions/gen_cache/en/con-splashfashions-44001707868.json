@@ -1,0 +1,1 @@
+{"items": [{"question": "Can customers make a return online with this retailer?", "gold": "Yes.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Online returns possible through My Account order history"}], "cost": 0.0002141, "error": null}

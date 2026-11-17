@@ -1,0 +1,1 @@
+{"items": [{"question": "If your bank or payment partner rejects your installment request, can you cancel your order?", "gold": "Yes, you can choose to cancel your order.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Bank rejecting installment request allows order cancellation"}], "cost": 0.0003416, "error": null}

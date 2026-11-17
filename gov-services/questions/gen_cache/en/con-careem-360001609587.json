@@ -1,0 +1,1 @@
+{"items": [{"question": "If a customer has not received the OTP by SMS, what alternative ways can they use to get the code?", "gold": "Through WhatsApp or by a phone call.", "answer_type": "list", "exact_values": ["WhatsApp", "phone call"], "fact": "If SMS OTP fails, customers can get code via WhatsApp or call."}], "cost": 0.0002538, "error": null}

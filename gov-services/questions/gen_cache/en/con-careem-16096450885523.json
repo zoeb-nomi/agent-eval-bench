@@ -1,0 +1,1 @@
+{"items": [{"question": "Can a customer buy more than one package at a time on a single account with this retailer?", "gold": "No, you currently cannot purchase more than one package on one account at a time.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Only one package per account can be purchased at a time"}], "cost": 0.0001052, "error": null}

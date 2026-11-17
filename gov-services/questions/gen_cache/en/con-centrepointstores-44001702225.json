@@ -1,0 +1,1 @@
+{"items": [{"question": "Within how many days of delivery must non-furniture products be returned?", "gold": "Within 14 days of delivery.", "answer_type": "number", "exact_values": ["14"], "fact": "Non-furniture products must be returned within 14 days of delivery."}], "cost": 0.0001365, "error": null}

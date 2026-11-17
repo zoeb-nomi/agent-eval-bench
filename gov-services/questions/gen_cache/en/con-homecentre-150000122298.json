@@ -1,0 +1,1 @@
+{"items": [{"question": "How many days will this retailer hold an order in store before returning it to the warehouse?", "gold": "14 days", "answer_type": "number", "exact_values": ["14"], "fact": "Store holds orders 14 days before warehouse return and refund"}], "cost": 0.0001529, "error": null}

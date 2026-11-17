@@ -1,0 +1,1 @@
+{"items": [{"question": "If I keep the e-bike longer than the allowed free minutes, will I be charged extra?", "gold": "Yes, you will incur extra time charges for the additional time you keep the bike.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Keeping e-bike past free minutes incurs extra time charges"}], "cost": 0.0002195, "error": null}

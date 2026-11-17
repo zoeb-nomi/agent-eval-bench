@@ -1,0 +1,1 @@
+{"items": [{"question": "How many e-bikes can a customer unlock at once with a bike pass?", "gold": "Up to 4 bikes can be unlocked at once with any of the bike passes.", "answer_type": "number", "exact_values": ["4"], "fact": "Customers can unlock 4 e-bikes at once with any pass."}], "cost": 0.0001088, "error": null}

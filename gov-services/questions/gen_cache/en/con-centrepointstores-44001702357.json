@@ -1,0 +1,1 @@
+{"items": [{"question": "What strength of SSL encryption protects this retailer's account and card information?", "gold": "256-bit SSL encryption.", "answer_type": "number", "exact_values": ["256"], "fact": "Account and card data protected by 256-bit SSL encryption"}], "cost": 0.0002009, "error": null}

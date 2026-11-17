@@ -1,0 +1,1 @@
+{"items": [{"question": "How many days is the gift card valid from the date of issue?", "gold": "365 days from the date of issue.", "answer_type": "number", "exact_values": ["365"], "fact": "Gift card validity period is 365 days from issue"}], "cost": 0.0001334, "error": null}

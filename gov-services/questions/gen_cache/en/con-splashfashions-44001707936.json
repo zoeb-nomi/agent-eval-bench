@@ -1,0 +1,1 @@
+{"items": [{"question": "How many working days after the third failed delivery attempt must a customer call to reschedule?", "gold": "Within two working days of the third attempt.", "answer_type": "number", "exact_values": ["2"], "fact": "Reschedule call window is two working days after third attempt"}], "cost": 0.0001879, "error": null}

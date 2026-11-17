@@ -1,0 +1,1 @@
+{"items": [{"question": "Can a Wusool program user who has already used one ride-hailing service also start using a different one?", "gold": "Yes, earlier use of another ride-hailing service does not prevent switching.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Wusool users may switch ride-hailing services despite prior use."}], "cost": 0.0002822, "error": null}

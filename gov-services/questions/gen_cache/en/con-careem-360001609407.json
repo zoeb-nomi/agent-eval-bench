@@ -1,0 +1,1 @@
+{"items": [{"question": "In which countries is the call masking feature available?", "gold": "UAE, Bahrain, and Pakistan.", "answer_type": "list", "exact_values": ["UAE", "Bahrain", "Pakistan"], "fact": "Call masking is available in UAE, Bahrain, and Pakistan."}], "cost": 0.0002446, "error": null}

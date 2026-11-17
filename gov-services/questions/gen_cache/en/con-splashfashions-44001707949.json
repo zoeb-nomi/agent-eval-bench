@@ -1,0 +1,1 @@
+{"items": [{"question": "What is the minimum Shukrans balance needed to use Shukrans as a payment method at this retailer?", "gold": "A minimum balance of 200 Shukrans.", "answer_type": "number", "exact_values": ["200"], "fact": "Shukrans payment requires a minimum balance of 200 Shukrans."}], "cost": 0.000156, "error": null}

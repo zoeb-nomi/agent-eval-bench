@@ -1,0 +1,1 @@
+{"items": [{"question": "How do you cancel a later-scheduled ride booking in the app?", "gold": "Tap 'Activities' at the bottom of the app homepage, find the booking under 'Rides', then tap 'Cancel Ride'.", "answer_type": "text", "exact_values": [], "fact": "Later ride bookings are cancelled via Activities, Rides, Cancel Ride."}], "cost": 0.0002506, "error": null}

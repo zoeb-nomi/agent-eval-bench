@@ -1,0 +1,1 @@
+{"item": {"question": "هل يمكن للعملاء تحميل تطبيق هذا المتجر على أجهزة Windows؟", "gold": "لا، تطبيق هذا المتجر غير متاح لأجهزة Windows.", "answer_type": "yesno", "exact_values": ["no"]}, "cost": 0.0002803, "error": null}

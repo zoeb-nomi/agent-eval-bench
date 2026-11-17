@@ -1,0 +1,1 @@
+{"items": [{"question": "When you use Buy Now, will it use your default shipping address?", "gold": "Yes, Buy Now uses your default shipping address and payment preference.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Buy Now uses default shipping address and payment preference."}], "cost": 0.0001833, "error": null}

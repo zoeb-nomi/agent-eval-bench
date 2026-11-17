@@ -1,0 +1,1 @@
+{"items": [{"question": "At what order stage can a customer cancel an order with this retailer?", "gold": "Only orders in the Processing stage can be cancelled.", "answer_type": "text", "exact_values": [], "fact": "Orders can be cancelled only while in Processing stage"}], "cost": 0.000203, "error": null}

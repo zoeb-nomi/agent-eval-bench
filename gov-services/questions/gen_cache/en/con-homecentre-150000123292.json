@@ -1,0 +1,1 @@
+{"items": [{"question": "Can a customer shop at this retailer without creating an account?", "gold": "Yes, you can shop as a guest.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Guest shopping is allowed; only address and payment needed at checkout."}], "cost": 0.0001597, "error": null}

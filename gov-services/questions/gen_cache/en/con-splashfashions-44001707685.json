@@ -1,0 +1,1 @@
+{"items": [{"question": "How many business days does delivery of an order usually take?", "gold": "Orders are delivered in 4-5 business days.", "answer_type": "number", "exact_values": ["4", "5"], "fact": "Orders are delivered within 4-5 business days."}], "cost": 0.0001957, "error": null}

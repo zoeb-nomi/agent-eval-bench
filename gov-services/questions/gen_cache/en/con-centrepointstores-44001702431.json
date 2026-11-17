@@ -1,0 +1,1 @@
+{"items": [{"question": "Within how many days from the date of purchase can items be exchanged at this retailer?", "gold": "14 days from the date of purchase", "answer_type": "number", "exact_values": ["14"], "fact": "Items can be exchanged within 14 days of purchase"}], "cost": 0.0001407, "error": null}

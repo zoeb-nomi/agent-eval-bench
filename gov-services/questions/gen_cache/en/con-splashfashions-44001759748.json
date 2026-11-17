@@ -1,0 +1,1 @@
+{"items": [{"question": "Within how many days after you complete an order does the bank convert the charge into instalments?", "gold": "Within 3-7 days.", "answer_type": "number", "exact_values": ["3", "7"], "fact": "Bank converts full charge into instalments within 3-7 days"}], "cost": 0.000211, "error": null}

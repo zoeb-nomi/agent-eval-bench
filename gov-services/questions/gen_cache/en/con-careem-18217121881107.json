@@ -1,0 +1,1 @@
+{"items": [{"question": "Where in the app can a customer tap to follow their order in real time?", "gold": "The tracker widget at the top of the homepage.", "answer_type": "text", "exact_values": [], "fact": "Order tracking is done via tracker widget at top of homepage"}], "cost": 0.0001688, "error": null}

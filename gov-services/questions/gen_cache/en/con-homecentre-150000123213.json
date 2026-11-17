@@ -1,0 +1,1 @@
+{"items": [{"question": "Can the My Credit balance be transferred to a bank account?", "gold": "No, it cannot be transferred to a bank account or paid out as cash.", "answer_type": "yesno", "exact_values": ["no"], "fact": "My Credit balance cannot be transferred to bank or cash"}], "cost": 0.0001698, "error": null}

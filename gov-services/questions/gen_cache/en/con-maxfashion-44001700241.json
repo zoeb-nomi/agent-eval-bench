@@ -1,0 +1,1 @@
+{"items": [{"question": "After how many business days without a confirmation message should a customer call this retailer?", "gold": "1-2 business days", "answer_type": "number", "exact_values": ["1", "2"], "fact": "Customers call if no confirmation arrives within 1-2 business days."}], "cost": 0.0002109, "error": null}

@@ -1,0 +1,1 @@
+{"items": [{"question": "How will this retailer notify you when your order is ready for collection?", "gold": "By email and by SMS.", "answer_type": "list", "exact_values": ["email", "SMS"], "fact": "Order-ready notice sent by email and SMS for collection"}], "cost": 0.0001878, "error": null}

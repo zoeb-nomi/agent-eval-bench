@@ -1,0 +1,1 @@
+{"items": [{"question": "Must 'sourced from' products be returned with the product code intact?", "gold": "Yes, they must be returned with the product code intact.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Sourced-from products require intact product code when returned."}], "cost": 0.0002151, "error": null}

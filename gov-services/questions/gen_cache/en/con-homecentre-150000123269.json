@@ -1,0 +1,1 @@
+{"items": [{"question": "Where does this retailer issue the refund for a returned order placed using Shukrans, for a customer with an account?", "gold": "A refund is issued to My Credit in the customer's account.", "answer_type": "text", "exact_values": [], "fact": "Shukrans returns refunded to My Credit for account holders"}], "cost": 0.0002247, "error": null}

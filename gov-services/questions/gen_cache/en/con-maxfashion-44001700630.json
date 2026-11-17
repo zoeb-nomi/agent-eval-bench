@@ -1,0 +1,1 @@
+{"items": [{"question": "If a clothing item is defective, can it be taken back even if the security tag has been removed?", "gold": "Yes, defective items will be taken back even without the security tag.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Defective clothing is taken back even without security tag"}], "cost": 0.0002112, "error": null}

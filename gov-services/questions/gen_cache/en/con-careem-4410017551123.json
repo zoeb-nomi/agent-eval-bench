@@ -1,0 +1,1 @@
+{"items": [{"question": "On a cash trip with this service, can a rider pay the Captain more than the trip fare?", "gold": "No, only the exact trip fare amount can be paid to the Captain.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Cash trips allow paying only the exact fare amount."}], "cost": 0.0002638, "error": null}

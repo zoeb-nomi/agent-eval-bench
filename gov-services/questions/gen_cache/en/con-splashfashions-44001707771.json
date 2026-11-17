@@ -1,0 +1,1 @@
+{"items": [{"question": "If an order is cancelled before dispatch, where do the loyalty points spent on it go back to?", "gold": "They are credited back to the loyalty wallet.", "answer_type": "text", "exact_values": [], "fact": "Points spent on order cancelled before dispatch are refunded to wallet"}], "cost": 0.000319, "error": null}

@@ -1,0 +1,1 @@
+{"items": [{"question": "In this retailer's online account, which tab should a customer click to start the loyalty program signup?", "gold": "The Shukran tab under My Account.", "answer_type": "text", "exact_values": [], "fact": "Loyalty signup starts at the Shukran tab under My Account"}], "cost": 0.0002235, "error": null}

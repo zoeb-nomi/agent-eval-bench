@@ -1,0 +1,1 @@
+{"items": [{"question": "What is the maximum discount amount, in AED, that this promotion allows?", "gold": "AED 100", "answer_type": "number", "exact_values": ["100"], "fact": "Promotion's maximum discount is AED 100 per purchase."}], "cost": 0.0001834, "error": null}

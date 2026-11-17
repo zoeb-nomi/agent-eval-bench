@@ -1,0 +1,1 @@
+{"items": [{"question": "Can products ordered using scheduled delivery be returned online?", "gold": "No, products ordered using scheduled delivery cannot be returned online.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Scheduled-delivery orders cannot be returned online."}], "cost": 0.0003318, "error": null}

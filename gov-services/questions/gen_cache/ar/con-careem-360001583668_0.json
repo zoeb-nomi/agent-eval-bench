@@ -1,0 +1,1 @@
+{"item": {"question": "كم عدد فئات السيارات المتميزة التي يقدمها هذا المتجر وفقاً للصفحة؟", "gold": "ثلاث فئات", "answer_type": "number", "exact_values": ["3"]}, "cost": 0.0003262, "error": null}

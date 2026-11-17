@@ -1,0 +1,1 @@
+{"items": [{"question": "Can the customer choose their preferred installment tenure during checkout?", "gold": "Yes, if the order and card are eligible, the customer can select the tenure during checkout.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Installment tenure is selectable at checkout for eligible orders and cards."}], "cost": 0.0001824, "error": null}

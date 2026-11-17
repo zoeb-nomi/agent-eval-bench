@@ -1,0 +1,1 @@
+{"items": [{"question": "Where will this retailer refund the amount to?", "gold": "To your payment wallet.", "answer_type": "text", "exact_values": [], "fact": "Refunds go to the customer's payment wallet, not the original method."}], "cost": 0.0002988, "error": null}

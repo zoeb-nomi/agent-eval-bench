@@ -1,0 +1,1 @@
+{"items": [{"question": "How many digits is the code that gets sent to your number by SMS or WhatsApp when creating an account?", "gold": "4-digit code", "answer_type": "number", "exact_values": ["4"], "fact": "Account setup sends a 4-digit verification code via SMS or WhatsApp."}], "cost": 0.0001997, "error": null}

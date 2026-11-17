@@ -1,0 +1,1 @@
+{"items": [{"question": "How long are Shukran points valid for before they expire?", "gold": "All Shukrans are valid for 24 months only.", "answer_type": "number", "exact_values": ["24"], "fact": "Shukrans expire after 24 months and cannot be credited back"}], "cost": 9.98e-05, "error": null}

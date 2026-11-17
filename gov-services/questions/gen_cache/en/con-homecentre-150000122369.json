@@ -1,0 +1,1 @@
+{"items": [{"question": "What additional service charge applies to Cash on Delivery orders with this retailer?", "gold": "An additional service charge of AED 10 applies to all Cash on Delivery orders.", "answer_type": "number", "exact_values": ["10"], "fact": "Cash on Delivery orders carry AED 10 additional service charge"}], "cost": 0.0002096, "error": null}

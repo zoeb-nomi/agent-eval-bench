@@ -1,0 +1,1 @@
+{"items": [{"question": "If an order arrives in multiple shipments, when will the products under ShukranExpress be delivered?", "gold": "The same day or the next day.", "answer_type": "text", "exact_values": [], "fact": "ShukranExpress products are delivered same day or next day in split orders."}], "cost": 0.0001886, "error": null}

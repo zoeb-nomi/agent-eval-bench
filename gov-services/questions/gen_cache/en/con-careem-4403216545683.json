@@ -1,0 +1,1 @@
+{"items": [{"question": "If the wallet credit is less than the basket amount, can the customer pay the remaining balance by card or cash?", "gold": "Yes, the remaining balance can be paid with a card or cash.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Partial payment with credit; remainder payable by card or cash."}], "cost": 0.0002495, "error": null}

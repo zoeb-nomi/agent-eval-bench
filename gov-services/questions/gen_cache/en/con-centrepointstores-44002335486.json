@@ -1,0 +1,1 @@
+{"items": [{"question": "Is this retailer's express service currently limited to Shukran Loyalty Program members only?", "gold": "No, it is available for all users, whether or not they are in the Shukran Loyalty Program.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Express service open to all users, not only loyalty members"}], "cost": 0.0002148, "error": null}

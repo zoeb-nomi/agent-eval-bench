@@ -1,0 +1,1 @@
+{"items": [{"question": "Does one booking cover a round trip, meaning both pick up and drop off?", "gold": "No, each booking is for a single journey only, from pick up to drop off.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Each booking covers only one-way single journey, pick up to drop off."}], "cost": 0.0002088, "error": null}

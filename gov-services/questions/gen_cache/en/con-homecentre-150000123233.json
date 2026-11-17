@@ -1,0 +1,1 @@
+{"items": [{"question": "If an order has not arrived, does the customer have to make payment while the issue is unresolved?", "gold": "No, the payment partner adjusts the account so no payment is needed until the issue is resolved.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Missing order: no payment needed until issue resolved"}], "cost": 0.0002619, "error": null}

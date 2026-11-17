@@ -1,0 +1,1 @@
+{"items": [{"question": "What delivery fee is charged on orders with a total value below AED 99?", "gold": "AED 10 for delivery.", "answer_type": "number", "exact_values": ["10"], "fact": "Delivery fee AED 10 for orders under AED 99"}], "cost": 0.0001079, "error": null}

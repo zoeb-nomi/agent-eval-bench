@@ -1,0 +1,1 @@
+{"items": [{"question": "According to the page, what should a customer do first before booking a ride through the app?", "gold": "Create an account.", "answer_type": "text", "exact_values": [], "fact": "Customers must first create an account before booking a ride in the app."}], "cost": 0.0003171, "error": null}

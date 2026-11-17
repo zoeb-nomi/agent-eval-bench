@@ -1,0 +1,1 @@
+{"items": [{"question": "If a guest user cancels an order paid with Shukrans, how is the spent Shukrans value reimbursed?", "gold": "It is emailed to the guest as a Return Voucher.", "answer_type": "text", "exact_values": [], "fact": "Guest cancellation Shukrans reimbursed as emailed Return Voucher"}], "cost": 0.0002053, "error": null}

@@ -1,0 +1,1 @@
+{"items": [{"question": "What is the maximum basket value for which the pay-later installment option is shown at this retailer?", "gold": "AED 1,000", "answer_type": "number", "exact_values": ["1000"], "fact": "Pay-later option maximum basket value is AED 1,000."}], "cost": 0.0002337, "error": null}

@@ -1,0 +1,1 @@
+{"items": [{"question": "For a refund paid by credit or debit card, how many additional business days may the bank or card issuer take to process the transaction?", "gold": "An additional 4-15 business days.", "answer_type": "number", "exact_values": ["4", "15"], "fact": "Card issuer may take 4-15 extra business days to process refund"}], "cost": 0.000191, "error": null}

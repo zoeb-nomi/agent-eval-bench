@@ -1,0 +1,1 @@
+{"items": [{"question": "Does this retailer accept American Express cards as a payment method?", "gold": "Yes, American Express is accepted.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Page lists American Express among accepted card payment types"}], "cost": 0.0003551, "error": null}

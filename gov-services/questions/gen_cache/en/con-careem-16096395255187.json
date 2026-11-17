@@ -1,0 +1,1 @@
+{"items": [{"question": "What does the suggested school ride package price depend on?", "gold": "The distance between the selected school and the selected home location.", "answer_type": "text", "exact_values": [], "fact": "Suggested school ride package price is based on school-home distance"}], "cost": 0.0002384, "error": null}

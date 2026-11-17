@@ -1,0 +1,1 @@
+{"items": [{"question": "What is the delivery fee charged on orders below AED 200?", "gold": "AED 10 delivery charge applies to orders under AED 200.", "answer_type": "number", "exact_values": ["10"], "fact": "Orders under AED 200 incur a AED 10 delivery charge"}], "cost": 0.0001134, "error": null}

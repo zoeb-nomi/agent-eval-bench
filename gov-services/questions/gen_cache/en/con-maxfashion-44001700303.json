@@ -1,0 +1,1 @@
+{"items": [{"question": "If this retailer fails to deliver an order on the same day, how much of the Same Day Delivery charge is refunded?", "gold": "AED 18", "answer_type": "number", "exact_values": ["18"], "fact": "Same Day Delivery charge of AED 18 refunded if late"}], "cost": 0.0001927, "error": null}

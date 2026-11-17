@@ -1,0 +1,1 @@
+{"items": [{"question": "Can a product ordered through scheduled delivery be returned to this retailer?", "gold": "No, products ordered using scheduled delivery cannot be returned.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Scheduled delivery orders cannot be returned to the retailer."}], "cost": 0.0001855, "error": null}

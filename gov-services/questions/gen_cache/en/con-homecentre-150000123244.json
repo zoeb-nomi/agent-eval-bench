@@ -1,0 +1,1 @@
+{"items": [{"question": "Do this retailer's stores provide measuring tapes to help customers choose furniture of the right size?", "gold": "Yes, all stores have measuring tapes to help pick furniture of the right size.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "All stores provide measuring tapes for furniture sizing."}], "cost": 0.0002326, "error": null}

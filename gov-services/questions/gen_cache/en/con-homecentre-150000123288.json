@@ -1,0 +1,1 @@
+{"items": [{"question": "Can a customer save multiple payment cards in the Payment section under My Account?", "gold": "Yes, multiple saved cards are allowed, and any of them can be selected when paying.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Multiple payment cards can be saved under My Account Payment section"}], "cost": 0.0002068, "error": null}

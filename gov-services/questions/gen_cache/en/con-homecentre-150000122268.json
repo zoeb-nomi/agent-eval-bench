@@ -1,0 +1,1 @@
+{"items": [{"question": "What identification must a person show to receive an order on my behalf?", "gold": "A valid ID of their own, either a Passport or an Emirates ID.", "answer_type": "list", "exact_values": ["Passport", "Emirates ID"], "fact": "Recipient must show own passport or Emirates ID."}], "cost": 0.0002223, "error": null}

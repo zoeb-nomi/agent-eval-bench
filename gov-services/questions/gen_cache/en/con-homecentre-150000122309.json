@@ -1,0 +1,1 @@
+{"items": [{"question": "If a customer has already spent their voucher and then returns an order, will the voucher value be deducted from their refund?", "gold": "Yes, the voucher value is deducted from the refund.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Spent voucher value deducted from refund after return."}], "cost": 0.0002369, "error": null}

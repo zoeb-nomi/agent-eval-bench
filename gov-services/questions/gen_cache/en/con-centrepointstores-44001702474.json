@@ -1,0 +1,1 @@
+{"items": [{"question": "Do you need to create an account on this retailer's website before linking the loyalty program?", "gold": "Yes, you first need to create an account on the website.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Account creation is required before linking the loyalty program"}], "cost": 0.0002732, "error": null}

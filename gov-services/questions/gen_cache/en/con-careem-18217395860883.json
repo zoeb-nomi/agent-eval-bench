@@ -1,0 +1,1 @@
+{"items": [{"question": "Can the stored payment credit be used to cover only part of an order total?", "gold": "Yes, the credit can be used for partial payments.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Stored credit can pay part of an order total"}], "cost": 0.0002083, "error": null}

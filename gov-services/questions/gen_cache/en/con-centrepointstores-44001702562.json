@@ -1,0 +1,1 @@
+{"items": [{"question": "Can a customer save more than one card in the Payment section of their account?", "gold": "Yes, you can add as many cards as you want.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Customers can save multiple cards in the Payment section."}], "cost": 0.0001598, "error": null}

@@ -1,0 +1,1 @@
+{"items": [{"question": "Can you contact customer support by phone from a number that is not registered with your account?", "gold": "No, you can only call using your registered phone number.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Calls are only accepted from the registered phone number."}], "cost": 0.0002052, "error": null}

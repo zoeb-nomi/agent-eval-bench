@@ -1,0 +1,1 @@
+{"items": [{"question": "What is the maximum discount amount under this extra 10% offer?", "gold": "AED 300", "answer_type": "number", "exact_values": ["300"], "fact": "Extra 10% offer capped at AED 300 maximum discount."}], "cost": 0.0001912, "error": null}

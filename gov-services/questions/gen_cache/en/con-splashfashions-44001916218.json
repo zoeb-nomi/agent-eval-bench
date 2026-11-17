@@ -1,0 +1,1 @@
+{"items": [{"question": "How many business days does this retailer quote for delivery to the UAE?", "gold": "2-3 business days", "answer_type": "number", "exact_values": ["2", "3"], "fact": "UAE delivery time is 2-3 business days"}], "cost": 0.0001609, "error": null}

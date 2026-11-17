@@ -1,0 +1,1 @@
+{"item": {"question": "هل خدمة «استلمها بنفسك» في هذا المتجر مجانية؟", "gold": "نعم، هي خدمة مجانية.", "answer_type": "yesno", "exact_values": ["yes"]}, "cost": 0.0001692, "error": null}

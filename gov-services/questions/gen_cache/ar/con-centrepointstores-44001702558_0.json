@@ -1,0 +1,1 @@
+{"item": {"question": "كم عدد أرقام البطاقة التي يخزنها هذا المتجر من رقم بطاقتك؟", "gold": "آخر 4 أرقام فقط", "answer_type": "number", "exact_values": ["4"]}, "cost": 0.0002178, "error": null}

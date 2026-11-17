@@ -1,0 +1,1 @@
+{"items": [{"question": "Under the pay-later option, how many days after order delivery is the payment due?", "gold": "14 days after order delivery", "answer_type": "number", "exact_values": ["14"], "fact": "Pay-later payment due 14 days after order delivery."}], "cost": 0.0002292, "error": null}

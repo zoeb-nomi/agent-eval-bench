@@ -1,0 +1,1 @@
+{"items": [{"question": "When reporting a problem about a driver in this retailer's app, under which tile does the most recent order appear?", "gold": "Under the 'Food' tile.", "answer_type": "text", "exact_values": [], "fact": "Most recent order appears under the Food tile in app"}], "cost": 0.0002105, "error": null}

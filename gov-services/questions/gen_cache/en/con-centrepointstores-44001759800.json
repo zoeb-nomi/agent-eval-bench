@@ -1,0 +1,1 @@
+{"items": [{"question": "If the customer's card-issuing bank rejects an installment request, can the customer cancel the order?", "gold": "Yes, the customer can choose to cancel the order.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Bank rejecting installment request allows order cancellation"}], "cost": 0.0003036, "error": null}

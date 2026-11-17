@@ -1,0 +1,1 @@
+{"items": [{"question": "How many different ways are there to enrol in this retailer's loyalty programme?", "gold": "Four.", "answer_type": "number", "exact_values": ["4"], "fact": "Loyalty programme has four enrolment methods listed on page."}], "cost": 0.0001772, "error": null}

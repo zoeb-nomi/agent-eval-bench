@@ -1,0 +1,1 @@
+{"items": [{"question": "If an order is returned or refunded and its final value falls below AED 500, is it still eligible for the draw?", "gold": "No, it is no longer eligible for the draw.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Returned or refunded orders below AED 500 lose draw eligibility"}], "cost": 0.0002505, "error": null}

@@ -1,0 +1,1 @@
+{"items": [{"question": "What cancellation fee applies if a ride is cancelled after the 5-minute grace period but before the captain arrives?", "gold": "AED 12", "answer_type": "number", "exact_values": ["12"], "fact": "Cancelling after 5-minute grace period but before arrival costs AED 12."}], "cost": 0.0002196, "error": null}

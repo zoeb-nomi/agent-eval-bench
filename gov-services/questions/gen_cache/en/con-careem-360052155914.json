@@ -1,0 +1,1 @@
+{"items": [{"question": "Can customers pay for a ride in cash?", "gold": "Yes, customers can pay in cash.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Page lists cash as a payment option for rides"}], "cost": 0.0002841, "error": null}

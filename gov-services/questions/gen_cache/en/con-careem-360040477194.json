@@ -1,0 +1,1 @@
+{"items": [{"question": "Does this retailer's e-bike safety guidance say a helmet must be worn while riding?", "gold": "Yes, a helmet must be worn mandatorily while riding.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Helmet wearing is mandatory while riding the e-bike."}], "cost": 0.0002484, "error": null}

@@ -1,0 +1,1 @@
+{"items": [{"question": "Can existing corporate customers of this retailer's ride service update their own account details in the app?", "gold": "No, they need to contact support to update their details.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Corporate customers must contact support to update account details."}], "cost": 0.0003307, "error": null}

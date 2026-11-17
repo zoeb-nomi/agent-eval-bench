@@ -1,0 +1,1 @@
+{"items": [{"question": "If I buy items from this retailer that are both sold by the retailer and sourced from partners, do they get the same order number?", "gold": "Yes, they share the same order number.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Retailer and partner-sourced items in one order share an order number."}], "cost": 0.0002123, "error": null}

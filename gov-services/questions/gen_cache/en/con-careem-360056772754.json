@@ -1,0 +1,1 @@
+{"items": [{"question": "Can customers order food for delivery to their doorstep through this retailer's app?", "gold": "Yes, customers can order food to their doorstep using the app with a few clicks.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "App lets customers order food for doorstep delivery"}], "cost": 0.0002457, "error": null}

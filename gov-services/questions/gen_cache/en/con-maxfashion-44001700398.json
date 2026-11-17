@@ -1,0 +1,1 @@
+{"items": [{"question": "What button must a customer press to save a new password after entering it?", "gold": "The 'Save Changes' button.", "answer_type": "text", "exact_values": [], "fact": "Password change is saved by pressing the Save Changes button."}], "cost": 0.0001814, "error": null}

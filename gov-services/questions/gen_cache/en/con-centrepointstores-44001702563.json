@@ -1,0 +1,1 @@
+{"items": [{"question": "Can a customer delete a saved card at any time?", "gold": "Yes, a card can be deleted anytime from the Payment section in My Account.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Saved cards can be deleted anytime from the Payment section."}], "cost": 0.0001767, "error": null}

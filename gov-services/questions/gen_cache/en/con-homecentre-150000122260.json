@@ -1,0 +1,1 @@
+{"items": [{"question": "According to this retailer's delivery page, what is the charge for Express delivery of furniture?", "gold": "Express delivery charges will be AED 250.", "answer_type": "number", "exact_values": ["250"], "fact": "Express furniture delivery costs AED 250 at this retailer"}], "cost": 0.0001246, "error": null}

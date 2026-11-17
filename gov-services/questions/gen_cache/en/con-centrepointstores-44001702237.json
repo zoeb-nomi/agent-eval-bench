@@ -1,0 +1,1 @@
+{"items": [{"question": "How long is a Credit Voucher valid for from its date of issue?", "gold": "12 months from the date of issue.", "answer_type": "number", "exact_values": ["12"], "fact": "Credit Voucher validity is 12 months from issue date."}], "cost": 0.0001795, "error": null}

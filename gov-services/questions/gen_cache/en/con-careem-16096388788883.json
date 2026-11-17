@@ -1,0 +1,1 @@
+{"items": [{"question": "Can customers make a round trip booking using the School Rides packages?", "gold": "No, round trip bookings are not possible with School Rides packages.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Round trip bookings are not allowed with School Rides packages."}], "cost": 0.0001993, "error": null}

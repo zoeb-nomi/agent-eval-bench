@@ -1,0 +1,1 @@
+{"items": [{"question": "How many payment methods can you use to purchase an e-bike subscription?", "gold": "Four: credit/debit card, Apple Pay, Google Pay, and Careem Pay.", "answer_type": "number", "exact_values": ["4"], "fact": "Page lists four payment methods for e-bike subscriptions."}], "cost": 0.0003203, "error": null}

@@ -1,0 +1,1 @@
+{"items": [{"question": "Can a rented bike be returned to a different station from the one where it was taken?", "gold": "Yes, it can be returned at the same station or a different one.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Bikes can be returned to any station, not only the pickup station."}], "cost": 0.0002451, "error": null}

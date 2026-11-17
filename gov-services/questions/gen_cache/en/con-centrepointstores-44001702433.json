@@ -1,0 +1,1 @@
+{"items": [{"question": "Can the remaining balance of a gift voucher be used in a later transaction?", "gold": "No, any remaining balance cannot be used at another time.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Gift voucher is single-use; leftover balance cannot be reused"}], "cost": 0.0001931, "error": null}

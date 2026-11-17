@@ -1,0 +1,1 @@
+{"items": [{"question": "If I return an item to this retailer, will the VAT be refunded to me?", "gold": "Yes, your VAT will be refunded to you.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "VAT is refunded on returns when the invoice is included."}], "cost": 0.0001888, "error": null}

@@ -1,0 +1,1 @@
+{"items": [{"question": "Can a customer use their existing loyalty points to purchase these products?", "gold": "Yes, existing loyalty points can be used to purchase these products.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Existing loyalty points can be used to buy these products."}], "cost": 0.0002225, "error": null}

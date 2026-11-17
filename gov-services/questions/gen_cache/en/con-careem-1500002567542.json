@@ -1,0 +1,1 @@
+{"items": [{"question": "After registering for a special car-type service, how long at most may it take for that car type to appear in the app?", "gold": "Up to 24 hours.", "answer_type": "number", "exact_values": ["24"], "fact": "Car type may take up to 24 hours to appear"}], "cost": 0.0002116, "error": null}

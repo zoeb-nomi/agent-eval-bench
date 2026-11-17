@@ -1,0 +1,1 @@
+{"items": [{"question": "For a lost item from a taxi trip in Dubai, what number should a customer in the UAE call for the transport authority's customer support?", "gold": "8009090", "answer_type": "number", "exact_values": ["8009090"], "fact": "RTA customer support number for UAE customers in Dubai trips"}], "cost": 0.0002163, "error": null}

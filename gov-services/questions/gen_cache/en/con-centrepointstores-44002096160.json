@@ -1,0 +1,1 @@
+{"items": [{"question": "What percentage of the order value is the first payment under the installment plan, deducted immediately?", "gold": "25% of the order value.", "answer_type": "number", "exact_values": ["25"], "fact": "First installment is 25% of order value, deducted immediately"}], "cost": 0.0001777, "error": null}

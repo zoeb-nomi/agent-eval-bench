@@ -1,0 +1,1 @@
+{"items": [{"question": "Can customers pay for orders with cash on delivery?", "gold": "Yes, cash on delivery is available for any product ordered by home delivery.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Cash on delivery accepted for home delivery orders"}], "cost": 0.0001053, "error": null}

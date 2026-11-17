@@ -1,82 +1,54 @@
-# Arabic gap per model
+# Arabic gap per model (scaled run)
 
-> **Not for quotation.** No Arabic reader has checked the Arabic questions, reference answers or any judgement yet. No human has labelled any model answer. Treat every number as a draft.
+> **The Arabic labels have not been checked by an Arabic reader. No number below may be quoted until a named reader signs off.**
 
-Run date 2026-11-17. Models via OpenRouter, temperature 0. Judge: `anthropic/claude-sonnet-5.5` (live model). Cross-check judge: `deepseek/deepseek-v4.1-flash-1017`.
-Gap = English accuracy minus Arabic accuracy, in percentage points, on the same paired questions (positive = worse in Arabic). Denominator = paired questions (answers judged).
+Report built 2026-11-17. 7 models through OpenRouter, temperature 0, every pair in English and in Arabic. Tracks: **gov** = UAE government services, closed book (500 pairs); **consumer** = customer-support questions answered from the supplied official help page, in the question's language (500 pairs). Accuracy is strict (a verdict of `partial` counts as wrong). Intervals are 95% (Wilson for each language; the gap interval comes from the paired differences). The denominator is shown in every cell.
 
-Tracks: **gov** = 19 UAE government-service questions, closed-book (no page given); **consumer** = 20 returns/delivery/refund questions, answered from the supplied public help-page text (reading in the question's language, so it measures Arabic comprehension and writing, not memory). With 19-20 items per cell one question is about 5 points: gaps under about 10 points are noise.
+## Government services (closed book)
 
-## Strict accuracy (only `correct` counts), judge `anthropic/claude-sonnet-5.5`
-
-| model | track | English | Arabic | gap |
+| model | English | Arabic | gap (EN minus AR, points) | n pairs |
 |---|---|---|---|---|
-| anthropic/claude-haiku-5.5 | gov | 11% (2/19) | 11% (2/19) | +0 pts |
-| anthropic/claude-haiku-5.5 | consumer | 100% (20/20) | 95% (19/20) | +5 pts |
-| openai/gpt-6.1-terra | gov | 37% (7/19) | 42% (8/19) | -5 pts |
-| openai/gpt-6.1-terra | consumer | 100% (20/20) | 95% (19/20) | +5 pts |
-| deepseek/deepseek-v4.1-flash-1017 | gov | 32% (6/19) | 21% (4/19) | +11 pts |
-| deepseek/deepseek-v4.1-flash-1017 | consumer | 100% (20/20) | 95% (19/20) | +5 pts |
-| qwen/qwen4-max | gov | 63% (12/19) | 42% (8/19) | +21 pts |
-| qwen/qwen4-max | consumer | 100% (20/20) | 95% (19/20) | +5 pts |
-| mistralai/mistral-large-4-0 | gov | 21% (4/19) | 11% (2/19) | +11 pts |
-| mistralai/mistral-large-4-0 | consumer | 100% (20/20) | 95% (19/20) | +5 pts |
-| moonshotai/kimi-k3.1-pro | gov | 42% (8/19) | 37% (7/19) | +5 pts |
-| moonshotai/kimi-k3.1-pro | consumer | 100% (20/20) | 100% (20/20) | +0 pts |
+| anthropic/claude-haiku-5.5 | 33.2% [29.2, 37.4] (166/500) | 29.8% [26.0, 34.0] (149/500) | +3.4 [+0.3, +6.5] | 500 |
+| openai/gpt-6.1-terra | 65.4% [61.1, 69.4] (327/500) | 60.8% [56.5, 65.0] (304/500) | +4.6 [+1.3, +7.9] | 500 |
+| deepseek/deepseek-v4.1-flash-1017 | 55.0% [50.6, 59.3] (275/500) | 53.2% [48.8, 57.5] (266/500) | +1.8 [-2.2, +5.8] | 500 |
+| qwen/qwen4-max | 51.8% [47.4, 56.1] (259/500) | 44.0% [39.7, 48.4] (220/500) | +7.8 [+4.0, +11.6] | 500 |
+| minimax/minimax-m3.1-flash | 28.4% [24.6, 32.5] (142/500) | 26.6% [22.9, 30.6] (133/500) | +1.8 [-1.9, +5.5] | 500 |
+| tencent/hy4-flash | 36.6% [32.5, 40.9] (183/500) | 28.0% [24.2, 32.1] (140/500) | +8.6 [+5.0, +12.2] | 500 |
+| meta/muse-ember | 27.0% [23.3, 31.1] (135/500) | 27.0% [23.3, 31.1] (135/500) | +0.0 [-3.4, +3.4] | 500 |
 
-## Partial credit (correct = 1, partial = 0.5), judge `anthropic/claude-sonnet-5.5`
+## Consumer support (answer from the page)
 
-| model | track | English | Arabic | gap |
+| model | English | Arabic | gap (EN minus AR, points) | n pairs |
 |---|---|---|---|---|
-| anthropic/claude-haiku-5.5 | gov | 37% (7/19) | 42% (8/19) | -5 pts |
-| anthropic/claude-haiku-5.5 | consumer | 100% (20/20) | 98% (19.5/20) | +2 pts |
-| openai/gpt-6.1-terra | gov | 66% (12.5/19) | 68% (13/19) | -3 pts |
-| openai/gpt-6.1-terra | consumer | 100% (20/20) | 98% (19.5/20) | +2 pts |
-| deepseek/deepseek-v4.1-flash-1017 | gov | 61% (11.5/19) | 53% (10/19) | +8 pts |
-| deepseek/deepseek-v4.1-flash-1017 | consumer | 100% (20/20) | 98% (19.5/20) | +2 pts |
-| qwen/qwen4-max | gov | 74% (14/19) | 63% (12/19) | +11 pts |
-| qwen/qwen4-max | consumer | 100% (20/20) | 98% (19.5/20) | +2 pts |
-| mistralai/mistral-large-4-0 | gov | 42% (8/19) | 39% (7.5/19) | +3 pts |
-| mistralai/mistral-large-4-0 | consumer | 100% (20/20) | 95% (19/20) | +5 pts |
-| moonshotai/kimi-k3.1-pro | gov | 61% (11.5/19) | 58% (11/19) | +3 pts |
-| moonshotai/kimi-k3.1-pro | consumer | 100% (20/20) | 100% (20/20) | +0 pts |
+| anthropic/claude-haiku-5.5 | 99.0% [97.7, 99.6] (495/500) | 88.8% [85.7, 91.3] (444/500) | +10.2 [+7.3, +13.1] | 500 |
+| openai/gpt-6.1-terra | 99.4% [98.2, 99.8] (497/500) | 85.8% [82.5, 88.6] (429/500) | +13.6 [+10.5, +16.7] | 500 |
+| deepseek/deepseek-v4.1-flash-1017 | 98.8% [97.4, 99.5] (494/500) | 88.4% [85.3, 90.9] (442/500) | +10.4 [+7.4, +13.4] | 500 |
+| qwen/qwen4-max | 99.4% [98.2, 99.8] (497/500) | 86.8% [83.5, 89.5] (434/500) | +12.6 [+9.5, +15.7] | 500 |
+| minimax/minimax-m3.1-flash | 99.0% [97.7, 99.6] (495/500) | 88.0% [84.9, 90.6] (440/500) | +11.0 [+8.0, +14.0] | 500 |
+| tencent/hy4-flash | 98.6% [97.1, 99.3] (493/500) | 82.4% [78.8, 85.5] (412/500) | +16.2 [+12.7, +19.7] | 500 |
+| meta/muse-ember | 98.2% [96.6, 99.1] (491/500) | 85.4% [82.0, 88.2] (427/500) | +12.8 [+9.6, +16.0] | 500 |
 
-## Judge agreement
+## How answers were scored
 
-- **Against human labels: not measurable yet.** The 15 'labelled' items shipped with this set were labelled `automated (from source text)` and score the reference answers, not model answers. No human-labelled model answers exist. `results/human_label_sheet.csv` lists a sample of answers with the judge's verdict and an empty column for a person (ideally an Arabic reader) to fill; once filled, agreement can be computed against it.
-- Live judge vs second live judge (`deepseek/deepseek-v4.1-flash-1017`), exact verdict match: all 406/468 (87%); English 204/234 (87%); Arabic 202/234 (86%). Two models agreeing is not the same as a human agreeing.
-- Unparsed judge replies (counted as incorrect): 0 of 468 (main judge), 36 of 468 (second).
-- The earlier 91% figure came from a synthetic scoring script that called no model; it has been removed.
+- By code (exact items: a number, fee, duration, document list or yes/no): 9240 of 14000 runs (66%).
+- By the judge (`deepseek/deepseek-v4.1-flash-1017`): 4760 runs (34%).
+- Judge vs second judge (`anthropic/claude-sonnet-5.5`) on a random sample: 303/320 identical verdicts (95%).
+- Code scorer vs judge on a sample of exact items: 0/0 agree.
+- Judge vs the human-labelled subset: Not measured: no human has labelled any model answer. `results/human_label_sheet.csv` holds the sample for an Arabic reader to fill; save the filled copy as `results/human_labels.csv` and rerun this report.
 
-## Same strict table under the second judge (`deepseek/deepseek-v4.1-flash-1017`)
+## Totals
 
-| model | track | English | Arabic | gap |
-|---|---|---|---|---|
-| anthropic/claude-haiku-5.5 | gov | 11% (2/19) | 5% (1/19) | +5 pts |
-| anthropic/claude-haiku-5.5 | consumer | 95% (19/20) | 90% (18/20) | +5 pts |
-| openai/gpt-6.1-terra | gov | 21% (4/19) | 26% (5/19) | -5 pts |
-| openai/gpt-6.1-terra | consumer | 95% (19/20) | 95% (19/20) | +0 pts |
-| deepseek/deepseek-v4.1-flash-1017 | gov | 16% (3/19) | 5% (1/19) | +11 pts |
-| deepseek/deepseek-v4.1-flash-1017 | consumer | 100% (20/20) | 90% (18/20) | +10 pts |
-| qwen/qwen4-max | gov | 26% (5/19) | 26% (5/19) | +0 pts |
-| qwen/qwen4-max | consumer | 95% (19/20) | 95% (19/20) | +0 pts |
-| mistralai/mistral-large-4-0 | gov | 16% (3/19) | 11% (2/19) | +5 pts |
-| mistralai/mistral-large-4-0 | consumer | 100% (20/20) | 95% (19/20) | +5 pts |
-| moonshotai/kimi-k3.1-pro | gov | 42% (8/19) | 37% (7/19) | +5 pts |
-| moonshotai/kimi-k3.1-pro | consumer | 95% (19/20) | 100% (20/20) | -5 pts |
+- Scored runs: 14000 (answers; each model x pair x language).
+- Answer cost: $6.38; judging cost: $1.34; total $7.71 (as reported by OpenRouter; question generation cost is in `questions/dedupe_report.json`).
+- Median latency per answer: 2.7 s.
 
-## Cost of the run
+## Models that could not be run
 
-- Answering (6 models, 468 answers): $1.327
-- Main judge: $0.859
-- Second judge: $0.059
-- Total: $2.245 (cost as reported by OpenRouter)
+Searched the OpenRouter model list on the run date; none of these Arabic-first models is offered there: Jais (Inception / G42); Falcon Arabic and Falcon-H1 Arabic (TII); ALLaM (HUMAIN / SDAIA); Fanar (QCRI); SILMA; Cohere Aya. The run covers the general models listed above only; an Arabic-first comparison needs another host.
 
 ## Limits
 
-- 19-20 questions per cell; no confidence intervals; one run at temperature 0.
-- Gov reference answers are long; strict accuracy rewards completeness, so absolute levels are low for every model. Compare gaps and ranks, not levels.
-- Gov track tests recall of facts as read on 2026-11-17 from u.ae; the facts were not re-verified against live pages in this run.
-- Consumer Arabic: for Samsung and Centrepoint items the Arabic follows the retailer's own Arabic page; for Jumbo and Apple items (no Arabic text on the page) the Arabic was drafted by the benchmark author from the English. Consumer models receive the English page text for both languages.
-- Gov pair GOV-EN-013 has no Arabic version and is excluded from both languages.
-- Retailer help pages are used only as source text for questions; these results say nothing about any company's products or service.
+- Arabic questions and gold answers were written by a model from the Arabic page; no Arabic reader has checked them.
+- Gold answers are condensed by a model from the page; a few may be incomplete. Pages were read on the date in each item and change over time.
+- One run at temperature 0; no repeated sampling. Reasoning models were run with low reasoning effort where the host supports it.
+- Consumer-track help pages are used only as source text. Retailer names are removed from the questions. These results say nothing about any company's product or service.

@@ -1,0 +1,1 @@
+{"items": [{"question": "What is the latest time an order can be placed to qualify for Same Day Delivery?", "gold": "Orders must be placed before 12:00 PM.", "answer_type": "number", "exact_values": ["12"], "fact": "Same Day Delivery cutoff for ordering is 12:00 PM"}], "cost": 0.0001109, "error": null}

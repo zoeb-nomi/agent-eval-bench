@@ -1,0 +1,1 @@
+{"items": [{"question": "According to this retailer, what should customers check before ordering a large item?", "gold": "The dimensions of the lift, main door and other entry points in their premises.", "answer_type": "text", "exact_values": [], "fact": "Customers should check entry dimensions before ordering large items."}], "cost": 0.0001897, "error": null}

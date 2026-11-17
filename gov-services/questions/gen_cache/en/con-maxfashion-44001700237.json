@@ -1,0 +1,1 @@
+{"items": [{"question": "Should a customer wait for confirmation before setting off to a pickup point?", "gold": "Yes, wait for the email or SMS confirmation before setting off.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Customers should wait for email or SMS confirmation before going to pickup"}], "cost": 0.0002379, "error": null}

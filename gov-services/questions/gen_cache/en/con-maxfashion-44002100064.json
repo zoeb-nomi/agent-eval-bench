@@ -1,0 +1,1 @@
+{"items": [{"question": "How many equal monthly installments does the rest of the order cost get split into after the initial payment?", "gold": "3 equal monthly installments of 25% each", "answer_type": "number", "exact_values": ["3"], "fact": "Remaining 75% paid in three equal monthly installments"}], "cost": 0.0001849, "error": null}

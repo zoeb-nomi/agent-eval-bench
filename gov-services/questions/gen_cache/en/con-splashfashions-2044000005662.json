@@ -1,0 +1,1 @@
+{"items": [{"question": "What is the minimum order value required to use this retailer's offer?", "gold": "AED 350", "answer_type": "number", "exact_values": ["350"], "fact": "Offer requires a minimum order value of AED 350."}], "cost": 0.0001806, "error": null}

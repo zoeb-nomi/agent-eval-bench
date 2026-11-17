@@ -1,0 +1,1 @@
+{"items": [{"question": "If a return request includes both regular store products and 'sourced from & shipped by' products, will a single pick-up cover both?", "gold": "No, separate pick-ups are arranged for each.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Mixed returns get separate pick-ups for each product type."}], "cost": 0.0002836, "error": null}

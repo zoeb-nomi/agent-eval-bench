@@ -1,0 +1,1 @@
+{"items": [{"question": "On what basis does this retailer's app suggest a school package for a customer?", "gold": "The distance between the customer's selected school and the selected home location.", "answer_type": "text", "exact_values": [], "fact": "Suggested school package depends on school-to-home distance"}], "cost": 0.0002354, "error": null}

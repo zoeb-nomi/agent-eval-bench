@@ -1,0 +1,1 @@
+{"items": [{"question": "Can a customer earn loyalty points when shopping with a promotional or return voucher?", "gold": "No. Points cannot be earned when shopping with promotional or Return Vouchers.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Loyalty points are not earned on promotional or return voucher purchases."}], "cost": 0.0002548, "error": null}

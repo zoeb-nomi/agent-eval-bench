@@ -1,0 +1,1 @@
+{"items": [{"question": "Can a customer check out directly from the product page using Buy Now, skipping the basket?", "gold": "Yes, Buy Now lets customers checkout directly from the product page.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Buy Now allows checkout directly from product page, skipping basket."}], "cost": 0.0001965, "error": null}

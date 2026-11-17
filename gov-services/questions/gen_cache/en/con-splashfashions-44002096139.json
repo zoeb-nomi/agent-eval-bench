@@ -1,0 +1,1 @@
+{"items": [{"question": "What share of the order must be paid at the time of placing the order under the installment plan?", "gold": "25% of the order is paid at the time of order placement.", "answer_type": "number", "exact_values": ["25"], "fact": "Installment plan requires 25% payment upfront at order placement."}], "cost": 0.0001044, "error": null}

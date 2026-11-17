@@ -1,0 +1,1 @@
+{"items": [{"question": "How long can it take for a cancelled ride's hold amount to be reflected by the bank?", "gold": "About 1-3 weeks, depending on the bank's policy.", "answer_type": "number", "exact_values": ["1", "3"], "fact": "Cancelled booking hold released; bank reflection takes 1-3 weeks."}], "cost": 0.0001463, "error": null}

@@ -1,0 +1,1 @@
+{"items": [{"question": "What are the two ways a customer can cancel an order with this retailer?", "gold": "Through 'My Account' on the website, or by calling the retailer's phone line to have them help cancel it.", "answer_type": "list", "exact_values": ["My Account", "call"], "fact": "Orders can be cancelled via My Account or a phone call."}], "cost": 0.0002281, "error": null}

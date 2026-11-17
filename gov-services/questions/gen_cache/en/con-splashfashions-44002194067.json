@@ -1,0 +1,1 @@
+{"items": [{"question": "If a customer cancels a Cash on Delivery order, do they have to pay the charity donation?", "gold": "No, they will not need to pay the charity donation if they cancel a Cash on Delivery order.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Cash on Delivery cancellation avoids charity donation payment."}], "cost": 0.0002603, "error": null}

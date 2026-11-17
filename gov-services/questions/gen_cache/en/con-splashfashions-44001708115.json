@@ -1,0 +1,1 @@
+{"items": [{"question": "In this retailer's website, which section under 'My Account' do you use to add, edit or remove addresses?", "gold": "Address Book", "answer_type": "text", "exact_values": [], "fact": "Addresses are managed in the My Account Address Book section."}], "cost": 0.0001951, "error": null}

@@ -1,0 +1,1 @@
+{"items": [{"question": "How much extra must a customer pay for same-day delivery in Dubai when ordering before 12:00 PM?", "gold": "An additional AED 18.", "answer_type": "number", "exact_values": ["18"], "fact": "Same-day Dubai delivery costs an extra AED 18 before noon."}], "cost": 0.0001213, "error": null}

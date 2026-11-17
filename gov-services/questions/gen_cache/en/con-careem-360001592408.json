@@ -1,0 +1,1 @@
+{"items": [{"question": "How many digits is the verification code required when updating the mobile number on an account with this retailer?", "gold": "A 4-digit code.", "answer_type": "number", "exact_values": ["4"], "fact": "Updating mobile number requires verification with a 4-digit code."}], "cost": 0.0001948, "error": null}

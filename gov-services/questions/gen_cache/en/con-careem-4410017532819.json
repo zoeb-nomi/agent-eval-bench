@@ -1,0 +1,1 @@
+{"items": [{"question": "On this retailer's booking screen, what button do you tap to confirm cancelling a ride?", "gold": "Tap 'Yes, cancel ride'.", "answer_type": "text", "exact_values": [], "fact": "Confirming a ride cancellation requires tapping 'Yes, cancel ride'."}], "cost": 0.0001844, "error": null}

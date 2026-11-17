@@ -1,0 +1,1 @@
+{"items": [{"question": "Can a tip sent to the Captain through the app be reversed or refunded once it has been sent?", "gold": "No, once a tip is sent it cannot be reversed or refunded.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Tips cannot be reversed or refunded once sent"}], "cost": 0.0001919, "error": null}

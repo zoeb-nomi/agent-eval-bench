@@ -1,0 +1,1 @@
+{"items": [{"question": "For how many months is a Credit Note valid from its date of issue?", "gold": "6 months from the date of issue.", "answer_type": "number", "exact_values": ["6"], "fact": "Credit Note is valid for 6 months from issue"}], "cost": 0.000144, "error": null}

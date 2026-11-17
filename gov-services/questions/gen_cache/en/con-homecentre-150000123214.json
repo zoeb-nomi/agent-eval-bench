@@ -1,0 +1,1 @@
+{"items": [{"question": "Can any credit or debit card be used to pay for an order in installments on this retailer's site?", "gold": "No, only select cards from a number of banks are eligible.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Installments require select cards from participating banks, not every card"}], "cost": 0.0002404, "error": null}

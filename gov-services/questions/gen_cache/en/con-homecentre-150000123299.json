@@ -1,0 +1,1 @@
+{"items": [{"question": "According to this retailer's page, is a card transaction secure when the card is tapped on the bank terminal?", "gold": "Yes, the transaction is secure.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Card tapped on bank terminal means transaction is secure."}], "cost": 0.0002201, "error": null}

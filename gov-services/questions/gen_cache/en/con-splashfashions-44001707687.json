@@ -1,0 +1,1 @@
+{"items": [{"question": "Can this retailer deliver a single order to multiple addresses?", "gold": "No. Purchases for different addresses must be sent as separate orders.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Multiple delivery addresses require separate orders, not one order."}], "cost": 0.0002128, "error": null}

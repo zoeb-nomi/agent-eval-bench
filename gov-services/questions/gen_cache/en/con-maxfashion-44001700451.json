@@ -1,0 +1,1 @@
+{"items": [{"question": "How many days after purchase can a product be returned or exchanged?", "gold": "Within 14 days of purchase.", "answer_type": "number", "exact_values": ["14"], "fact": "Returns or exchanges allowed within 14 days of purchase"}], "cost": 0.0001092, "error": null}

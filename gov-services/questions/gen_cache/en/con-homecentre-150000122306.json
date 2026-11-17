@@ -1,0 +1,1 @@
+{"items": [{"question": "Can this retailer's furniture be returned by raising an online return request?", "gold": "No.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Furniture cannot be returned via an online return request."}], "cost": 0.0001586, "error": null}

@@ -1,0 +1,1 @@
+{"items": [{"question": "Can you keep an e-bike past the free minutes on your pass without paying extra?", "gold": "No, you incur extra time charges for the additional time.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Keeping bike past free minutes incurs extra time charges"}], "cost": 0.0002533, "error": null}

@@ -1,0 +1,1 @@
+{"items": [{"question": "How many hours a day, and how many days a week, is this retailer's Customer Support team available?", "gold": "24 hours a day, 7 days a week.", "answer_type": "number", "exact_values": ["24", "7"], "fact": "Customer support available 24 hours a day, 7 days a week"}], "cost": 0.0002068, "error": null}

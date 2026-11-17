@@ -1,0 +1,1 @@
+{"items": [{"question": "Does this retailer's installment plan charge interest in addition to processing fees?", "gold": "Yes, interest is charged as well as processing fees.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Installment plans charge interest plus processing fees, varying by bank."}], "cost": 0.0002951, "error": null}

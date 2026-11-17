@@ -1,0 +1,1 @@
+{"item": {"question": "هل يشغّل هذا المتجر عروضًا وعروضًا ترويجية بانتظام؟", "gold": "نعم", "answer_type": "yesno", "exact_values": ["yes"]}, "cost": 0.0001716, "error": null}

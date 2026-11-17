@@ -1,0 +1,1 @@
+{"items": [{"question": "Can a customer return an item bought from this retailer's website to a store of another retail chain?", "gold": "No, returns cannot be made to another chain's stores.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Returns to other chains' stores are not permitted."}], "cost": 0.0002868, "error": null}

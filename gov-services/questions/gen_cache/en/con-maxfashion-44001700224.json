@@ -1,0 +1,1 @@
+{"items": [{"question": "Can a customer using this retailer's Click & Collect service choose a pickup point in the UAE?", "gold": "Yes, the customer selects a pickup point in the UAE.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Click & Collect lets customers select a UAE pickup point"}], "cost": 0.0002202, "error": null}

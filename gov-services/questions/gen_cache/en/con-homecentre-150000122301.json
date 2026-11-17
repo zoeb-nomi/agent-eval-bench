@@ -1,0 +1,1 @@
+{"items": [{"question": "By what time on the day of collection should a customer have received a confirmation message?", "gold": "3:00 PM", "answer_type": "number", "exact_values": ["3"], "fact": "Confirmation message expected by 3:00 PM on collection day."}], "cost": 0.0002689, "error": null}

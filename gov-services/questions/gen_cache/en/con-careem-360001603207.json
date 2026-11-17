@@ -1,0 +1,1 @@
+{"items": [{"question": "Can I pay for a ride in cash with this retailer?", "gold": "Yes, select Cash as the payment method and pay the amount in cash to the Captain.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Cash payment for rides is available, paid to the Captain"}], "cost": 0.0002739, "error": null}

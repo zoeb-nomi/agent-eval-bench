@@ -1,0 +1,1 @@
+{"items": [{"question": "How many ways can a customer set up an account with this retailer's website?", "gold": "Two: from the Sign Up page or with a Facebook profile.", "answer_type": "number", "exact_values": ["2"], "fact": "Account can be set up two ways: Sign Up page or Facebook."}], "cost": 0.0002203, "error": null}

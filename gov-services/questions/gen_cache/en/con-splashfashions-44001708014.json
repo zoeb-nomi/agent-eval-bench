@@ -1,0 +1,1 @@
+{"items": [{"question": "For how many days is the welcome voucher valid after it is issued?", "gold": "The welcome voucher is valid for 30 days from the date of issuance.", "answer_type": "number", "exact_values": ["30"], "fact": "Welcome voucher is valid for 30 days from issuance."}], "cost": 0.0001642, "error": null}

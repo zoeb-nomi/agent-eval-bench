@@ -1,0 +1,1 @@
+{"items": [{"question": "Can a previous order that included customizations be reordered with the Reorder button?", "gold": "No, orders with customizations must be placed as a new order.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Reordering is unavailable for previous orders with customizations"}], "cost": 0.0001738, "error": null}

@@ -1,0 +1,1 @@
+{"items": [{"question": "Where is the refunded amount credited for this retailer's refunds?", "gold": "To the customer's wallet.", "answer_type": "text", "exact_values": ["wallet"], "fact": "Refunds are credited to the customer's digital wallet balance."}], "cost": 0.0002928, "error": null}

@@ -1,0 +1,1 @@
+{"items": [{"question": "Does this retailer accept cash on delivery for products ordered by home delivery?", "gold": "Yes, cash on delivery is accepted for any product ordered by home delivery.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Cash on delivery accepted for home-delivery orders."}], "cost": 0.0002668, "error": null}

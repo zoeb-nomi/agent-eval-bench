@@ -1,0 +1,1 @@
+{"items": [{"question": "If a customer cancels or returns an order, can they use the same link again?", "gold": "No.", "answer_type": "yesno", "exact_values": ["no"], "fact": "Cancelling or returning an order prevents reusing the same link."}], "cost": 0.0001937, "error": null}

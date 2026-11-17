@@ -1,0 +1,1 @@
+{"items": [{"question": "How many minutes must the driver wait for the customer before being allowed to cancel the ride?", "gold": "5-10 minutes", "answer_type": "number", "exact_values": ["5", "10"], "fact": "Drivers must wait 5-10 minutes before cancelling a ride."}], "cost": 0.0002058, "error": null}

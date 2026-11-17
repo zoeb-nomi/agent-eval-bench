@@ -1,0 +1,1 @@
+{"items": [{"question": "In this retailer's account, which link do you click to add, delete, or change credit or debit card details?", "gold": "The Payment link, found in the My Account section.", "answer_type": "text", "exact_values": [], "fact": "Card details are managed via Payment link under My Account."}], "cost": 0.0001617, "error": null}

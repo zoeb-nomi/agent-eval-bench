@@ -1,0 +1,1 @@
+{"items": [{"question": "Is this retailer's phone line available 24 hours a day, 7 days a week?", "gold": "Yes, it is available 24 hours a day, 7 days a week.", "answer_type": "yesno", "exact_values": ["yes"], "fact": "Phone line open 24 hours, 7 days a week"}], "cost": 0.0003715, "error": null}
