@@ -3,10 +3,11 @@ import json, os, re, time, unicodedata
 import requests
 URL = "https://openrouter.ai/api/v1/chat/completions"
 
-def call(model, prompt, max_tokens, key=None, system=None, temperature=0, json_mode=False, retries=4):
+def call(model, prompt, max_tokens, key=None, system=None, temperature=0, json_mode=False, retries=4, extra=None):
     key = key or os.environ["OPENROUTER_API_KEY"]
     msgs = ([{"role": "system", "content": system}] if system else []) + [{"role": "user", "content": prompt}]
     body = {"model": model, "messages": msgs, "temperature": temperature, "max_tokens": max_tokens, "usage": {"include": True}}
+    if extra: body.update(extra)
     if json_mode: body["response_format"] = {"type": "json_object"}
     t0 = time.time(); err = ""
     for i in range(retries):
@@ -51,8 +52,72 @@ NUM = re.compile(r"(?<![\d.])\d+(?:\.\d+)?(?![\d])")
 YES_EN, NO_EN = re.compile(r"\byes\b"), re.compile(r"\bno\b|\bnot\b|\bcannot\b|\bcan't\b|\bn't\b")
 YES_AR, NO_AR = re.compile(r"(?<!\S)(نعم|اجل)(?!\S)|^نعم"), re.compile(r"(?<!\S)(لا|كلا)(?!\S)|لا يمكن|لا يجوز|لا يحق|ليس")
 
+
+YES_W_EN = {"yes", "yeah", "yep", "correct", "absolutely", "sure"}
+NO_W_EN = {"no", "not", "nope", "cannot", "cant", "never", "dont", "doesnt", "isnt", "arent", "wont", "wasnt", "shouldnt", "couldnt", "wouldnt", "didnt", "cant", "cannot"}
+YES_W_AR = {"نعم", "اجل", "بلي"}
+NO_W_AR = {"لا", "كلا", "ليس", "ليست", "لن", "لم"}
+# declining to answer is neither yes nor no ("I am not sure", "لا أعلم")
+HEDGE = re.compile(r"\b(not sure|unsure|don't know|do not know|dont know|no information|not specified|does not say|doesn't say|cannot confirm|can't confirm|not certain|i'm not|i am not)\b"
+                   r"|لست متاكد|لا اعلم|لا املك|لا اعرف|غير متاكد|لا يوجد ما يشير|لا تذكر|لا يذكر|لا استطيع")
+TOK = re.compile(r"[\w']+")
+
+def _word_class(tok, lang):
+    """'yes', 'no' or None for one normalised token. Strips a leading و/ف (and) that Arabic glues on: ولا, فنعم."""
+    t = tok.replace("'", "")
+    yes, no = (YES_W_EN, NO_W_EN) if lang == "en" else (YES_W_AR, NO_W_AR)
+    for c in ([t] if lang == "en" else [t, t[1:] if t[:1] in "وف" else t]):
+        if c in yes: return "yes"
+        if c in no: return "no"
+    return None
+
+def yesno_verdict(answer, lang):
+    """'yes' | 'no' | None. Punctuation (Arabic and English, including the Arabic comma) is dropped by tokenising on word characters.
+    A hedge or refusal is None. Otherwise the FIRST word decides; if the first word is neither, the first yes/no word of the
+    first sentence decides. A later no-word never flips an earlier yes."""
+    a = norm(answer)
+    a = re.sub(r"^[^\w]+", "", a)                       # leading bullets, **, quotes, emoji
+    if HEDGE.search(re.split(r"[.!?؟\n]", a, maxsplit=1)[0]): return None
+    toks = TOK.findall(a)
+    if not toks: return None
+    first = _word_class(toks[0], lang)
+    if first: return first
+    sent = TOK.findall(re.split(r"[.!?؟\n]", a, maxsplit=1)[0][:200])
+    for t in sent:
+        c = _word_class(t, lang)
+        if c: return c
+    return None
+
+_PRE = re.compile(r"^(?:[وف]?[بكل]?ال|[وف]?لل)(?=\w{2})")
+def list_norm(t):
+    """norm + slash and 'or' (or / او) unified to a space + Arabic definite article and the one-letter prepositions/conjunction stripped per word."""
+    t = norm(t).replace("/", " ")
+    t = re.sub(r"(?<!\w)(?:or|او)(?!\w)", " ", t)
+    out = []
+    for w in re.findall(r"\w+", t):
+        w2 = _PRE.sub("", w)
+        if w2 == w and len(w) >= 5 and w[0] in "وبلفك" and re.match("[؀-ۿ]", w): w2 = w[1:]
+        out.append(w2)
+    return " " + " ".join(out) + " "
+
 def score_exact(ex, answer, lang):
     """Code scorer for exact items. ex = {"type": number|yesno|list, "values": [...]}. Returns True/False."""
+    a = norm(answer)
+    if ex["type"] == "number":
+        got = set(NUM.findall(a)); want = [str(norm(v)) for v in ex["values"]]
+        want = [w.rstrip("0").rstrip(".") if "." in w else w for w in want]
+        got = {g.rstrip("0").rstrip(".") if "." in g else g for g in got}
+        return all(w in got for w in want)
+    if ex["type"] == "yesno":
+        want = norm(ex["values"][0]) in ("yes", "نعم", "true")
+        return yesno_verdict(answer, lang) == ("yes" if want else "no")
+    if ex["type"] == "list":
+        la = list_norm(answer)
+        return all(list_norm(v).strip() in la for v in ex["values"])
+    raise ValueError(ex["type"])
+
+def score_exact_legacy(ex, answer, lang):
+    """LEGACY scorer (first scaled report); kept only to show old numbers beside corrected ones. Has the comma bug. ex = {"type": number|yesno|list, "values": [...]}. Returns True/False."""
     a = norm(answer)
     if ex["type"] == "number":
         got = set(NUM.findall(a)); want = [str(norm(v)) for v in ex["values"]]
@@ -68,6 +133,7 @@ def score_exact(ex, answer, lang):
     if ex["type"] == "list":
         return all(norm(v) in a for v in ex["values"])
     raise ValueError(ex["type"])
+
 
 def words(t): return set(re.findall(r"\w+", norm(t)))
 def shingles(t, n=3):

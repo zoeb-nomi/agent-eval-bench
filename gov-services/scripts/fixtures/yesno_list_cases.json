@@ -1,0 +1,23 @@
+{"yesno": [
+ {"want": "no",  "lang": "ar", "text": "لا، لا يمكن تغيير نقطة الاستلام.", "expect": true,  "note": "Arabic no then Arabic comma"},
+ {"want": "no",  "lang": "ar", "text": "**لا،** لا تقتصر الخدمة على الأعضاء.", "expect": true, "note": "markdown bold and comma"},
+ {"want": "no",  "lang": "ar", "text": "ولا يمكن ذلك.", "expect": true, "note": "glued conjunction"},
+ {"want": "yes", "lang": "ar", "text": "نعم، لا يوجد رسوم إضافية.", "expect": true, "note": "later no-word must not flip yes"},
+ {"want": "no",  "lang": "ar", "text": "نعم، لا يوجد رسوم إضافية.", "expect": false},
+ {"want": "yes", "lang": "ar", "text": "لا أملك معلومة مؤكدة.", "expect": false, "note": "refusal is neither"},
+ {"want": "no",  "lang": "ar", "text": "لا أعلم.", "expect": false, "note": "refusal is neither"},
+ {"want": "no",  "lang": "en", "text": "No, you cannot change it.", "expect": true},
+ {"want": "no",  "lang": "en", "text": "\"No\" - items are excluded.", "expect": true, "note": "quotes and dash"},
+ {"want": "yes", "lang": "en", "text": "Yes, but you cannot do it online.", "expect": true, "note": "later cannot must not flip yes"},
+ {"want": "no",  "lang": "en", "text": "Yes, but you cannot do it online.", "expect": false},
+ {"want": "no",  "lang": "en", "text": "Unfortunately, you cannot.", "expect": true, "note": "first word neither: first yes/no word decides"},
+ {"want": "yes", "lang": "en", "text": "I am not sure about this.", "expect": false, "note": "hedge"}
+],
+"list": [
+ {"values": ["credit/debit card"], "lang": "en", "text": "Pay by credit or debit card.", "expect": true},
+ {"values": ["بطاقة الخصم/الائتمان"], "lang": "ar", "text": "الدفع ببطاقة الخصم أو الائتمان", "expect": true},
+ {"values": ["المصروفات", "الإيرادات"], "lang": "ar", "text": "تشمل مصروفات وإيرادات الدولة", "expect": true, "note": "definite article missing in answer"},
+ {"values": ["مصروفات"], "lang": "ar", "text": "عن المصروفات الحكومية", "expect": true, "note": "definite article only in answer"},
+ {"values": ["جواز السفر", "بطاقة الهوية"], "lang": "ar", "text": "تحتاج جواز السفر فقط", "expect": false},
+ {"values": ["passport", "photo"], "lang": "en", "text": "A passport only", "expect": false}
+]}

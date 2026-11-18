@@ -1,0 +1,187 @@
+pair_id,kind,reason,english_gold,arabic_gold
+GOV-0001,gold answers disagree,"numbers in the gold sentence differ: ['27', '27'] vs []",It was unveiled at the 27th Conference of the Parties (COP27).,أُطلق ضمن الدورة السابعة والعشرين لمؤتمر الأطراف للاتفاقية الإطارية للأمم المتحدة بشأن تغير المناخ.
+GOV-0017,gold answers disagree,"numbers in the gold sentence differ: ['24', '24', '7'] vs ['24']","24 hours a day, 24/7.",على مدار 24 ساعة طيلة أيام الأسبوع.
+GOV-0022,gold answers disagree,"numbers in the gold sentence differ: ['1999', '1999', '7'] vs ['1999']",1999 (Federal Law No. 7 of 1999),لسنة 1999م
+GOV-0024,gold answers disagree,numbers in the gold sentence differ: [] vs ['8'],Eight hours.,8 ساعات عمل
+GOV-0030,gold answers disagree,"numbers in the gold sentence differ: ['2019', '57', '6'] vs ['57', '6']",Customers carried out 57.6 million transactions via GSB in 2019.,57.6 مليون معاملة
+GOV-0032,gold answers disagree,numbers in the gold sentence differ: ['75000'] vs ['75'],"At least 75,000 Emiratis.",75 ألف مواطن
+GOV-0034,gold answers disagree,numbers in the gold sentence differ: ['23000'] vs ['23'],"Approximately 23,000 students.",ما يقرب من 23 ألف طالب وطالبة.
+GOV-0036,gold answers disagree,"numbers in the gold sentence differ: ['1', '12', '31'] vs ['12']","12 months, starting January 1 and ending December 31.",السنة المالية الاتحادية هي 12 شهراً.
+GOV-0037,gold answers disagree,"numbers in the gold sentence differ: ['10', '5'] vs ['10']","Diesel with only 10 ppm of sulphur, similar to Euro 5 standards.",10 أجزاء في المليون
+GOV-0038,gold answers disagree,"numbers in the gold sentence differ: ['2013', '4', '76'] vs ['2013', '764']",ADNOC had reduced flaring by 76.4 per cent in 2013.,"خفضت أدنوك حرق الغاز بنسبة 76,4% في عام 2013."
+GOV-0046,gold answers disagree,numbers in the gold sentence differ: ['10'] vs [],10 years.,تُجدد لمدة عشر سنوات.
+GOV-0061,gold answers disagree,"numbers in the gold sentence differ: ['10', '2022', '2023'] vs []",Ajyal Schools was introduced in 10 government schools in the academic year 2022-2023.,بدأ تطبيقها في عشر مدارس حكومية.
+GOV-0071,gold answers disagree,numbers in the gold sentence differ: ['6'] vs [],Passports must be valid for at least 6 months from the date of entry into the UAE.,ستة أشهر على الأقل من تاريخ الدخول
+GOV-0089,gold answers disagree,"numbers in the gold sentence differ: ['1500', '50'] vs ['50']","Establishments employing 50 or more workers earning AED 1,500 or less per month must provide accommodation.",50 عاملاً فأكثر
+GOV-0091,gold answers disagree,"numbers in the gold sentence differ: ['9'] vs ['375', '9']",9 per cent,9% للدخل الخاضع للضريبة الذي يزيد عن 375 ألف درهم
+GOV-0095,gold answers disagree,numbers in the gold sentence differ: ['60000'] vs ['60'],"Passengers must declare cash over AED 60,000 (or equivalent in other currencies) to ICP.",60 ألف درهم إماراتي أو ما يعادلها من العملات الأجنبية
+GOV-0104,gold answers disagree,numbers in the gold sentence differ: ['2'] vs [],After 2 months from the initial single dose.,بعد شهرين من الجرعة الأولى الأساسية.
+GOV-0108,gold answers disagree,numbers in the gold sentence differ: ['50000'] vs ['50'],"AED 50,000 is the maximum dowry limit for UAE nationals.",50 ألف درهم
+GOV-0113,gold answers disagree,numbers in the gold sentence differ: ['4000'] vs ['4'],AED 4000 per month.,لا يقل الراتب الشهري عن 4 آلاف درهم.
+GOV-0117,gold answers disagree,numbers in the gold sentence differ: ['500000'] vs [],"A paid-up capital of at least AED 500,000.",لا يقل رأس المال المدفوع عن خمسمائة ألف درهم.
+GOV-0119,gold answers disagree,"yes/no differs: English no, Arabic yes","No, Smart Drive operates without a mobile Internet connection.",نعم، يعمل التطبيق دون الحاجة لتفعيل باقة البيانات على الأجهزة المحمولة.
+GOV-0131,gold answers disagree,numbers in the gold sentence differ: ['1000'] vs [],"1,000 Emiratis annually.",ألف مواطن سنوياً
+GOV-0135,gold answers disagree,"numbers in the gold sentence differ: ['5', '50'] vs []","The non-refundable tax credit is up to 50 per cent of eligible R&D expenditure, capped at AED 5 million.",خمسة ملايين درهم.
+GOV-0140,gold answers disagree,"numbers in the gold sentence differ: ['80'] vs ['2031', '80']",80 per cent of waste.,تهدف مجموعة تدوير إلى تحويل 80% من النفايات بعيداً عن المكبات بحلول عام 2031.
+GOV-0147,gold answers disagree,"numbers in the gold sentence differ: ['100', '120'] vs ['100']",A fee of AED100 per day is charged for each day over the 120-day period.,100 درهم عن كل يوم إضافي.
+GOV-0150,gold answers disagree,"numbers in the gold sentence differ: ['2024', '65'] vs ['65']",Heavy vehicles with a total weight exceeding 65 tonnes are banned from plying the roads from 2024.,65 طناً
+GOV-0152,gold answers disagree,numbers in the gold sentence differ: ['18000'] vs [],"AED 18,000 (eighteen thousand).",ثمانية عشر ألف درهم
+GOV-0170,gold answers disagree,numbers in the gold sentence differ: [] vs ['4'],Four tracks.,4 مسارات
+GOV-0197,gold answers disagree,"numbers in the gold sentence differ: ['28', '6'] vs ['6']",6 of the 28 ministers are women.,6 وزيرات
+GOV-0204,gold answers disagree,numbers in the gold sentence differ: [] vs ['8'],Eight tenets.,8 محاور رئيسية
+GOV-0214,gold answers disagree,numbers in the gold sentence differ: ['20'] vs [],"It usually runs for 20 days, starting at the beginning of the holy month.",تستمر الفعّاليات عادةً لمدة عشرين يوماً من بداية الشهر الفضيل.
+GOV-0219,gold answers disagree,numbers in the gold sentence differ: ['2'] vs [],Within the last 2 years.,سنتان من تاريخ تقديم الطلب
+GOV-0221,gold answers disagree,"numbers in the gold sentence differ: ['23', '845'] vs ['23']",23 per cent (equivalent to AED 845 billion).,23%
+GOV-0235,gold answers disagree,"numbers in the gold sentence differ: ['45', '60'] vs ['45']",45 days will be fully-paid leave (within a 60-day total maternity leave).,45 يوماً
+GOV-0243,gold answers disagree,numbers in the gold sentence differ: ['21'] vs [],21 days' salary for each year of work.,استحق أجر واحد وعشرين يوماً عن كل سنة من سنوات الخدمة.
+GOV-0285,gold answers disagree,numbers in the gold sentence differ: ['15'] vs [],By the 15th day following the end of each tax period.,قبل اليوم الخامس عشر من نهاية كل فترة ضريبية.
+GOV-0290,gold answers disagree,numbers in the gold sentence differ: ['8'] vs [],8 weeks.,ثمانية أسابيع على الأقل
+GOV-0341,gold answers disagree,"numbers in the gold sentence differ: ['12', '3', '45', '67'] vs ['12', '2022', '67']",AED 12.67 billion (USD 3.45 billion).,قدمت دولة الإمارات خلال عام 2022 مساعدات خارجية بقيمة إجمالية وصلت إلى 12.67 مليار درهم إماراتي.
+GOV-0349,gold answers disagree,numbers in the gold sentence differ: ['0'] vs [],0 per cent customs duty on goods imported into the free zone.,الإعفاء من الرسوم الجمركية على البضائع المستوردة إلى المنطقة الحرة
+GOV-0371,gold answers disagree,"numbers in the gold sentence differ: ['2018', '27'] vs ['27']",Federal Decree by Law No. 27 of 2018 Concerning Equality in Wages between Men and Women.,27
+GOV-0375,gold answers disagree,"numbers in the gold sentence differ: [] vs ['2017', '8']","Yes, it recognises tax invoices in written and/or electronic form.",نعم، يقر المرسوم الاتحادي بقانون رقم (8) لسنة 2017 بالفواتير الضريبية في شكليها الإلكتروني و/أو المكتوب.
+GOV-0384,gold answers disagree,numbers in the gold sentence differ: ['4'] vs ['31'],4 years old,من أكمل الرابعة من عمره في 31 أغسطس.
+GOV-0385,gold answers disagree,numbers in the gold sentence differ: ['6'] vs ['31'],6 years old,أن يكون قد أكمل السادسة من عمره في 31 أغسطس.
+GOV-0394,gold answers disagree,"numbers in the gold sentence differ: ['24', '7'] vs []","Yes, 24/7 on-demand vehicle rental is available in different areas across the emirate.",نعم، تتوفر على مدار الساعة طوال أيام الأسبوع عند الطلب في مناطق مختلفة من الإمارة.
+GOV-0397,gold answers disagree,numbers in the gold sentence differ: ['10'] vs [],10,يعمل طلاب برنامج نيكس-تك في أحد المراكز البحثية العشرة التابعة لمعهد الابتكار التكنولوجي.
+GOV-0408,gold answers disagree,"numbers in the gold sentence differ: ['19', '73'] vs ['73']",The treatment was administered to 73 COVID-19 patients in the UAE.,73 حالة
+GOV-0421,gold answers disagree,numbers in the gold sentence differ: ['1000'] vs [],"USD 1,000.",يحصل الفائز صاحب الإجابة الصحيحة على ألف دولار أمريكي عن كل سؤال.
+GOV-0422,gold answers disagree,numbers in the gold sentence differ: ['20000'] vs ['20'],"20,000 students.",20 ألف طالب
+GOV-0424,gold answers disagree,numbers in the gold sentence differ: ['11'] vs [],Vaccinations are mandated from birth up to Grade 11.,حتى بلوغ الصف الحادي عشر.
+GOV-0428,gold answers disagree,"numbers in the gold sentence differ: ['45', '6'] vs ['2024', '45', '6']",USD 45.6 billion,بلغت تدفقات الاستثمار الأجنبي المباشر إلى دولة الإمارات 45.6 مليار دولار في عام 2024.
+GOV-0430,gold answers disagree,numbers in the gold sentence differ: ['1'] vs [],AED 1 billion.,مليار درهم
+GOV-0451,gold answers disagree,numbers in the gold sentence differ: ['1'] vs [],AED 1 billion.,مليار درهم
+GOV-0452,gold answers disagree,"numbers in the gold sentence differ: ['10000', '100000'] vs ['10', '100']","A fine ranging from AED 10,000 to 100,000.",غرامة لا تقل عن 10 آلاف درهم ولا تتجاوز 100 ألف درهم.
+GOV-0454,gold answers disagree,numbers in the gold sentence differ: ['20000'] vs ['20'],"Up to AED 20,000.",تصل الغرامة إلى 20 ألف درهم.
+GOV-0462,gold answers disagree,numbers in the gold sentence differ: ['24'] vs [],Car rental offices at UAE airports are open 24 hours.,تعمل على مدار الساعة.
+GOV-0476,gold answers disagree,numbers in the gold sentence differ: [] vs ['3'],"No, vehicles produced in the last three years before registration are exempt from the inspection.",لا، فالمركبات التي لم يمضِ عليها 3 سنوات من تاريخ الصنع مستثناة من الفحص لدى مراكز الفحص المعتمدة.
+GOV-0477,gold answers disagree,"numbers in the gold sentence differ: ['18'] vs ['18', '180']",18 days,جمعت الحملة 180 مليون درهم في 18 يوماً.
+GOV-0478,gold answers disagree,numbers in the gold sentence differ: ['5'] vs [],5 million people around the world,خمسة ملايين شخص حول العالم.
+GOV-0484,gold answers disagree,numbers in the gold sentence differ: [] vs ['3500'],"A copy of health insurance, a medical fitness test result, proof of work outside the UAE, and a salary certificate.","نسخة من وثيقة التأمين الصحي، ونتيجة فحص اللياقة الطبية، وإثبات العمل خارج دولة الإمارات العربية المتحدة، وشهادة راتب بحد أدنى 3,500 دولار أمريكي أو ما يعادله."
+GOV-0485,gold answers disagree,"numbers in the gold sentence differ: ['3', '4', '7', '7', '9'] vs ['4']","AED 4 per vehicle during peak hours (7 am to 9 am and 3 pm to 7 pm, Saturday to Thursday).",4 دراهم لكل مرة عبور خلال أوقات الذروة.
+GOV-0487,gold answers disagree,numbers in the gold sentence differ: ['10'] vs [],"10 years from the date of issuance, or until all its pages are fully used, whichever happens earlier.",عشر سنوات
+GOV-0499,gold answers disagree,"numbers in the gold sentence differ: ['16', '16'] vs ['16']",Supporters must be over 16 years of age; those under 16 are eligible only when accompanied by a parent or guardian.,يجب أن تزيد أعمار الداعمين على 16 عاماً.
+CONSUMER-0047,gold answers disagree,numbers in the gold sentence differ: ['1'] vs [],Call support is available during the ride or 1 hour post ride.,ساعة واحدة
+CONSUMER-0075,gold answers disagree,"numbers in the gold sentence differ: [] vs ['10', '30']","No, you incur extra time charges for the additional time.",لا، سيتم إضافة رسوم بقيمة 10 درهم لكل 30 دقيقة إضافية.
+CONSUMER-0079,gold answers disagree,"numbers in the gold sentence differ: [] vs ['10', '30']","Yes, you will incur extra time charges for the additional time you keep the bike.",نعم، سيتم إضافة رسوم بقيمة 10 درهم لكل 30 دقيقة إضافية.
+CONSUMER-0093,gold answers disagree,"numbers in the gold sentence differ: [] vs ['24', '7']",Yes.,نعم، التوصيل متوفر على مدار الساعة (24/7) في دبي.
+CONSUMER-0098,gold answers disagree,numbers in the gold sentence differ: ['2'] vs [],Restaurants typically accept orders within 2 minutes of being placed.,في غضون دقيقتين
+CONSUMER-0114,gold answers disagree,numbers in the gold sentence differ: ['1'] vs [],1 year from the date of purchase.,لمدة سنة واحدة من تاريخ الشراء.
+CONSUMER-0140,gold answers disagree,"yes/no differs: English no, Arabic yes","No, Click & Collect is free from your chosen store.",نعم، هي خدمة مجانية من المتجر الذي تختاره.
+CONSUMER-0145,gold answers disagree,"numbers in the gold sentence differ: ['6927', '800', '800'] vs ['6927', '800']","Via 'My Account' on the website, or by calling 800-MYCP (800-6927).",عن طريق «حسابي» على الموقع، أو بالاتصال على 6927-800
+CONSUMER-0155,gold answers disagree,numbers in the gold sentence differ: ['7'] vs [],7 business days.,سبع ايام
+CONSUMER-0170,gold answers disagree,"numbers in the gold sentence differ: ['00', '00', '12', '7', '7'] vs ['00', '00', '12', '7']","Between 7:00 AM and 12:00 PM, 7 days a week.",من الساعة 7:00 صباحاً وحتى 12:00 مساءً، طوال أيام الأسبوع.
+CONSUMER-0171,gold answers disagree,"numbers in the gold sentence differ: ['20', '20'] vs ['20']",AED 20 (a Credit or Debit Card refund of AED 20).,20 درهم
+CONSUMER-0181,gold answers disagree,numbers in the gold sentence differ: ['2'] vs [],2 business days,يومي عمل
+CONSUMER-0191,gold answers disagree,"numbers in the gold sentence differ: ['00', '00', '7', '9', '9'] vs ['00', '00', '9', '9']","9:00 AM to 9:00 PM, 7 days a week.",من الساعة 9:00 صباحًا إلى 9:00 مساءً، طوال أيام الأسبوع.
+CONSUMER-0192,gold answers disagree,"numbers in the gold sentence differ: ['24', '7'] vs ['24']","24 hours a day, 7 days a week.",24 ساعة
+CONSUMER-0229,gold answers disagree,"numbers in the gold sentence differ: ['694663', '800', '800'] vs ['694663', '800']","Through 'My Account' on the website, or by calling 800-MYHOME (800-694663).",عبر «حسابي» على موقعنا على الويب، أو بالاتصال على الرقم 694663-800.
+CONSUMER-0240,gold answers disagree,"numbers in the gold sentence differ: ['20', '20'] vs ['20']",AED 20 (the Credit or Debit Card refund is worth AED 20).,20 درهم
+CONSUMER-0292,gold answers disagree,numbers in the gold sentence differ: ['4'] vs [],4,أربع طرق
+CONSUMER-0293,gold answers disagree,"numbers in the gold sentence differ: ['7485726', '800', '800'] vs []",Contact the Shukran team on 800–SHUKRAN (800–7485726) or email info@shukranrewards.com.,اتصل بالفريق على الهاتف أو أرسل بريدًا إلكترونيًا.
+CONSUMER-0298,gold answers disagree,"numbers in the gold sentence differ: ['694663', '800', '800'] vs ['694663', '800']",Call 800-MYHOME (800-694663) and the retailer will help unlock it.,الاتصال بالرقم 694663-800 ليساعدوك على فتحه.
+CONSUMER-0318,gold answers disagree,numbers in the gold sentence differ: [] vs ['3'],Three products from the same promotion.,3 منتجات
+CONSUMER-0334,gold answers disagree,"numbers in the gold sentence differ: [] vs ['629823', '800']","Through 'My Account' on the website, or by calling the retailer's phone line to have them help cancel it.",عبر «حسابي» على الموقع، أو بالاتصال على 629823-800.
+CONSUMER-0382,gold answers disagree,numbers in the gold sentence differ: ['9'] vs [],9,تسعة
+CONSUMER-0391,gold answers disagree,"numbers in the gold sentence differ: ['25', '3'] vs ['3']",3 equal monthly installments of 25% each,3 اقساط شهرية متساوية
+CONSUMER-0418,gold answers disagree,"numbers in the gold sentence differ: ['24', '7'] vs ['24']","Yes, it is available 24 hours a day, 7 days a week.",نعم، يمكنك الاتصال في أي وقت طوال أيام الأسبوع، 24 ساعة.
+CONSUMER-0422,gold answers disagree,"numbers in the gold sentence differ: ['10', '20'] vs ['20']",AED 20 (AED 10 per returned product) goes to the credit or debit card.,20 درهم
+CONSUMER-0444,gold answers disagree,"numbers in the gold sentence differ: ['10', '200'] vs ['10']",AED 10 delivery charge applies to orders under AED 200.,10 درهم
+CONSUMER-0457,gold answers disagree,"numbers in the gold sentence differ: ['7485726', '800'] vs ['7485726']",800-SHUKRAN (7485726),7485726
+CONSUMER-0472,gold answers disagree,"numbers in the gold sentence differ: ['00', '00', '7', '9', '9'] vs ['00', '00', '9', '9']","Between 9:00 AM and 9:00 PM, 7 days a week.",من الساعة 9:00 صباحًا حتى 9:00 مساءً، كل أيام الأسبوع.
+CONSUMER-0492,gold answers disagree,numbers in the gold sentence differ: ['2'] vs [],2 business days.,يومان عمل
+CONSUMER-0495,gold answers disagree,"numbers in the gold sentence differ: ['14', '30'] vs ['14']","14 days after order delivery (or 30 days after purchase, whichever comes earlier)",14 يومًا من التوصيل
+GOV-0001,every model fails,no scored answer correct in either language,It was unveiled at the 27th Conference of the Parties (COP27).,أُطلق ضمن الدورة السابعة والعشرين لمؤتمر الأطراف للاتفاقية الإطارية للأمم المتحدة بشأن تغير المناخ.
+GOV-0005,every model fails,no scored answer correct in either language,Ministerial Resolution No. 14 of 2021.,القرار الوزاري رقم (14) لسنة 2021
+GOV-0010,every model fails,no scored answer correct in either language,701 MB,حجم الملف 701 ميجابايت.
+GOV-0011,every model fails,no scored answer correct in either language,"Budget execution, expenses, revenues, public debt",تنفيذ الميزانية، والمصروفات، والإيرادات، ورصيد الدين العام القائم.
+GOV-0019,every model fails,no scored answer correct in either language,8009999,الرقم 8009999
+GOV-0026,every model fails,no scored answer correct in either language,"Economic licenses, economic activity, and availability of trade names.",الرخص الاقتصادية، والأنشطة الاقتصادية، والتحقق من توفر الأسماء التجارية.
+GOV-0029,every model fails,no scored answer correct in either language,Ten entities at the federal level took part in the GSB commissioning phase.,تشاركت عشر جهات في تنفيذ المرحلة الأولى من الرابط الحكومي للخدمات.
+GOV-0030,every model fails,no scored answer correct in either language,Customers carried out 57.6 million transactions via GSB in 2019.,57.6 مليون معاملة
+GOV-0035,every model fails,no scored answer correct in either language,The third month of the present fiscal year.,الشهر الثالث من السنة المالية الجارية
+GOV-0038,every model fails,no scored answer correct in either language,ADNOC had reduced flaring by 76.4 per cent in 2013.,"خفضت أدنوك حرق الغاز بنسبة 76,4% في عام 2013."
+GOV-0044,every model fails,no scored answer correct in either language,"H. H. Sheikh Mohamed bin Zayed Al Nahyan, the then Crown Prince of Abu Dhabi.",صاحب السمو الشيخ محمد بن زايد آل نهيان رئيس الدولة
+GOV-0053,every model fails,no scored answer correct in either language,The Higher Colleges of Technology operates the work readiness programme.,كليات التقنية العليا
+GOV-0060,every model fails,no scored answer correct in either language,"A GPA of 3.3, or equivalent.",معدل تراكمي لا يقل عن 3.3
+GOV-0066,every model fails,no scored answer correct in either language,"No, it is listed for iOS only.",لا، مدرج لنظام آي أو إس فقط.
+GOV-0078,every model fails,no scored answer correct in either language,"VAT Registration Certificate, Excise registration Certificate, and Warehouse keeper Certificate.",شهادة التسجيل لضريبة القيمة المضافة، وشهادة التسجيل للضريبة الانتقائية، وشهادة تسجيل أمين المستودع
+GOV-0080,every model fails,no scored answer correct in either language,"Energy consumption in buildings, traffic congestion, flood mitigation, and sustainable aviation fuel.",استهلاك الطاقة في المباني، والازدحام المروري، والتخفيف من حدة الفيضانات، وتحدي وقود الطيران المستدام.
+GOV-0087,every model fails,no scored answer correct in either language,An attested decision of the parent company to cancel the free zone company branches.,قرار مصدّق من الشركة الأم بالموافقة على إلغاء فروع الشركة في المنطقة الحرة.
+GOV-0097,every model fails,no scored answer correct in either language,Payment history is a record of loan and bill payments for the last 36 months.,36 شهراً
+GOV-0099,every model fails,no scored answer correct in either language,"The duration of remote work from within the country must not exceed 30 days per year, consecutive or non-consecutive.",30 يوماً خلال السنة، متصلة أو منفصلة.
+GOV-0111,every model fails,no scored answer correct in either language,AED 4.25 billion,4.25 مليار درهم
+GOV-0113,every model fails,no scored answer correct in either language,AED 4000 per month.,لا يقل الراتب الشهري عن 4 آلاف درهم.
+GOV-0128,every model fails,no scored answer correct in either language,2024,في العام 2024
+GOV-0134,every model fails,no scored answer correct in either language,All its upcoming projects that will receive tenders and award contracts.,تعلن الوزارة عبر موقعها الإلكتروني كافة مشاريعها القادمة.
+GOV-0135,every model fails,no scored answer correct in either language,"The non-refundable tax credit is up to 50 per cent of eligible R&D expenditure, capped at AED 5 million.",خمسة ملايين درهم.
+GOV-0138,every model fails,no scored answer correct in either language,The judicial department or court.,وزارة العدل، والجهات القضائية أو محاكم الدولة المختصة.
+GOV-0142,every model fails,no scored answer correct in either language,Within 30 working days.,خلال 30 يوم عمل.
+GOV-0158,every model fails,no scored answer correct in either language,Federal Law No. 8 of 2021.,القانون الاتحادي رقم (8) لسنة 2021
+GOV-0159,every model fails,no scored answer correct in either language,Over 25 strategic partners.,أكثر من 25 شريكاً استراتيجياً
+GOV-0163,every model fails,no scored answer correct in either language,"389,618,000","389,618,000 درهم إماراتي"
+GOV-0171,every model fails,no scored answer correct in either language,Silicon Valley in the United States.,وادي السيلكون في الولايات المتحدة الأمريكية
+GOV-0184,every model fails,no scored answer correct in either language,131 languages,يُترجم المحتوى بـ 131 لغة.
+GOV-0192,every model fails,no scored answer correct in either language,"It serves as an official document for employment, further studies, visas and government services in the UAE.",يُستخدم لأغراض التوظيف، أو استكمال الدراسة، أو الحصول على تأشيرة، أو الاستفادة من الخدمات الحكومية داخل الدولة.
+GOV-0195,every model fails,no scored answer correct in either language,53 units.,53 وحدة
+GOV-0201,every model fails,no scored answer correct in either language,The ministry manages 109 dams.,تدير وزارة الطاقة والبنية التحتية 109 سدود.
+GOV-0202,every model fails,no scored answer correct in either language,Groundwater accounts for around 46 per cent of the country's water supply.,تساهم المياه الجوفية بنحو 46% من إمدادات المياه في دولة الإمارات.
+GOV-0215,every model fails,no scored answer correct in either language,It can be heard around 8-10 km away.,يصل صدى المدفع لمسافة 8-10 كيلومترات.
+GOV-0223,every model fails,no scored answer correct in either language,"Skilled workers, freelancers and self-employed, and investors and business partners.",العمالة الماهرة، وأصحاب العمل الحر والعاملون لحسابهم الخاص، والمستثمرون والشركاء في الأنشطة التجارية.
+GOV-0227,every model fails,no scored answer correct in either language,How to manage volunteering projects and attract investments for volunteering initiatives.,تركز على إدارة المشاريع التطوعية وكيفية جذب الاستثمارات للمبادرات التطوعية.
+GOV-0232,every model fails,no scored answer correct in either language,61.3 per cent.,بلغت نسبة الصلح 61.3 %.
+GOV-0240,every model fails,no scored answer correct in either language,AED 3.253 billion,3.253 مليار درهم
+GOV-0249,every model fails,no scored answer correct in either language,"Beehive, YallaGive, Tathmeer.",بيهايف (Beehive)، تثمير (Tathmeer)، YallaGive
+GOV-0253,every model fails,no scored answer correct in either language,A voluntary contribution by a company or establishment to community development through monetary and/or in-kind contributions for development projects and programmes.,المساهمة الاختيارية للشركة أو المنشأة في التنمية المجتمعية من خلال تقديم مساهمات نقدية و/ أو عينية لتنفيذ المشاريع والبرامج التنموية في الدولة.
+GOV-0256,every model fails,no scored answer correct in either language,AED 1.02 billion.,1.02 مليار درهم
+GOV-0257,every model fails,no scored answer correct in either language,1.37 percent.,1.37%
+GOV-0260,every model fails,no scored answer correct in either language,4 principles.,يقوم النموذج المجتمعي على 4 مبادئ رئيسية.
+GOV-0262,every model fails,no scored answer correct in either language,2020,أدخلته دائرة القضاء بأبوظبي عام 2020.
+GOV-0264,every model fails,no scored answer correct in either language,AED 520,520 درهماً إماراتياً
+GOV-0268,every model fails,no scored answer correct in either language,AED 105 for domestic workers.,105 درهم.
+GOV-0271,every model fails,no scored answer correct in either language,The UAE scored 6.8 points.,حققت الإمارات 6.8 نقطة في مؤشر السعادة العالمي.
+GOV-0273,every model fails,no scored answer correct in either language,"AED 1,200.",1200 درهم
+GOV-0276,every model fails,no scored answer correct in either language,A deceased burial permit from the district police and a valid passport or Emirates ID.,تصريح عدم الممانعة من مركز الشرطة في الإمارة، والهوية الإماراتية سارية المفعول أو جواز السفر ساري المفعول.
+GOV-0289,every model fails,no scored answer correct in either language,The Ministry of Family issues the People of Determination Card.,وزارة الأسرة
+GOV-0290,every model fails,no scored answer correct in either language,8 weeks.,ثمانية أسابيع على الأقل
+GOV-0291,every model fails,no scored answer correct in either language,"3,500 students.",3500 طالب وطالبة
+GOV-0298,every model fails,no scored answer correct in either language,"Attested tenancy contract, new clearance certificate for the meter, tenant's valid Emirates ID, and trade/industrial licence (for commercial/industrial).",عقد الإيجار الموثق، وبراءة ذمة حديثة للعداد، وبطاقة هوية سارية المفعول للمستأجر، والرخصة التجارية (للفئة التجارية / الصناعية).
+GOV-0310,every model fails,no scored answer correct in either language,"The National Affairs Department supervises the emergency line, in coordination with UAE missions abroad.",تشرف عليه إدارة شؤون المواطنين.
+GOV-0323,every model fails,no scored answer correct in either language,Six guides.,ست إرشادات رئيسية
+GOV-0331,every model fails,no scored answer correct in either language,"AED 315,189,000","315,189,000 درهم"
+GOV-0335,every model fails,no scored answer correct in either language,The number of registered lawyers in the Ministry of Justice reached 783 by March 2016.,بلغ عدد المحامين المسجلين في وزارة العدل 783 محامياً في مارس 2016.
+GOV-0339,every model fails,no scored answer correct in either language,Up to six digits.,ستة أرقام
+GOV-0341,every model fails,no scored answer correct in either language,AED 12.67 billion (USD 3.45 billion).,قدمت دولة الإمارات خلال عام 2022 مساعدات خارجية بقيمة إجمالية وصلت إلى 12.67 مليار درهم إماراتي.
+GOV-0342,every model fails,no scored answer correct in either language,92 per cent.,92 بالمئة
+GOV-0343,every model fails,no scored answer correct in either language,"Ayurveda, Chiropractic Medicine, Homeopathy, Naturopathic Medicine, Osteopathic Medicine, Therapeutic Massage, Traditional Chinese Medicine and Unani Medicine.",الوخز بالإبر الصينية، والطب الهندي التقليدي (أيوفردا)، والمعالجة اليدوية، والحجامة، والمعالجة المثلية، والعلاج بالمواد الطبيعية، وعلاج الاعتلال العظمي، والطب الصيني التقليدي، والطب التقليدي (أوناني).
+GOV-0363,every model fails,no scored answer correct in either language,"Customs data from ports, airports, and other entry points.",البيانات الجمركية الواردة من الموانئ البحرية والمطارات وغيرها من نقاط الدخول.
+GOV-0371,every model fails,no scored answer correct in either language,Federal Decree by Law No. 27 of 2018 Concerning Equality in Wages between Men and Women.,27
+GOV-0383,every model fails,no scored answer correct in either language,"Arabic, unless the parties expressly choose English.",اللغة العربية، إلا إذا اختارت أطراف النزاع صراحة استخدام اللغة الإنجليزية.
+GOV-0391,every model fails,no scored answer correct in either language,Emirates Water and Electricity Company (EWEC).,شركة مياه وكهرباء الإمارات (EWEC)
+GOV-0393,every model fails,no scored answer correct in either language,Udrive and Yaldi.,توفر كل من Udrive و Yaldi خدمات تأجير السيارات الذكية.
+GOV-0397,every model fails,no scored answer correct in either language,10,يعمل طلاب برنامج نيكس-تك في أحد المراكز البحثية العشرة التابعة لمعهد الابتكار التكنولوجي.
+GOV-0399,every model fails,no scored answer correct in either language,"The eChannels portal, the ICP app (on Google Play and the App Store), and the GDRFA Dubai website.",القنوات الذكية للإقامة والجنسية، والموقع الإلكتروني للإدارة العامة للإقامة وشؤون الأجانب - دبي، وتطبيق الهيئة الاتحادية للهوية والجنسية والجمارك وأمن المنافذ، وتطبيق دبي الآن.
+GOV-0400,every model fails,no scored answer correct in either language,A message about the approval and the original entry permit.,يتلقى رسالة بالموافقة وتصريح الدخول الأصلي.
+GOV-0402,every model fails,no scored answer correct in either language,September 2020,"أُطلقت منصة ""تطمين"" في سبتمبر 2020."
+GOV-0403,every model fails,no scored answer correct in either language,"Company registration and incorporation, trade name registration, and issuing licences across diverse sectors.",تسجيل الشركات، وحجز الأسماء التجارية، وإصدار الرخص لمختلف الأنشطة.
+GOV-0411,every model fails,no scored answer correct in either language,"Etihad Holidays, Emirates Holidays, Dnata, and Sharjah Airport Travel Agency.",الاتحاد للطيران، الإمارات للعطلات، دناتا للسفريات، فنادق وأكثر - فلاي دبي، وكالة سفر مطار الشارقة (ساتا)
+GOV-0417,every model fails,no scored answer correct in either language,By 90 per cent.,بنسبة 90٪.
+GOV-0418,every model fails,no scored answer correct in either language,Eight specialised sub-committees.,ثماني لجان فرعية متخصصة
+GOV-0429,every model fails,no scored answer correct in either language,"Public joint stock company, private joint stock company, limited liability company, limited partnership company, and partnership company.",الشركات المساهمة العامة، الشركات المساهمة الخاصة، شركات ذات المسؤولية المحدودة، شركات التوصية البسيطة، وشركات التضامن.
+GOV-0432,every model fails,no scored answer correct in either language,"Credit cards, currency cards and traveller's cheques are accepted in the UAE.",تُقبل بطاقات الائتمان والعملات على نطاق واسع، بالإضافة إلى الشيكات السياحية.
+GOV-0436,every model fails,no scored answer correct in either language,32.4 per cent of total electricity generation.,32.4 في المائة
+GOV-0438,every model fails,no scored answer correct in either language,Students register through Nafis at nafis.gov.ae.,الموقع الإلكتروني nafis.gov.ae عبر منصة نافس
+GOV-0440,every model fails,no scored answer correct in either language,"2,126 schools.",2126 مدرسة
+GOV-0441,every model fails,no scored answer correct in either language,46 hospitals.,46 مستشفى
+GOV-0449,every model fails,no scored answer correct in either language,26 private and public hospitals in Dubai.,26 مستشفى حكومي وخاص في دبي
+GOV-0450,every model fails,no scored answer correct in either language,"Dubai Healthcare City, Sheikh Khalifa Medical City, Sheikh Shakhbout Medical City (SSMC) and Sharjah Healthcare City.",مدينة دبي الطبية، ومدينة الشارقة للرعاية الصحية، ومدينة الشيخ خليفة الطبية (أبوظبي)، ومدينة الشيخ شخبوط الطبية.
+GOV-0454,every model fails,no scored answer correct in either language,"Up to AED 20,000.",تصل الغرامة إلى 20 ألف درهم.
+GOV-0464,every model fails,no scored answer correct in either language,"Dubai Future Foundation, Dubai Government Human Resources Department and Gulf Health Council.",مؤسسة دبي للمستقبل، ودائرة الموارد البشرية لحكومة دبي، ومجلس الصحة لدول مجلس التعاون الخليجي
+GOV-0467,every model fails,no scored answer correct in either language,"Access to quality education, clean water, refugee economic opportunities, and Arabic online content.",التعليم الإلكتروني للأطفال اللاجئين، وتوفير المياه النظيفة في الدول الفقيرة، وتمكين اللاجئين في سوق العمل، وتطوير المحتوى العربي على الإنترنت.
+GOV-0473,every model fails,no scored answer correct in either language,"An IDL form, a copy of Emirates ID, a copy of passport and valid residency, a copy of valid UAE driving licence, and two passport-size photos.",بطاقة الهوية الإماراتية، جواز السفر، إقامة سارية المفعول، نسخة عن رخصة القيادة سارية المفعول صادرة من دولة الإمارات، وصورتان شخصيتان.
+GOV-0484,every model fails,no scored answer correct in either language,"A copy of health insurance, a medical fitness test result, proof of work outside the UAE, and a salary certificate.","نسخة من وثيقة التأمين الصحي، ونتيجة فحص اللياقة الطبية، وإثبات العمل خارج دولة الإمارات العربية المتحدة، وشهادة راتب بحد أدنى 3,500 دولار أمريكي أو ما يعادله."
+GOV-0486,every model fails,no scored answer correct in either language,Approximately 553 km.,حوالي 553 كم
+GOV-0492,every model fails,no scored answer correct in either language,"Booking medical procedures and tourism services such as visa issuance, appointments, hotels and transportation.",الحجز المسبق للإجراءات العلاجية، وإصدار التأشيرات، وحجز الفنادق، والمواصلات وغيرها.
+GOV-0493,every model fails,no scored answer correct in either language,"AED 4,500 per month.",4500 درهم شهريا
+GOV-0494,every model fails,no scored answer correct in either language,"AED 20,000 per month.","20,000 درهم شهريا"
+GOV-0500,every model fails,no scored answer correct in either language,AED 10 to 25 million dirhams.,من 10 إلى 25 مليون درهم.

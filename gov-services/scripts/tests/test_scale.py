@@ -59,3 +59,33 @@ def test_run_cache_is_resumable(tmp_path, monkeypatch):
     monkeypatch.setattr(run_scale, "call", lambda m, p, mt, k, **kw: calls.append(p) or {"text": "6", "cost": 0.01, "latency_s": 1.0})
     run_scale.run_answers(["m/x"], ps, "k"); assert len(calls) == 2
     run_scale.run_answers(["m/x"], ps, "k"); assert len(calls) == 2        # second run pays for nothing
+
+# --- CHE-289: corrected yes/no and list scorer, harness errors ---
+import common
+def _cases():
+    return json.loads((HERE / "scripts" / "fixtures" / "yesno_list_cases.json").read_text())
+
+def test_yesno_fixtures_both_languages():
+    for c in _cases()["yesno"]:
+        got = common.score_exact({"type": "yesno", "values": [c["want"]]}, c["text"], c["lang"])
+        assert got == c["expect"], c
+
+def test_list_fixtures_both_languages():
+    for c in _cases()["list"]:
+        got = common.score_exact({"type": "list", "values": c["values"]}, c["text"], c["lang"])
+        assert got == c["expect"], c
+
+def test_legacy_scorer_had_the_comma_bug():
+    # the bug this task fixes: the Arabic no followed by a comma was missed by the old scorer
+    assert not common.score_exact_legacy({"type": "yesno", "values": ["no"]}, "لا، عضوية الولاء", "ar")
+    assert common.score_exact({"type": "yesno", "values": ["no"]}, "لا، عضوية الولاء", "ar")
+
+def test_empty_by_token_limit_is_a_harness_error_not_wrong(tmp_path, monkeypatch):
+    import rescore, rerun_empty
+    monkeypatch.setattr(rescore, "read_cache", lambda f: {("GOV-1", "en"): {"track": "gov", "text": "", "finish": "length", "cost": 0.0, "latency_s": 1}} if "raw_rerun" not in str(f) else {})
+    a = rescore.effective_answers(["m/x"])[0]
+    assert a["harness_error"] and a["orig_bad"]
+    monkeypatch.setattr(rescore, "read_cache", lambda f: {("GOV-1", "en"): {"track": "gov", "text": "", "finish": "length", "cost": 0.0, "latency_s": 1}} if "raw_rerun" not in str(f)
+                        else {("GOV-1", "en"): {"text": "6", "finish": "stop", "cost": 0.01}})
+    a = rescore.effective_answers(["m/x"])[0]
+    assert not a["harness_error"] and a["reran"] and a["text"] == "6"

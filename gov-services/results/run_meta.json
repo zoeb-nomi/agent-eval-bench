@@ -1,6 +1,6 @@
 {
  "run": "scaled",
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "models": [
   "anthropic/claude-haiku-5.5",
   "openai/gpt-6.1-terra",
@@ -26,26 +26,28 @@
   "en",
   "ar"
  ],
- "scored_runs": 14000,
- "scored_by_code": 9240,
- "scored_by_judge": 4760,
+ "scored_runs": 13958,
+ "scored_by_code": 9211,
+ "scored_by_judge": 4747,
  "judge": "deepseek/deepseek-v4.1-flash-1017",
  "judge2_sample": "anthropic/claude-sonnet-5.5",
  "judge2_sample_size": 320,
  "judge2_agreement": 303,
- "answer_cost_usd": 6.3751,
+ "answer_cost_usd": 7.2313,
  "answer_cost_usd_by_model": {
   "anthropic/claude-haiku-5.5": 0.3733,
   "openai/gpt-6.1-terra": 1.6004,
-  "deepseek/deepseek-v4.1-flash-1017": 0.3791,
-  "qwen/qwen4-max": 2.2644,
-  "minimax/minimax-m3.1-flash": 0.6181,
-  "tencent/hy4-flash": 0.2178,
-  "meta/muse-ember": 0.9222
+  "deepseek/deepseek-v4.1-flash-1017": 0.3816,
+  "qwen/qwen4-max": 2.2666,
+  "minimax/minimax-m3.1-flash": 1.0107,
+  "tencent/hy4-flash": 0.2253,
+  "meta/muse-ember": 1.3734
  },
  "judge_cost_usd": 0.588,
  "judge2_cost_usd": 0.748,
- "total_cost_usd": 7.7111,
+ "total_cost_usd": 8.6706,
+ "scorer": "corrected 2026-11-17 (CHE-289); empty answers rerun, see arabic_gap.md",
+ "harness_errors_left_out": 42,
  "human_labelled_subset": "not yet labelled",
  "earlier_run": {
   "answer_cost_usd": 1.32668445432,
